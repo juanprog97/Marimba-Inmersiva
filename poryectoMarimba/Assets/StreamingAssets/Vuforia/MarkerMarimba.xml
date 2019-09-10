@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="Pantalla2" size="5.000000 4.994475" />
+    <ImageTarget name="pantallaTesis" size="8.000000 9.099622" />
+    <ImageTarget name="marker11" size="5.000000 5.000000" />
+    <ImageTarget name="marker12" size="5.000000 5.000000" />
+    <ImageTarget name="marker10" size="5.000000 5.000000" />
+    <ImageTarget name="marker9" size="5.000000 5.000000" />
+    <ImageTarget name="marker8" size="5.000000 5.000000" />
+    <ImageTarget name="marker7" size="5.000000 5.000000" />
+    <ImageTarget name="marker6" size="5.000000 5.000000" />
+    <ImageTarget name="marker5" size="5.000000 5.000000" />
+    <ImageTarget name="marker4" size="5.000000 5.000000" />
+    <ImageTarget name="marker3" size="5.000000 5.000000" />
+    <ImageTarget name="marker2" size="5.000000 5.000000" />
+    <ImageTarget name="marker1" size="5.000000 5.000000" />
+  </Tracking>
+</QCARConfig>
