@@ -29,20 +29,20 @@ MonoBehaviour:
     eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: VR ONE
-    viewerManufacturer: Zeiss
-    useCustomViewer: 0
+    viewerName: Cardboard v1
+    viewerManufacturer: Google
+    useCustomViewer: 1
     customViewer:
       Version: 0
       Name: 
       Manufacturer: 
-      ButtonType: 0
-      ScreenToLensDistance: 0
-      InterLensDistance: 0
-      TrayAlignment: 1
-      LensCenterToTrayDistance: 0
-      DistortionCoefficients: {x: 0, y: 0}
-      FieldOfView: {x: 80, y: 80, z: 80, w: 0}
+      ButtonType: 1
+      ScreenToLensDistance: 0.048
+      InterLensDistance: 0.0485
+      TrayAlignment: 0
+      LensCenterToTrayDistance: 0.04
+      DistortionCoefficients: {x: 0.441, y: 0.156}
+      FieldOfView: {x: 80, y: 80, z: 80, w: 80}
       ContainsMagnet: 1
   database:
     disableModelExtraction: 0

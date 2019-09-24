@@ -8,6 +8,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
+    Vuforia.UnityExtensions.Editor.dll:
+    - Vuforia.EditorClasses.VuforiaConfigurationEditor
     Vuforia.UnityExtensions.dll:
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
@@ -1520,4 +1522,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/Marimba.unity
-  playerPath: C:/Users/juan/Desktop/prueba2.apk
+  playerPath: C:/Users/juan/Desktop/pruebaVista.apk
