@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 100541400}
   - component: {fileID: 100541399}
   - component: {fileID: 100541398}
+  - component: {fileID: 100541402}
   m_Layer: 0
   m_Name: Exit
   m_TagString: Untagged
@@ -217,6 +218,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 100541396}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &100541402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100541396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc76fea54f567ef46bf6d702314a5c2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexView: {fileID: 680928252}
+  component: {fileID: 100541396}
 --- !u!1 &678614026
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +326,7 @@ GameObject:
   - component: {fileID: 680928256}
   - component: {fileID: 680928255}
   - component: {fileID: 680928254}
+  - component: {fileID: 680928253}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -318,6 +334,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &680928253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680928252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a65fdc4f8a691a42a9978300fb0adc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameObjectAnimations1: {fileID: 1239552763}
+  gameObjectAnimations2: {fileID: 925462814}
+  gameObjectAnimations3: {fileID: 100541396}
 --- !u!23 &680928254
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -483,6 +514,7 @@ GameObject:
   - component: {fileID: 925462818}
   - component: {fileID: 925462817}
   - component: {fileID: 925462816}
+  - component: {fileID: 925462819}
   m_Layer: 0
   m_Name: GameApp
   m_TagString: Untagged
@@ -568,6 +600,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 925462814}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &925462819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925462814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a250b38d3f4f143a818fb91ccab85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexView: {fileID: 680928252}
+  component: {fileID: 925462814}
 --- !u!1 &1239552763
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,6 +626,7 @@ GameObject:
   - component: {fileID: 1239552767}
   - component: {fileID: 1239552766}
   - component: {fileID: 1239552768}
+  - component: {fileID: 1239552765}
   m_Layer: 0
   m_Name: MuseumApp
   m_TagString: Untagged
@@ -601,6 +648,20 @@ Transform:
   m_Father: {fileID: 680928256}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1239552765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239552763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058c9633627f1754882847603e57c997, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  indexView: {fileID: 680928252}
+  component: {fileID: 1239552763}
 --- !u!23 &1239552766
 MeshRenderer:
   m_ObjectHideFlags: 0
