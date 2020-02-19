@@ -13,90 +13,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-17T22:02:03.017-05:00
-  initializedAtString: 2020-02-17T20:40:30.435-05:00
+  lastUpdatedAtString: 2020-02-18T21:52:03.063-05:00
+  initializedAtString: 2020-02-18T20:01:44.847-05:00
   entries:
-  - path: Assets\MaterialsAndTextures\Checkd.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Checkd.png
-    projectPath: Assets\MaterialsAndTextures\Checkd.png
+  - path: Assets\MaterialsAndTextures\ImageTrans.png
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\ImageTrans.png
+    projectPath: Assets\MaterialsAndTextures\ImageTrans.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\Checkd.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Checkd.png.meta
-    projectPath: Assets\MaterialsAndTextures\Checkd.png.meta
+  - path: Assets\MaterialsAndTextures\ImageTrans.png.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\ImageTrans.png.meta
+    projectPath: Assets\MaterialsAndTextures\ImageTrans.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\CircleDeselected.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\CircleDeselected.png
-    projectPath: Assets\MaterialsAndTextures\CircleDeselected.png
+  - path: Assets\MaterialsAndTextures\Search.png
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Search.png
+    projectPath: Assets\MaterialsAndTextures\Search.png
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\CircleDeselected.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\CircleDeselected.png.meta
-    projectPath: Assets\MaterialsAndTextures\CircleDeselected.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\CircleSelected.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\CircleSelected.png
-    projectPath: Assets\MaterialsAndTextures\CircleSelected.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\CircleSelected.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\CircleSelected.png.meta
-    projectPath: Assets\MaterialsAndTextures\CircleSelected.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\Compare.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Compare.png
-    projectPath: Assets\MaterialsAndTextures\Compare.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\Compare.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Compare.png.meta
-    projectPath: Assets\MaterialsAndTextures\Compare.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\ic_arrow_back_24px.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\ic_arrow_back_24px.png
-    projectPath: Assets\MaterialsAndTextures\ic_arrow_back_24px.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\ic_arrow_back_24px.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\ic_arrow_back_24px.png.meta
-    projectPath: Assets\MaterialsAndTextures\ic_arrow_back_24px.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\Iphone.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Iphone.png
-    projectPath: Assets\MaterialsAndTextures\Iphone.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\Iphone.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Iphone.png.meta
-    projectPath: Assets\MaterialsAndTextures\Iphone.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\logoMarimba.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\logoMarimba.png
-    projectPath: Assets\MaterialsAndTextures\logoMarimba.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\logoMarimba.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\logoMarimba.png.meta
-    projectPath: Assets\MaterialsAndTextures\logoMarimba.png.meta
+  - path: Assets\MaterialsAndTextures\Search.png.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Search.png.meta
+    projectPath: Assets\MaterialsAndTextures\Search.png.meta
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -106,18 +46,20 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\TextMesh
+      Pro\Resources\Fonts & Materials\LiberationSans SDF - Fallback.asset
+    projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+      - Fallback.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\assetDatabase3
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\assetDatabase3
     projectPath: Library\assetDatabase3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\CrashedAssetImports.txt
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\CrashedAssetImports.txt
-    projectPath: Library\CrashedAssetImports.txt
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Library\EditorInstance.json
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
@@ -148,93 +90,33 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\InspectorExpandedItems.asset
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\InspectorExpandedItems.asset
-    projectPath: Library\InspectorExpandedItems.asset
+  - path: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
+    projectPath: Library\metadata\2e\2e498d1c8094910479dc3e1b768306a4.info
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\43\43eb1e779227c8e4c8023666c6baefde
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\43\43eb1e779227c8e4c8023666c6baefde
-    projectPath: Library\metadata\43\43eb1e779227c8e4c8023666c6baefde
+  - path: Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32
+    projectPath: Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\43\43eb1e779227c8e4c8023666c6baefde.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\43\43eb1e779227c8e4c8023666c6baefde.info
-    projectPath: Library\metadata\43\43eb1e779227c8e4c8023666c6baefde.info
+  - path: Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32.info
+    projectPath: Library\metadata\6b\6b4fb305325589c4e8efed53aec3ce32.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\59\59156774cda3ce34686bb546b003e005
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\59\59156774cda3ce34686bb546b003e005
-    projectPath: Library\metadata\59\59156774cda3ce34686bb546b003e005
+  - path: Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649
+    projectPath: Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Library\metadata\59\59156774cda3ce34686bb546b003e005.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\59\59156774cda3ce34686bb546b003e005.info
-    projectPath: Library\metadata\59\59156774cda3ce34686bb546b003e005.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f
-    projectPath: Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f.info
-    projectPath: Library\metadata\5f\5f1a4072fbbda6c46a0c95fc67028f4f.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061
-    projectPath: Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061.info
-    projectPath: Library\metadata\7f\7f6fc8a7522d19a4b836ca364e8eb061.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900
-    projectPath: Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900.info
-    projectPath: Library\metadata\a5\a56f29e5dc5befc43860cd5bd8868900.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37
-    projectPath: Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37.info
-    projectPath: Library\metadata\e4\e4c08891490e8554cbe9495c64b51a37.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d
-    projectPath: Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d.info
-    projectPath: Library\metadata\f9\f990c574b233b0d4c87400106b0b9d4d.info
+  - path: Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649.info
+    projectPath: Library\metadata\ac\ace6aba3969dfd944acb6f5156c07649.info
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
