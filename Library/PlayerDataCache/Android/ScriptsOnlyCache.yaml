@@ -1,9 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ScrollTerminalUI
+    - BluetoothController
     - TechTweaking.Bluetooth.BluetoothAdapter
-    - TerminalController
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.EnvironmentCache
@@ -12,32 +11,32 @@ ScriptsOnlyBuild:
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
     - GitHub.Unity.Window
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.EventSystems.TouchInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
-    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    - UnityEngine.UI.InputField
-    - UnityEngine.UI.Mask
-    - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
-    - UnityEngine.UI.Text
-    - UnityEngine.UI.Toggle
-    - UnityEngine.UI.ToggleGroup
     Vuforia.UnityExtensions.dll:
     - Vuforia.VuforiaConfiguration
   sceneClasses:
-    Assets/BT_Library/Demos/Bluetooth Terminal/BluetoothInfo.unity:
+    Assets/Scenes/ConnectBluetooth.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -50,55 +49,49 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
-    - Class: 92
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 9556}
-    - Class: 114
-      Script: {instanceID: 9558}
-    - Class: 114
-      Script: {instanceID: 9560}
-    - Class: 114
-      Script: {instanceID: 9564}
-    - Class: 114
-      Script: {instanceID: 9570}
-    - Class: 114
-      Script: {instanceID: 9578}
-    - Class: 114
-      Script: {instanceID: 9580}
-    - Class: 114
-      Script: {instanceID: 9586}
-    - Class: 114
-      Script: {instanceID: 9604}
-    - Class: 114
-      Script: {instanceID: 9606}
-    - Class: 114
-      Script: {instanceID: 9614}
-    - Class: 114
-      Script: {instanceID: 9616}
-    - Class: 114
-      Script: {instanceID: 9618}
-    - Class: 114
-      Script: {instanceID: 9620}
-    - Class: 114
-      Script: {instanceID: 9622}
-    - Class: 114
-      Script: {instanceID: 9966}
-    - Class: 114
-      Script: {instanceID: 10086}
-    - Class: 114
-      Script: {instanceID: 10366}
-    - Class: 114
-      Script: {instanceID: 10630}
-    - Class: 115
+    - Class: 109
       Script: {instanceID: 0}
-    - Class: 124
+    - Class: 114
+      Script: {instanceID: 9456}
+    - Class: 114
+      Script: {instanceID: 9462}
+    - Class: 114
+      Script: {instanceID: 9468}
+    - Class: 114
+      Script: {instanceID: 9476}
+    - Class: 114
+      Script: {instanceID: 9512}
+    - Class: 114
+      Script: {instanceID: 9894}
+    - Class: 114
+      Script: {instanceID: 9904}
+    - Class: 114
+      Script: {instanceID: 9994}
+    - Class: 114
+      Script: {instanceID: 10114}
+    - Class: 114
+      Script: {instanceID: 10544}
+    - Class: 114
+      Script: {instanceID: 10556}
+    - Class: 114
+      Script: {instanceID: 10702}
+    - Class: 114
+      Script: {instanceID: 10950}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 128
       Script: {instanceID: 0}
@@ -355,18 +348,6 @@ ScriptsOnlyBuild:
     className: TMP_InputField
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: CallbackExecutor
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Editor
-    className: Placeholder
-  - hash:
-      serializedVersion: 2
       Hash: cf9f5cf2c3145a37ac07f00e50e460f9
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -559,6 +540,12 @@ ScriptsOnlyBuild:
     className: VerticalLayoutGroup
   - hash:
       serializedVersion: 2
+      Hash: e2975d56ff92e38a362f3cfe77b0bde2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ActivateBluetooth
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -647,6 +634,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 693321601ac592125f0a72014a599e26
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BluetoothController
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -1679,7 +1672,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: JoystickHandler
+  - hash:
+      serializedVersion: 2
+      Hash: f1b001dcf0f786a375c9ef019a1abfd4
+    assemblyName: Unity.VectorGraphics.dll
+    namespaceName: 
+    className: SVGImage
   platform: 13
   scenePathNames:
-  - Assets/BT_Library/Demos/Bluetooth Terminal/BluetoothInfo.unity
+  - Assets/Scenes/ConnectBluetooth.unity
   playerPath: C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/BluetoothProbe.apk
