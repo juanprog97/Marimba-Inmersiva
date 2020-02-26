@@ -9,9 +9,9 @@ public class BluetoothController : MonoBehaviour
     public GameObject state;
     public Sprite check;
     public Sprite wrong;
-    private Image change;
     public GameObject setText;
     public GameObject animationSearch;
+    public GameObject reload;
     private BluetoothDevice device;
     void Awake()
     {
@@ -35,16 +35,18 @@ public class BluetoothController : MonoBehaviour
         }
     }
 
-    private IEnumerator wait()
+    private IEnumerator wait(int opcion)
     {
         //show animate out animation
-
-        yield return new WaitForSeconds(2f);
+        if(opcion == 1)
+            yield return new WaitForSeconds(2);
+        else
+          yield return new WaitForSeconds(4);
         //load the scene we want
     }
     void Start()
     {
-        wait();
+       
         BluetoothAdapter.OnDeviceDiscovered += BluetoothAdapter_OnDeviceDiscovered;
         BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;//This would mean a failure in connection! the reason might be that your remote device is OFF
 
@@ -58,13 +60,20 @@ public class BluetoothController : MonoBehaviour
         {
             this.animationSearch.SetActive(false);
             this.state.SetActive(true);
-            this.change = this.state.GetComponent<Image>();
-            this.change.sprite = this.check;
+            this.state.GetComponent<Image>().sprite = this.check;
+            
 
         }
     }
 
+    public void reset()
+    {
 
+        StartCoroutine(this.wait(1)); 
+        this.reload.SetActive(false);
+        this.animationSearch.SetActive(true);
+        this.connect();
+    }
 
     // Update is called once per frame
     private void connect()
@@ -100,9 +109,10 @@ public class BluetoothController : MonoBehaviour
         /*
 		 * The ManageConnection Coroutine will start when the device is ready for reading.
 		 */
-
-
+        
+        wait(0);
         device.connect();
+
 
 
     }
@@ -129,8 +139,8 @@ public class BluetoothController : MonoBehaviour
         {
             this.animationSearch.SetActive(false);
             this.state.SetActive(true);
-            this.change = this.state.GetComponent<Image>();
-            this.change.sprite = this.wrong;
+            this.state.GetComponent<Image>().sprite = this.wrong;
+     
         }
      
     }
@@ -142,8 +152,11 @@ public class BluetoothController : MonoBehaviour
         {
             this.animationSearch.SetActive(false);
             this.state.SetActive(true);
-            this.change = this.state.GetComponent<Image>();
-            this.change.sprite = this.wrong;
+            this.state.GetComponent<Image>().sprite = this.wrong;
+            
+            StartCoroutine(this.wait(0));
+            this.state.SetActive(false);
+            this.reload.SetActive(true);
         }
     }
 

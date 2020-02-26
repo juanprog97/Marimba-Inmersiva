@@ -30,6 +30,7 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
@@ -66,31 +67,33 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9456}
+      Script: {instanceID: 9484}
     - Class: 114
-      Script: {instanceID: 9462}
+      Script: {instanceID: 9486}
     - Class: 114
-      Script: {instanceID: 9468}
+      Script: {instanceID: 9492}
     - Class: 114
-      Script: {instanceID: 9476}
+      Script: {instanceID: 9498}
     - Class: 114
-      Script: {instanceID: 9512}
+      Script: {instanceID: 9506}
     - Class: 114
-      Script: {instanceID: 9894}
+      Script: {instanceID: 9542}
     - Class: 114
-      Script: {instanceID: 9904}
+      Script: {instanceID: 9926}
     - Class: 114
-      Script: {instanceID: 9994}
+      Script: {instanceID: 9936}
     - Class: 114
-      Script: {instanceID: 10114}
+      Script: {instanceID: 10026}
     - Class: 114
-      Script: {instanceID: 10544}
+      Script: {instanceID: 10146}
     - Class: 114
-      Script: {instanceID: 10556}
+      Script: {instanceID: 10602}
     - Class: 114
-      Script: {instanceID: 10702}
+      Script: {instanceID: 10614}
     - Class: 114
-      Script: {instanceID: 10950}
+      Script: {instanceID: 10766}
+    - Class: 114
+      Script: {instanceID: 11026}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -636,7 +639,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 693321601ac592125f0a72014a599e26
+      Hash: 99390e05d3426e69569d43ee5324e662
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BluetoothController
@@ -1108,6 +1111,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: f1b001dcf0f786a375c9ef019a1abfd4
+    assemblyName: Unity.VectorGraphics.dll
+    namespaceName: 
+    className: SVGImage
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1672,12 +1681,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: JoystickHandler
-  - hash:
-      serializedVersion: 2
-      Hash: f1b001dcf0f786a375c9ef019a1abfd4
-    assemblyName: Unity.VectorGraphics.dll
-    namespaceName: 
-    className: SVGImage
   platform: 13
   scenePathNames:
   - Assets/Scenes/ConnectBluetooth.unity
