@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-02-25T23:01:36.252-05:00
-  initializedAtString: 2020-02-25T21:05:55.159-05:00
+  lastUpdatedAtString: 2020-02-26T22:25:51.325-05:00
+  initializedAtString: 2020-02-26T21:28:44.300-05:00
   entries:
   - path: .vs\ProyectoMarimbaInteractiva\v16\.suo
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\.vs\ProyectoMarimbaInteractiva\v16\.suo
@@ -32,77 +32,23 @@ MonoBehaviour:
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\.vs\ProyectoMarimbaInteractiva\v16\Server\sqlite3\storage.ide-shm
     projectPath: .vs\ProyectoMarimbaInteractiva\v16\Server\sqlite3\storage.ide-shm
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
+    indexStatus: 0
+    workTreeStatus: 5
   - path: .vs\ProyectoMarimbaInteractiva\v16\Server\sqlite3\storage.ide-wal
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\.vs\ProyectoMarimbaInteractiva\v16\Server\sqlite3\storage.ide-wal
     projectPath: .vs\ProyectoMarimbaInteractiva\v16\Server\sqlite3\storage.ide-wal
     originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assembly-CSharp.csproj
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp.csproj
-    projectPath: Assembly-CSharp.csproj
-    originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor.csproj
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp-Editor.csproj
-    projectPath: Assembly-CSharp-Editor.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assembly-CSharp-Editor-firstpass.csproj
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp-Editor-firstpass.csproj
-    projectPath: Assembly-CSharp-Editor-firstpass.csproj
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\Animation\Image.controller
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Animation\Image.controller
-    projectPath: Assets\Animation\Image.controller
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
   - path: Assets\Animation\reloadSearch.controller
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Animation\reloadSearch.controller
     projectPath: Assets\Animation\reloadSearch.controller
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Animation\reloadSearch.controller.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Animation\reloadSearch.controller.meta
-    projectPath: Assets\Animation\reloadSearch.controller.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Animation\Search.anim
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Animation\Search.anim
-    projectPath: Assets\Animation\Search.anim
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
   - path: Assets\BluetoothController.cs
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\BluetoothController.cs
     projectPath: Assets\BluetoothController.cs
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Assets\MaterialsAndTextures\refresh.png
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\refresh.png
-    projectPath: Assets\MaterialsAndTextures\refresh.png
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\MaterialsAndTextures\refresh.png.meta
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\refresh.png.meta
-    projectPath: Assets\MaterialsAndTextures\refresh.png.meta
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Assets\Scenes\ConnectBluetooth.unity
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Scenes\ConnectBluetooth.unity
-    projectPath: Assets\Scenes\ConnectBluetooth.unity
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -166,60 +112,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\metadata\c0\c0faa3fba3be54241b07863ee93def46
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c0\c0faa3fba3be54241b07863ee93def46
-    projectPath: Library\metadata\c0\c0faa3fba3be54241b07863ee93def46
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\c0\c0faa3fba3be54241b07863ee93def46.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c0\c0faa3fba3be54241b07863ee93def46.info
-    projectPath: Library\metadata\c0\c0faa3fba3be54241b07863ee93def46.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8
-    projectPath: Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8.info
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8.info
-    projectPath: Library\metadata\ed\ed7c85f087c1c7149ab29a921db31cc8.info
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
-    projectPath: Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
-    projectPath: Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
-    projectPath: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
-    projectPath: Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
-    projectPath: Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\globalgamemanagers
     projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
@@ -229,12 +121,6 @@ MonoBehaviour:
   - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
     projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\Data\level0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\level0
-    projectPath: Library\PlayerDataCache\Android\Data\level0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -280,12 +166,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
-  - path: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
   - path: Library\ScriptAssemblies\Assembly-CSharp.dll
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ScriptAssemblies\Assembly-CSharp.dll
     projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
@@ -310,6 +190,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
     projectPath: Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll
@@ -409,30 +295,6 @@ MonoBehaviour:
   - path: Library\StateCache\Hierarchy\b8524c-mainStage.json
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\StateCache\Hierarchy\b8524c-mainStage.json
     projectPath: Library\StateCache\Hierarchy\b8524c-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: Library\StateCache\SceneView\8dc928-mainStage.json
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\StateCache\SceneView\8dc928-mainStage.json
-    projectPath: Library\StateCache\SceneView\8dc928-mainStage.json
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
-    originalPath: 
-    indexStatus: 0
-    workTreeStatus: 3
-  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
-    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -3837,1773 +3699,645 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0070fb2077b594b4887104211626cc61
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0070fb2077b594b4887104211626cc61
-    projectPath: Temp\UnityTempFile-0070fb2077b594b4887104211626cc61
+  - path: Temp\UnityTempFile-02e528c50ef1f664cb18d79965aec2c3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-02e528c50ef1f664cb18d79965aec2c3
+    projectPath: Temp\UnityTempFile-02e528c50ef1f664cb18d79965aec2c3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-00d50adf571a414469fb1051bf66ce20
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-00d50adf571a414469fb1051bf66ce20
-    projectPath: Temp\UnityTempFile-00d50adf571a414469fb1051bf66ce20
+  - path: Temp\UnityTempFile-049a44ecf8e1c9f429b23efe6619aeca
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-049a44ecf8e1c9f429b23efe6619aeca
+    projectPath: Temp\UnityTempFile-049a44ecf8e1c9f429b23efe6619aeca
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-01e0cc2301ea6b04e98bb8b72baa9d8f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-01e0cc2301ea6b04e98bb8b72baa9d8f
-    projectPath: Temp\UnityTempFile-01e0cc2301ea6b04e98bb8b72baa9d8f
+  - path: Temp\UnityTempFile-05243b036b4b2264294a28521503d17e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-05243b036b4b2264294a28521503d17e
+    projectPath: Temp\UnityTempFile-05243b036b4b2264294a28521503d17e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0270b56aa5a29f3498193fce02579ecf
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0270b56aa5a29f3498193fce02579ecf
-    projectPath: Temp\UnityTempFile-0270b56aa5a29f3498193fce02579ecf
+  - path: Temp\UnityTempFile-05b8c15472589764991aaf4e0c9daaa9
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-05b8c15472589764991aaf4e0c9daaa9
+    projectPath: Temp\UnityTempFile-05b8c15472589764991aaf4e0c9daaa9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-02924a802341bd3408f8aaf575fb0abd
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-02924a802341bd3408f8aaf575fb0abd
-    projectPath: Temp\UnityTempFile-02924a802341bd3408f8aaf575fb0abd
+  - path: Temp\UnityTempFile-05c098ebae8de4044b86f9dee4bbbbdd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-05c098ebae8de4044b86f9dee4bbbbdd
+    projectPath: Temp\UnityTempFile-05c098ebae8de4044b86f9dee4bbbbdd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-02db3521d65a11a4b93c4e80a98826e7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-02db3521d65a11a4b93c4e80a98826e7
-    projectPath: Temp\UnityTempFile-02db3521d65a11a4b93c4e80a98826e7
+  - path: Temp\UnityTempFile-0611ba0f0e3130b47a0464116a558600
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0611ba0f0e3130b47a0464116a558600
+    projectPath: Temp\UnityTempFile-0611ba0f0e3130b47a0464116a558600
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-04857bf25b96e1d48a621bd35be2167d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-04857bf25b96e1d48a621bd35be2167d
-    projectPath: Temp\UnityTempFile-04857bf25b96e1d48a621bd35be2167d
+  - path: Temp\UnityTempFile-06e3e703996f51746bb43316c27b0e55
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-06e3e703996f51746bb43316c27b0e55
+    projectPath: Temp\UnityTempFile-06e3e703996f51746bb43316c27b0e55
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-051c9579d0e75824f975583def1da20d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-051c9579d0e75824f975583def1da20d
-    projectPath: Temp\UnityTempFile-051c9579d0e75824f975583def1da20d
+  - path: Temp\UnityTempFile-08259f7d988da704a89b9af7f39a606f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-08259f7d988da704a89b9af7f39a606f
+    projectPath: Temp\UnityTempFile-08259f7d988da704a89b9af7f39a606f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-05500dff487af724c844f7ccdeea8498
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-05500dff487af724c844f7ccdeea8498
-    projectPath: Temp\UnityTempFile-05500dff487af724c844f7ccdeea8498
+  - path: Temp\UnityTempFile-08c675a3cf0e25341b75409a7ba2c4c3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-08c675a3cf0e25341b75409a7ba2c4c3
+    projectPath: Temp\UnityTempFile-08c675a3cf0e25341b75409a7ba2c4c3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-055d5037163e8b344aa16d8c969dbf2c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-055d5037163e8b344aa16d8c969dbf2c
-    projectPath: Temp\UnityTempFile-055d5037163e8b344aa16d8c969dbf2c
+  - path: Temp\UnityTempFile-0bec0e10a21d5df4c806d0f387c8d69d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0bec0e10a21d5df4c806d0f387c8d69d
+    projectPath: Temp\UnityTempFile-0bec0e10a21d5df4c806d0f387c8d69d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0777d1a113d461e4da30e47ab7ccb675
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0777d1a113d461e4da30e47ab7ccb675
-    projectPath: Temp\UnityTempFile-0777d1a113d461e4da30e47ab7ccb675
+  - path: Temp\UnityTempFile-0d2ce8fe7a7b6ca4a8f28386a45b2f10
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0d2ce8fe7a7b6ca4a8f28386a45b2f10
+    projectPath: Temp\UnityTempFile-0d2ce8fe7a7b6ca4a8f28386a45b2f10
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-079378b9b3f01424e9ce4ea88f993546
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-079378b9b3f01424e9ce4ea88f993546
-    projectPath: Temp\UnityTempFile-079378b9b3f01424e9ce4ea88f993546
+  - path: Temp\UnityTempFile-0e739949765885348bdaa7858726d918
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0e739949765885348bdaa7858726d918
+    projectPath: Temp\UnityTempFile-0e739949765885348bdaa7858726d918
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-083d5d1d64b1171478efa7b9c3da9835
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-083d5d1d64b1171478efa7b9c3da9835
-    projectPath: Temp\UnityTempFile-083d5d1d64b1171478efa7b9c3da9835
+  - path: Temp\UnityTempFile-0edf1ea4450a65b4f9af56ae1fe7d54d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0edf1ea4450a65b4f9af56ae1fe7d54d
+    projectPath: Temp\UnityTempFile-0edf1ea4450a65b4f9af56ae1fe7d54d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-08eb16021d3250849b294fff05ea0095
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-08eb16021d3250849b294fff05ea0095
-    projectPath: Temp\UnityTempFile-08eb16021d3250849b294fff05ea0095
+  - path: Temp\UnityTempFile-11ca06c1a2aacef4eb87b482b1ada0aa
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-11ca06c1a2aacef4eb87b482b1ada0aa
+    projectPath: Temp\UnityTempFile-11ca06c1a2aacef4eb87b482b1ada0aa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-08f7451d0abfd62428242a2fa192852f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-08f7451d0abfd62428242a2fa192852f
-    projectPath: Temp\UnityTempFile-08f7451d0abfd62428242a2fa192852f
+  - path: Temp\UnityTempFile-16266a94436c8ab45b8a9e28eb89e149
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-16266a94436c8ab45b8a9e28eb89e149
+    projectPath: Temp\UnityTempFile-16266a94436c8ab45b8a9e28eb89e149
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-09b03b2950d097b49a35c2f1e61498d1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-09b03b2950d097b49a35c2f1e61498d1
-    projectPath: Temp\UnityTempFile-09b03b2950d097b49a35c2f1e61498d1
+  - path: Temp\UnityTempFile-189b2deb4bd214142885d75f16e08000
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-189b2deb4bd214142885d75f16e08000
+    projectPath: Temp\UnityTempFile-189b2deb4bd214142885d75f16e08000
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0a38182f5b657634e89a5be70e2ae536
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0a38182f5b657634e89a5be70e2ae536
-    projectPath: Temp\UnityTempFile-0a38182f5b657634e89a5be70e2ae536
+  - path: Temp\UnityTempFile-1b252b76e672a8e4d995a3abc064bbac
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1b252b76e672a8e4d995a3abc064bbac
+    projectPath: Temp\UnityTempFile-1b252b76e672a8e4d995a3abc064bbac
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0a8c3dd69d4bac447abc45eee50fd70e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0a8c3dd69d4bac447abc45eee50fd70e
-    projectPath: Temp\UnityTempFile-0a8c3dd69d4bac447abc45eee50fd70e
+  - path: Temp\UnityTempFile-1d02b80cd77f1f84ba3ebb676b43bfbd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1d02b80cd77f1f84ba3ebb676b43bfbd
+    projectPath: Temp\UnityTempFile-1d02b80cd77f1f84ba3ebb676b43bfbd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0ac0b3f5976329546abb724c5f75f668
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0ac0b3f5976329546abb724c5f75f668
-    projectPath: Temp\UnityTempFile-0ac0b3f5976329546abb724c5f75f668
+  - path: Temp\UnityTempFile-2708b7d195438414ba56f0203d4cb8a3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2708b7d195438414ba56f0203d4cb8a3
+    projectPath: Temp\UnityTempFile-2708b7d195438414ba56f0203d4cb8a3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0d370ab3aa5284a42914879bb019373b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0d370ab3aa5284a42914879bb019373b
-    projectPath: Temp\UnityTempFile-0d370ab3aa5284a42914879bb019373b
+  - path: Temp\UnityTempFile-27471b4a86f911846b37e7c931aefd51
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-27471b4a86f911846b37e7c931aefd51
+    projectPath: Temp\UnityTempFile-27471b4a86f911846b37e7c931aefd51
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0df5417e96ab8324fbda3dabaab9c9e7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0df5417e96ab8324fbda3dabaab9c9e7
-    projectPath: Temp\UnityTempFile-0df5417e96ab8324fbda3dabaab9c9e7
+  - path: Temp\UnityTempFile-293d3bd512c7bf94c8ad827a8feda4f8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-293d3bd512c7bf94c8ad827a8feda4f8
+    projectPath: Temp\UnityTempFile-293d3bd512c7bf94c8ad827a8feda4f8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0e57b9afae5f34540a55f4bdf867120b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0e57b9afae5f34540a55f4bdf867120b
-    projectPath: Temp\UnityTempFile-0e57b9afae5f34540a55f4bdf867120b
+  - path: Temp\UnityTempFile-299dd7820925bed469dff7e1a3bde23d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-299dd7820925bed469dff7e1a3bde23d
+    projectPath: Temp\UnityTempFile-299dd7820925bed469dff7e1a3bde23d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1197fcaa2f918d44db485e384cd1d220
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1197fcaa2f918d44db485e384cd1d220
-    projectPath: Temp\UnityTempFile-1197fcaa2f918d44db485e384cd1d220
+  - path: Temp\UnityTempFile-2a532cf837d5296478cf7e9060f53ddd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2a532cf837d5296478cf7e9060f53ddd
+    projectPath: Temp\UnityTempFile-2a532cf837d5296478cf7e9060f53ddd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-139d373103b187f4781c2c97c4bc5ba1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-139d373103b187f4781c2c97c4bc5ba1
-    projectPath: Temp\UnityTempFile-139d373103b187f4781c2c97c4bc5ba1
+  - path: Temp\UnityTempFile-2d27c727611f650498efe6f2bfa36324
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2d27c727611f650498efe6f2bfa36324
+    projectPath: Temp\UnityTempFile-2d27c727611f650498efe6f2bfa36324
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-16709e175661e9b42a2953cf6cec5978
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-16709e175661e9b42a2953cf6cec5978
-    projectPath: Temp\UnityTempFile-16709e175661e9b42a2953cf6cec5978
+  - path: Temp\UnityTempFile-2e60beb0f8fd4974685ea144e6f06611
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2e60beb0f8fd4974685ea144e6f06611
+    projectPath: Temp\UnityTempFile-2e60beb0f8fd4974685ea144e6f06611
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1736364e068235c49b0f155b1e865bc6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1736364e068235c49b0f155b1e865bc6
-    projectPath: Temp\UnityTempFile-1736364e068235c49b0f155b1e865bc6
+  - path: Temp\UnityTempFile-32ce7f6dd406503449112925bf024479
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-32ce7f6dd406503449112925bf024479
+    projectPath: Temp\UnityTempFile-32ce7f6dd406503449112925bf024479
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-17d23d53947ceff4d96c1d7b333e386f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-17d23d53947ceff4d96c1d7b333e386f
-    projectPath: Temp\UnityTempFile-17d23d53947ceff4d96c1d7b333e386f
+  - path: Temp\UnityTempFile-38afc29bfe652384f8c140a118f917ca
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-38afc29bfe652384f8c140a118f917ca
+    projectPath: Temp\UnityTempFile-38afc29bfe652384f8c140a118f917ca
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-17d8605dd299e064eb89c915052fc5d8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-17d8605dd299e064eb89c915052fc5d8
-    projectPath: Temp\UnityTempFile-17d8605dd299e064eb89c915052fc5d8
+  - path: Temp\UnityTempFile-39a3447434195e9418fa7c7755d63aa5
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-39a3447434195e9418fa7c7755d63aa5
+    projectPath: Temp\UnityTempFile-39a3447434195e9418fa7c7755d63aa5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-180338881e6fdf14cb4d9358dd610b12
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-180338881e6fdf14cb4d9358dd610b12
-    projectPath: Temp\UnityTempFile-180338881e6fdf14cb4d9358dd610b12
+  - path: Temp\UnityTempFile-3b006054790552b4bac3692d4514a23f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3b006054790552b4bac3692d4514a23f
+    projectPath: Temp\UnityTempFile-3b006054790552b4bac3692d4514a23f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1815cf4b8668b1948a509f98e9fbf96b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1815cf4b8668b1948a509f98e9fbf96b
-    projectPath: Temp\UnityTempFile-1815cf4b8668b1948a509f98e9fbf96b
+  - path: Temp\UnityTempFile-3bc6099aa4fd13e4fbf4337816a7d092
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3bc6099aa4fd13e4fbf4337816a7d092
+    projectPath: Temp\UnityTempFile-3bc6099aa4fd13e4fbf4337816a7d092
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-18fc4e3d6d195cf41b06279c1293d451
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-18fc4e3d6d195cf41b06279c1293d451
-    projectPath: Temp\UnityTempFile-18fc4e3d6d195cf41b06279c1293d451
+  - path: Temp\UnityTempFile-3f17bc106099eb1479975fb4b8b8a35c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3f17bc106099eb1479975fb4b8b8a35c
+    projectPath: Temp\UnityTempFile-3f17bc106099eb1479975fb4b8b8a35c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-19cc41c10b868f34eb3b4c2bd754892b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-19cc41c10b868f34eb3b4c2bd754892b
-    projectPath: Temp\UnityTempFile-19cc41c10b868f34eb3b4c2bd754892b
+  - path: Temp\UnityTempFile-42fb9b2ece974aa45863baf2610f6a49
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-42fb9b2ece974aa45863baf2610f6a49
+    projectPath: Temp\UnityTempFile-42fb9b2ece974aa45863baf2610f6a49
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1a0c355e76944554d92f62e52a182c05
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1a0c355e76944554d92f62e52a182c05
-    projectPath: Temp\UnityTempFile-1a0c355e76944554d92f62e52a182c05
+  - path: Temp\UnityTempFile-4348ff218975aec4db56d76d45c87685
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4348ff218975aec4db56d76d45c87685
+    projectPath: Temp\UnityTempFile-4348ff218975aec4db56d76d45c87685
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1cab7d3a4d845904792e8d9729a33b0c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1cab7d3a4d845904792e8d9729a33b0c
-    projectPath: Temp\UnityTempFile-1cab7d3a4d845904792e8d9729a33b0c
+  - path: Temp\UnityTempFile-492128ea09106db4bb4ee927a8ba7179
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-492128ea09106db4bb4ee927a8ba7179
+    projectPath: Temp\UnityTempFile-492128ea09106db4bb4ee927a8ba7179
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1cdc7264ab720f44db30c2db73bc6eb5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1cdc7264ab720f44db30c2db73bc6eb5
-    projectPath: Temp\UnityTempFile-1cdc7264ab720f44db30c2db73bc6eb5
+  - path: Temp\UnityTempFile-4ae067245dbd8f448b6473d914466796
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4ae067245dbd8f448b6473d914466796
+    projectPath: Temp\UnityTempFile-4ae067245dbd8f448b6473d914466796
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1d20147f7719fc74d809cbe7735a142c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1d20147f7719fc74d809cbe7735a142c
-    projectPath: Temp\UnityTempFile-1d20147f7719fc74d809cbe7735a142c
+  - path: Temp\UnityTempFile-4fab389ba8004504cb7885f0f592c703
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4fab389ba8004504cb7885f0f592c703
+    projectPath: Temp\UnityTempFile-4fab389ba8004504cb7885f0f592c703
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1d3fabb27f62ea04b9082d449cd28dcb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1d3fabb27f62ea04b9082d449cd28dcb
-    projectPath: Temp\UnityTempFile-1d3fabb27f62ea04b9082d449cd28dcb
+  - path: Temp\UnityTempFile-4fc73517e8c92a043a8ee2da4ac115fb
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4fc73517e8c92a043a8ee2da4ac115fb
+    projectPath: Temp\UnityTempFile-4fc73517e8c92a043a8ee2da4ac115fb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-20e354788cae37a45a1a158a798296b3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-20e354788cae37a45a1a158a798296b3
-    projectPath: Temp\UnityTempFile-20e354788cae37a45a1a158a798296b3
+  - path: Temp\UnityTempFile-517160bad7c0f544bb2f9654cac3e6da
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-517160bad7c0f544bb2f9654cac3e6da
+    projectPath: Temp\UnityTempFile-517160bad7c0f544bb2f9654cac3e6da
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-210318503047acb4d817cebf4d84553b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-210318503047acb4d817cebf4d84553b
-    projectPath: Temp\UnityTempFile-210318503047acb4d817cebf4d84553b
+  - path: Temp\UnityTempFile-51d99cdfed4ffaf41ae26ae5bb652447
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-51d99cdfed4ffaf41ae26ae5bb652447
+    projectPath: Temp\UnityTempFile-51d99cdfed4ffaf41ae26ae5bb652447
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2120c2df88ae50c41b51d85a305c2379
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2120c2df88ae50c41b51d85a305c2379
-    projectPath: Temp\UnityTempFile-2120c2df88ae50c41b51d85a305c2379
+  - path: Temp\UnityTempFile-54358dc72430e924b98960d00f17add9
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-54358dc72430e924b98960d00f17add9
+    projectPath: Temp\UnityTempFile-54358dc72430e924b98960d00f17add9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-21e4979313ef8b04182d8d7ddc7f5416
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-21e4979313ef8b04182d8d7ddc7f5416
-    projectPath: Temp\UnityTempFile-21e4979313ef8b04182d8d7ddc7f5416
+  - path: Temp\UnityTempFile-545ceb5432db71c4dbf1b9b24b510550
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-545ceb5432db71c4dbf1b9b24b510550
+    projectPath: Temp\UnityTempFile-545ceb5432db71c4dbf1b9b24b510550
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-22dd7b29710aa7d4dbc3c95d12f86264
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-22dd7b29710aa7d4dbc3c95d12f86264
-    projectPath: Temp\UnityTempFile-22dd7b29710aa7d4dbc3c95d12f86264
+  - path: Temp\UnityTempFile-54606ed38edbbce449b3489b797f6038
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-54606ed38edbbce449b3489b797f6038
+    projectPath: Temp\UnityTempFile-54606ed38edbbce449b3489b797f6038
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-22e66a3bfde4abe4b9eacdf5a6cbe8da
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-22e66a3bfde4abe4b9eacdf5a6cbe8da
-    projectPath: Temp\UnityTempFile-22e66a3bfde4abe4b9eacdf5a6cbe8da
+  - path: Temp\UnityTempFile-56ac61cb761943b43b7a2a3ac4c1a08c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-56ac61cb761943b43b7a2a3ac4c1a08c
+    projectPath: Temp\UnityTempFile-56ac61cb761943b43b7a2a3ac4c1a08c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2454d4b2bd3b63444bcb2b2d83386c5b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2454d4b2bd3b63444bcb2b2d83386c5b
-    projectPath: Temp\UnityTempFile-2454d4b2bd3b63444bcb2b2d83386c5b
+  - path: Temp\UnityTempFile-5722575f3415bac47b8b2b7eebf6e422
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5722575f3415bac47b8b2b7eebf6e422
+    projectPath: Temp\UnityTempFile-5722575f3415bac47b8b2b7eebf6e422
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-24a403959ead66f4f980d1762be8afef
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-24a403959ead66f4f980d1762be8afef
-    projectPath: Temp\UnityTempFile-24a403959ead66f4f980d1762be8afef
+  - path: Temp\UnityTempFile-59956806ca5ac994f842896b4c7b7dd7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-59956806ca5ac994f842896b4c7b7dd7
+    projectPath: Temp\UnityTempFile-59956806ca5ac994f842896b4c7b7dd7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-25423093f1ced6f4dafc36c064c81540
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-25423093f1ced6f4dafc36c064c81540
-    projectPath: Temp\UnityTempFile-25423093f1ced6f4dafc36c064c81540
+  - path: Temp\UnityTempFile-5d68aeb756b966f4db97a26660817b17
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5d68aeb756b966f4db97a26660817b17
+    projectPath: Temp\UnityTempFile-5d68aeb756b966f4db97a26660817b17
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-257055f6803f83b4c9f8be1e10ae964b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-257055f6803f83b4c9f8be1e10ae964b
-    projectPath: Temp\UnityTempFile-257055f6803f83b4c9f8be1e10ae964b
+  - path: Temp\UnityTempFile-6100c041086021d4ba5b1c6a75da9b2c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6100c041086021d4ba5b1c6a75da9b2c
+    projectPath: Temp\UnityTempFile-6100c041086021d4ba5b1c6a75da9b2c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-27bf4cbb5049e3341b3f66355d161cd6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-27bf4cbb5049e3341b3f66355d161cd6
-    projectPath: Temp\UnityTempFile-27bf4cbb5049e3341b3f66355d161cd6
+  - path: Temp\UnityTempFile-61b621996f5930c44b1cf2aaba766e3f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-61b621996f5930c44b1cf2aaba766e3f
+    projectPath: Temp\UnityTempFile-61b621996f5930c44b1cf2aaba766e3f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2887f9630d13cae45ab580db9fb14a48
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2887f9630d13cae45ab580db9fb14a48
-    projectPath: Temp\UnityTempFile-2887f9630d13cae45ab580db9fb14a48
+  - path: Temp\UnityTempFile-61f6afff0f3920f44a8dcfa6c9dd14c2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-61f6afff0f3920f44a8dcfa6c9dd14c2
+    projectPath: Temp\UnityTempFile-61f6afff0f3920f44a8dcfa6c9dd14c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2a5e61eefddb2974a93d9814c11b6c58
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2a5e61eefddb2974a93d9814c11b6c58
-    projectPath: Temp\UnityTempFile-2a5e61eefddb2974a93d9814c11b6c58
+  - path: Temp\UnityTempFile-64acc1107768eb44cb4b79abec7dd190
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-64acc1107768eb44cb4b79abec7dd190
+    projectPath: Temp\UnityTempFile-64acc1107768eb44cb4b79abec7dd190
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2affad10c74f9ba4286089e447a1003b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2affad10c74f9ba4286089e447a1003b
-    projectPath: Temp\UnityTempFile-2affad10c74f9ba4286089e447a1003b
+  - path: Temp\UnityTempFile-66c32faa76165bb46838d86e71e517ec
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-66c32faa76165bb46838d86e71e517ec
+    projectPath: Temp\UnityTempFile-66c32faa76165bb46838d86e71e517ec
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2c7cb46446a37d041bdc32e7b5f3ac83
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2c7cb46446a37d041bdc32e7b5f3ac83
-    projectPath: Temp\UnityTempFile-2c7cb46446a37d041bdc32e7b5f3ac83
+  - path: Temp\UnityTempFile-6779dcbd1b015684fabee72e8be3cb01
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6779dcbd1b015684fabee72e8be3cb01
+    projectPath: Temp\UnityTempFile-6779dcbd1b015684fabee72e8be3cb01
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2d814f340564d00448e47a3fd4ae5696
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2d814f340564d00448e47a3fd4ae5696
-    projectPath: Temp\UnityTempFile-2d814f340564d00448e47a3fd4ae5696
+  - path: Temp\UnityTempFile-67850ee764016b14c9beee3fb949f118
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-67850ee764016b14c9beee3fb949f118
+    projectPath: Temp\UnityTempFile-67850ee764016b14c9beee3fb949f118
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-30bc72aa61cdb4048ac19e80215b0a75
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-30bc72aa61cdb4048ac19e80215b0a75
-    projectPath: Temp\UnityTempFile-30bc72aa61cdb4048ac19e80215b0a75
+  - path: Temp\UnityTempFile-67f40e4af70a8414183017df0e10037c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-67f40e4af70a8414183017df0e10037c
+    projectPath: Temp\UnityTempFile-67f40e4af70a8414183017df0e10037c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-31a89a2a66dfbdc48a70be38ad15500d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-31a89a2a66dfbdc48a70be38ad15500d
-    projectPath: Temp\UnityTempFile-31a89a2a66dfbdc48a70be38ad15500d
+  - path: Temp\UnityTempFile-68748a874e3518a48bb4efd5ea937954
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-68748a874e3518a48bb4efd5ea937954
+    projectPath: Temp\UnityTempFile-68748a874e3518a48bb4efd5ea937954
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-31b35baf33cb90a459c928ddd1465f0c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-31b35baf33cb90a459c928ddd1465f0c
-    projectPath: Temp\UnityTempFile-31b35baf33cb90a459c928ddd1465f0c
+  - path: Temp\UnityTempFile-695957e2e9856e24481a13b515d24c8c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-695957e2e9856e24481a13b515d24c8c
+    projectPath: Temp\UnityTempFile-695957e2e9856e24481a13b515d24c8c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3337bbe4f546a4343b2a694321db0a3b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3337bbe4f546a4343b2a694321db0a3b
-    projectPath: Temp\UnityTempFile-3337bbe4f546a4343b2a694321db0a3b
+  - path: Temp\UnityTempFile-69cd9a0f3974b6547a7f6222af1b8e41
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-69cd9a0f3974b6547a7f6222af1b8e41
+    projectPath: Temp\UnityTempFile-69cd9a0f3974b6547a7f6222af1b8e41
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-33de94305ad1d01448ded480fec387f1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-33de94305ad1d01448ded480fec387f1
-    projectPath: Temp\UnityTempFile-33de94305ad1d01448ded480fec387f1
+  - path: Temp\UnityTempFile-6a5bc2106233eb34391745b11981a5ea
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6a5bc2106233eb34391745b11981a5ea
+    projectPath: Temp\UnityTempFile-6a5bc2106233eb34391745b11981a5ea
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-341ffafc31cc3cb4f98f50e8661a4d92
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-341ffafc31cc3cb4f98f50e8661a4d92
-    projectPath: Temp\UnityTempFile-341ffafc31cc3cb4f98f50e8661a4d92
+  - path: Temp\UnityTempFile-6b7c705ce32ef2143a570ac2be4b93c4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6b7c705ce32ef2143a570ac2be4b93c4
+    projectPath: Temp\UnityTempFile-6b7c705ce32ef2143a570ac2be4b93c4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-35c110f3f40217e4b812712466fab605
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-35c110f3f40217e4b812712466fab605
-    projectPath: Temp\UnityTempFile-35c110f3f40217e4b812712466fab605
+  - path: Temp\UnityTempFile-720a9402c3867774fbf71da998cff55e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-720a9402c3867774fbf71da998cff55e
+    projectPath: Temp\UnityTempFile-720a9402c3867774fbf71da998cff55e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-36eeaa585da4980478d1918b74650b96
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-36eeaa585da4980478d1918b74650b96
-    projectPath: Temp\UnityTempFile-36eeaa585da4980478d1918b74650b96
+  - path: Temp\UnityTempFile-77bd8ec7e89622c4cbde69be8e6ddb07
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-77bd8ec7e89622c4cbde69be8e6ddb07
+    projectPath: Temp\UnityTempFile-77bd8ec7e89622c4cbde69be8e6ddb07
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-38a3a34493d588a4fb556da4144906a4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-38a3a34493d588a4fb556da4144906a4
-    projectPath: Temp\UnityTempFile-38a3a34493d588a4fb556da4144906a4
+  - path: Temp\UnityTempFile-786b2deabb547d34d8267bb17def3ac4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-786b2deabb547d34d8267bb17def3ac4
+    projectPath: Temp\UnityTempFile-786b2deabb547d34d8267bb17def3ac4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-38b85ce106ab12647a1d39295450cf2b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-38b85ce106ab12647a1d39295450cf2b
-    projectPath: Temp\UnityTempFile-38b85ce106ab12647a1d39295450cf2b
+  - path: Temp\UnityTempFile-7cb8ee576ca573f4aa76f3ff6db15aee
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7cb8ee576ca573f4aa76f3ff6db15aee
+    projectPath: Temp\UnityTempFile-7cb8ee576ca573f4aa76f3ff6db15aee
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3931daf81621e3845bbf80e2d5e584ad
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3931daf81621e3845bbf80e2d5e584ad
-    projectPath: Temp\UnityTempFile-3931daf81621e3845bbf80e2d5e584ad
+  - path: Temp\UnityTempFile-7cf1ffc24b09e6b43a89ee50aa8ad27d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7cf1ffc24b09e6b43a89ee50aa8ad27d
+    projectPath: Temp\UnityTempFile-7cf1ffc24b09e6b43a89ee50aa8ad27d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-39c3a9e0db6fd124a8095fafa25f049d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-39c3a9e0db6fd124a8095fafa25f049d
-    projectPath: Temp\UnityTempFile-39c3a9e0db6fd124a8095fafa25f049d
+  - path: Temp\UnityTempFile-7e5b3fbf06432d0468e46611f1154159
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7e5b3fbf06432d0468e46611f1154159
+    projectPath: Temp\UnityTempFile-7e5b3fbf06432d0468e46611f1154159
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3aa34b65cb23e0940ad26f5b28d52f3e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3aa34b65cb23e0940ad26f5b28d52f3e
-    projectPath: Temp\UnityTempFile-3aa34b65cb23e0940ad26f5b28d52f3e
+  - path: Temp\UnityTempFile-848845389bbfdc34899cb395b6dbf6ce
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-848845389bbfdc34899cb395b6dbf6ce
+    projectPath: Temp\UnityTempFile-848845389bbfdc34899cb395b6dbf6ce
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3b0971f4e67bbdd41a367f39e0178829
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3b0971f4e67bbdd41a367f39e0178829
-    projectPath: Temp\UnityTempFile-3b0971f4e67bbdd41a367f39e0178829
+  - path: Temp\UnityTempFile-85c772d3c6a48ed48a0d141fed678df1
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-85c772d3c6a48ed48a0d141fed678df1
+    projectPath: Temp\UnityTempFile-85c772d3c6a48ed48a0d141fed678df1
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3ba5957dd52df17419c7379ff09e94d1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3ba5957dd52df17419c7379ff09e94d1
-    projectPath: Temp\UnityTempFile-3ba5957dd52df17419c7379ff09e94d1
+  - path: Temp\UnityTempFile-863a9e0d2a13cf84fb414ee7ae71e6ac
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-863a9e0d2a13cf84fb414ee7ae71e6ac
+    projectPath: Temp\UnityTempFile-863a9e0d2a13cf84fb414ee7ae71e6ac
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3d3cbc04ca384f14cb1c2b6af101d72e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3d3cbc04ca384f14cb1c2b6af101d72e
-    projectPath: Temp\UnityTempFile-3d3cbc04ca384f14cb1c2b6af101d72e
+  - path: Temp\UnityTempFile-896ca37de27405343b601e4cba01b9c8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-896ca37de27405343b601e4cba01b9c8
+    projectPath: Temp\UnityTempFile-896ca37de27405343b601e4cba01b9c8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3da316df57404da4e99d05cdec50b225
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3da316df57404da4e99d05cdec50b225
-    projectPath: Temp\UnityTempFile-3da316df57404da4e99d05cdec50b225
+  - path: Temp\UnityTempFile-8d54791f0e39247408e53c31832e2f7d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8d54791f0e39247408e53c31832e2f7d
+    projectPath: Temp\UnityTempFile-8d54791f0e39247408e53c31832e2f7d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3e4d3e5c6bc01514da4139a4c38ba080
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3e4d3e5c6bc01514da4139a4c38ba080
-    projectPath: Temp\UnityTempFile-3e4d3e5c6bc01514da4139a4c38ba080
+  - path: Temp\UnityTempFile-949af41974b100647944d9a52b102b08
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-949af41974b100647944d9a52b102b08
+    projectPath: Temp\UnityTempFile-949af41974b100647944d9a52b102b08
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3eeb76152c2e6fc48856d096425a6be5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3eeb76152c2e6fc48856d096425a6be5
-    projectPath: Temp\UnityTempFile-3eeb76152c2e6fc48856d096425a6be5
+  - path: Temp\UnityTempFile-9ba68b2c281dccc4386eea189f4e0013
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9ba68b2c281dccc4386eea189f4e0013
+    projectPath: Temp\UnityTempFile-9ba68b2c281dccc4386eea189f4e0013
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3f3bcfa4234bc814cbfa0a8f3cadbd7a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3f3bcfa4234bc814cbfa0a8f3cadbd7a
-    projectPath: Temp\UnityTempFile-3f3bcfa4234bc814cbfa0a8f3cadbd7a
+  - path: Temp\UnityTempFile-a3a7ed4f4bf99754c805a9e852f7faca
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a3a7ed4f4bf99754c805a9e852f7faca
+    projectPath: Temp\UnityTempFile-a3a7ed4f4bf99754c805a9e852f7faca
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-3fe22175e5c082049888aafdcdda1f9e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3fe22175e5c082049888aafdcdda1f9e
-    projectPath: Temp\UnityTempFile-3fe22175e5c082049888aafdcdda1f9e
+  - path: Temp\UnityTempFile-a464290e24a362e48bb1a90090153a1b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a464290e24a362e48bb1a90090153a1b
+    projectPath: Temp\UnityTempFile-a464290e24a362e48bb1a90090153a1b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4010c31cc3ceac642bbb3e39deb683f7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4010c31cc3ceac642bbb3e39deb683f7
-    projectPath: Temp\UnityTempFile-4010c31cc3ceac642bbb3e39deb683f7
+  - path: Temp\UnityTempFile-a489f568fd4635d459b1f002eaa7698b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a489f568fd4635d459b1f002eaa7698b
+    projectPath: Temp\UnityTempFile-a489f568fd4635d459b1f002eaa7698b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-40c5954b8c8d8d3489829fc428e4a804
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-40c5954b8c8d8d3489829fc428e4a804
-    projectPath: Temp\UnityTempFile-40c5954b8c8d8d3489829fc428e4a804
+  - path: Temp\UnityTempFile-a671bf044f1bd3a4bb32e089b6c2b13c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a671bf044f1bd3a4bb32e089b6c2b13c
+    projectPath: Temp\UnityTempFile-a671bf044f1bd3a4bb32e089b6c2b13c
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-40f38287651cd7149ab8b167f539b06a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-40f38287651cd7149ab8b167f539b06a
-    projectPath: Temp\UnityTempFile-40f38287651cd7149ab8b167f539b06a
+  - path: Temp\UnityTempFile-a98c1b8c1b4efd747a21b33dea7ec4a0
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a98c1b8c1b4efd747a21b33dea7ec4a0
+    projectPath: Temp\UnityTempFile-a98c1b8c1b4efd747a21b33dea7ec4a0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-41c831f1bc4b965498948a73ea1737cb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-41c831f1bc4b965498948a73ea1737cb
-    projectPath: Temp\UnityTempFile-41c831f1bc4b965498948a73ea1737cb
+  - path: Temp\UnityTempFile-adc033ba2cce3e94e81a525d322a4556
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-adc033ba2cce3e94e81a525d322a4556
+    projectPath: Temp\UnityTempFile-adc033ba2cce3e94e81a525d322a4556
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-427789140c500ae409e80c2c425669ae
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-427789140c500ae409e80c2c425669ae
-    projectPath: Temp\UnityTempFile-427789140c500ae409e80c2c425669ae
+  - path: Temp\UnityTempFile-b68fb92aacb8cfb48b4de756e5f24a7f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b68fb92aacb8cfb48b4de756e5f24a7f
+    projectPath: Temp\UnityTempFile-b68fb92aacb8cfb48b4de756e5f24a7f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-43a4df2069eb3764f8c80e243d73163b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-43a4df2069eb3764f8c80e243d73163b
-    projectPath: Temp\UnityTempFile-43a4df2069eb3764f8c80e243d73163b
+  - path: Temp\UnityTempFile-bad2b8f178f528043a067addcdf58329
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bad2b8f178f528043a067addcdf58329
+    projectPath: Temp\UnityTempFile-bad2b8f178f528043a067addcdf58329
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-43ef96915fccb7149bfac68411c96ba0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-43ef96915fccb7149bfac68411c96ba0
-    projectPath: Temp\UnityTempFile-43ef96915fccb7149bfac68411c96ba0
+  - path: Temp\UnityTempFile-be77e2b68cc668f4097929599e300d0b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-be77e2b68cc668f4097929599e300d0b
+    projectPath: Temp\UnityTempFile-be77e2b68cc668f4097929599e300d0b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-46d54b16d6767744c98f4304a6485f43
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-46d54b16d6767744c98f4304a6485f43
-    projectPath: Temp\UnityTempFile-46d54b16d6767744c98f4304a6485f43
+  - path: Temp\UnityTempFile-beae442fc5611ea4ebbf7f82918a75d6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-beae442fc5611ea4ebbf7f82918a75d6
+    projectPath: Temp\UnityTempFile-beae442fc5611ea4ebbf7f82918a75d6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-48e8835700f7e5a44a337038454ac4c3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-48e8835700f7e5a44a337038454ac4c3
-    projectPath: Temp\UnityTempFile-48e8835700f7e5a44a337038454ac4c3
+  - path: Temp\UnityTempFile-bf0e819b763774f46bb87d16dbabd324
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bf0e819b763774f46bb87d16dbabd324
+    projectPath: Temp\UnityTempFile-bf0e819b763774f46bb87d16dbabd324
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-48f9d434d85887045b9320687f9291b5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-48f9d434d85887045b9320687f9291b5
-    projectPath: Temp\UnityTempFile-48f9d434d85887045b9320687f9291b5
+  - path: Temp\UnityTempFile-c159e3bd6f2db9245ac9303139554825
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c159e3bd6f2db9245ac9303139554825
+    projectPath: Temp\UnityTempFile-c159e3bd6f2db9245ac9303139554825
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-490b52bf28b71be4b97ff69115132b7e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-490b52bf28b71be4b97ff69115132b7e
-    projectPath: Temp\UnityTempFile-490b52bf28b71be4b97ff69115132b7e
+  - path: Temp\UnityTempFile-c1afd7e50f6931445be88bf0e99dd1fd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c1afd7e50f6931445be88bf0e99dd1fd
+    projectPath: Temp\UnityTempFile-c1afd7e50f6931445be88bf0e99dd1fd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4940032c689aabb4bb74b38ae958b453
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4940032c689aabb4bb74b38ae958b453
-    projectPath: Temp\UnityTempFile-4940032c689aabb4bb74b38ae958b453
+  - path: Temp\UnityTempFile-c39ebbe074a5ae542a93a724387b32f7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c39ebbe074a5ae542a93a724387b32f7
+    projectPath: Temp\UnityTempFile-c39ebbe074a5ae542a93a724387b32f7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4c94da545fe53c1458a1162c2d747c7d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4c94da545fe53c1458a1162c2d747c7d
-    projectPath: Temp\UnityTempFile-4c94da545fe53c1458a1162c2d747c7d
+  - path: Temp\UnityTempFile-c4f66e9ca17a0c34890b2164f15bb154
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c4f66e9ca17a0c34890b2164f15bb154
+    projectPath: Temp\UnityTempFile-c4f66e9ca17a0c34890b2164f15bb154
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4c996ab3125cc0b489ed7a5cfaeacb31
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4c996ab3125cc0b489ed7a5cfaeacb31
-    projectPath: Temp\UnityTempFile-4c996ab3125cc0b489ed7a5cfaeacb31
+  - path: Temp\UnityTempFile-c5f202b3c7c20b944b31ea032071c211
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c5f202b3c7c20b944b31ea032071c211
+    projectPath: Temp\UnityTempFile-c5f202b3c7c20b944b31ea032071c211
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4dbc30de01fe7034a9fee9b26f61959f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4dbc30de01fe7034a9fee9b26f61959f
-    projectPath: Temp\UnityTempFile-4dbc30de01fe7034a9fee9b26f61959f
+  - path: Temp\UnityTempFile-c9990cdf954e7bc4c8aed7333b1584d2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c9990cdf954e7bc4c8aed7333b1584d2
+    projectPath: Temp\UnityTempFile-c9990cdf954e7bc4c8aed7333b1584d2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4dcb1edc4ed4a2744b4cae457870b585
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4dcb1edc4ed4a2744b4cae457870b585
-    projectPath: Temp\UnityTempFile-4dcb1edc4ed4a2744b4cae457870b585
+  - path: Temp\UnityTempFile-cb7fcb158adad2c49b2d20ea80551dae
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cb7fcb158adad2c49b2d20ea80551dae
+    projectPath: Temp\UnityTempFile-cb7fcb158adad2c49b2d20ea80551dae
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5012376a97d781c4a8afc770407b545f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5012376a97d781c4a8afc770407b545f
-    projectPath: Temp\UnityTempFile-5012376a97d781c4a8afc770407b545f
+  - path: Temp\UnityTempFile-d8029a6ab1e1b384699af5f87a9b7dfa
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d8029a6ab1e1b384699af5f87a9b7dfa
+    projectPath: Temp\UnityTempFile-d8029a6ab1e1b384699af5f87a9b7dfa
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-51a29db0cccd2e24088f9f230cd499d0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-51a29db0cccd2e24088f9f230cd499d0
-    projectPath: Temp\UnityTempFile-51a29db0cccd2e24088f9f230cd499d0
+  - path: Temp\UnityTempFile-d908996c4a5b05644bcce420d765b2fc
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d908996c4a5b05644bcce420d765b2fc
+    projectPath: Temp\UnityTempFile-d908996c4a5b05644bcce420d765b2fc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-52f334847a9f1cd43ba1842d37c11605
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-52f334847a9f1cd43ba1842d37c11605
-    projectPath: Temp\UnityTempFile-52f334847a9f1cd43ba1842d37c11605
+  - path: Temp\UnityTempFile-e1dc585a5b42c6d4ba147287e6b34c3b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e1dc585a5b42c6d4ba147287e6b34c3b
+    projectPath: Temp\UnityTempFile-e1dc585a5b42c6d4ba147287e6b34c3b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5356e811422813b42bd68e869ceabd74
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5356e811422813b42bd68e869ceabd74
-    projectPath: Temp\UnityTempFile-5356e811422813b42bd68e869ceabd74
+  - path: Temp\UnityTempFile-e2e6f18752a5c3345838388e14f55248
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e2e6f18752a5c3345838388e14f55248
+    projectPath: Temp\UnityTempFile-e2e6f18752a5c3345838388e14f55248
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-53c6339c1b9c15142a69aea33cfc147a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-53c6339c1b9c15142a69aea33cfc147a
-    projectPath: Temp\UnityTempFile-53c6339c1b9c15142a69aea33cfc147a
+  - path: Temp\UnityTempFile-e48c85aa68d21e24691a7f3e5933665e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e48c85aa68d21e24691a7f3e5933665e
+    projectPath: Temp\UnityTempFile-e48c85aa68d21e24691a7f3e5933665e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-54fd6c44b4f16fd47bcc37660000c8ad
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-54fd6c44b4f16fd47bcc37660000c8ad
-    projectPath: Temp\UnityTempFile-54fd6c44b4f16fd47bcc37660000c8ad
+  - path: Temp\UnityTempFile-e5f6880cee74b9647b6cfb8969c8b79f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e5f6880cee74b9647b6cfb8969c8b79f
+    projectPath: Temp\UnityTempFile-e5f6880cee74b9647b6cfb8969c8b79f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-56acfa950aa39d44da204cdc452d0f04
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-56acfa950aa39d44da204cdc452d0f04
-    projectPath: Temp\UnityTempFile-56acfa950aa39d44da204cdc452d0f04
+  - path: Temp\UnityTempFile-e69c46bd00cd5534580059883af30249
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e69c46bd00cd5534580059883af30249
+    projectPath: Temp\UnityTempFile-e69c46bd00cd5534580059883af30249
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-573d9827b4dae3c4683e684cbc0949cd
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-573d9827b4dae3c4683e684cbc0949cd
-    projectPath: Temp\UnityTempFile-573d9827b4dae3c4683e684cbc0949cd
+  - path: Temp\UnityTempFile-e71518a65eca6c043859920cb2699d23
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e71518a65eca6c043859920cb2699d23
+    projectPath: Temp\UnityTempFile-e71518a65eca6c043859920cb2699d23
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-590f27f5dedc4404eb29c5d230e5c32b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-590f27f5dedc4404eb29c5d230e5c32b
-    projectPath: Temp\UnityTempFile-590f27f5dedc4404eb29c5d230e5c32b
+  - path: Temp\UnityTempFile-e90faae80b316b94299f877c17da8987
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e90faae80b316b94299f877c17da8987
+    projectPath: Temp\UnityTempFile-e90faae80b316b94299f877c17da8987
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5a569c2ff5c2bdc4fa1ccaf04c779db2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5a569c2ff5c2bdc4fa1ccaf04c779db2
-    projectPath: Temp\UnityTempFile-5a569c2ff5c2bdc4fa1ccaf04c779db2
+  - path: Temp\UnityTempFile-ec488d91f70da984f92398c05e4db19a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ec488d91f70da984f92398c05e4db19a
+    projectPath: Temp\UnityTempFile-ec488d91f70da984f92398c05e4db19a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c24a99f8946b7b40abc8401bdd51f58
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5c24a99f8946b7b40abc8401bdd51f58
-    projectPath: Temp\UnityTempFile-5c24a99f8946b7b40abc8401bdd51f58
+  - path: Temp\UnityTempFile-eef6e7ba0c515114ca32d43b6fe55b02
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-eef6e7ba0c515114ca32d43b6fe55b02
+    projectPath: Temp\UnityTempFile-eef6e7ba0c515114ca32d43b6fe55b02
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5c751a9c90aac9a45ae4e718e1a72b62
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5c751a9c90aac9a45ae4e718e1a72b62
-    projectPath: Temp\UnityTempFile-5c751a9c90aac9a45ae4e718e1a72b62
+  - path: Temp\UnityTempFile-f25e61aab77f707499620031d1c2d96b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f25e61aab77f707499620031d1c2d96b
+    projectPath: Temp\UnityTempFile-f25e61aab77f707499620031d1c2d96b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5d15bf414f225db4bb94706c0f633312
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5d15bf414f225db4bb94706c0f633312
-    projectPath: Temp\UnityTempFile-5d15bf414f225db4bb94706c0f633312
+  - path: Temp\UnityTempFile-f41dcf51d9597f54cb8b6367ab292a06
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f41dcf51d9597f54cb8b6367ab292a06
+    projectPath: Temp\UnityTempFile-f41dcf51d9597f54cb8b6367ab292a06
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5dd51f7cd505db94a9f7d6736a5b403c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5dd51f7cd505db94a9f7d6736a5b403c
-    projectPath: Temp\UnityTempFile-5dd51f7cd505db94a9f7d6736a5b403c
+  - path: Temp\UnityTempFile-f55cd9a00d8a7b04d8475f128fdf441a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f55cd9a00d8a7b04d8475f128fdf441a
+    projectPath: Temp\UnityTempFile-f55cd9a00d8a7b04d8475f128fdf441a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5e98b0c1ba24e304ca0c4e2916d212f7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5e98b0c1ba24e304ca0c4e2916d212f7
-    projectPath: Temp\UnityTempFile-5e98b0c1ba24e304ca0c4e2916d212f7
+  - path: Temp\UnityTempFile-f86adffe746047a4c98b5df4f6e04301
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f86adffe746047a4c98b5df4f6e04301
+    projectPath: Temp\UnityTempFile-f86adffe746047a4c98b5df4f6e04301
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5fa0b6610e12c9040b31a4ba926626e7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5fa0b6610e12c9040b31a4ba926626e7
-    projectPath: Temp\UnityTempFile-5fa0b6610e12c9040b31a4ba926626e7
+  - path: Temp\UnityTempFile-f8f13d3c02fdb5647baa403c5255357b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f8f13d3c02fdb5647baa403c5255357b
+    projectPath: Temp\UnityTempFile-f8f13d3c02fdb5647baa403c5255357b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-5fcd97e5223d7fe4b9839aaeb4d6bc64
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5fcd97e5223d7fe4b9839aaeb4d6bc64
-    projectPath: Temp\UnityTempFile-5fcd97e5223d7fe4b9839aaeb4d6bc64
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-61686b73856be8244aa0d7d15e5387b2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-61686b73856be8244aa0d7d15e5387b2
-    projectPath: Temp\UnityTempFile-61686b73856be8244aa0d7d15e5387b2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-621787a0c67c4e148934330c3c5a989c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-621787a0c67c4e148934330c3c5a989c
-    projectPath: Temp\UnityTempFile-621787a0c67c4e148934330c3c5a989c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-624381b2c7f31bc43a8f3f57319e9fe1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-624381b2c7f31bc43a8f3f57319e9fe1
-    projectPath: Temp\UnityTempFile-624381b2c7f31bc43a8f3f57319e9fe1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-64ae50631bc043e40ac015b4763f4cb6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-64ae50631bc043e40ac015b4763f4cb6
-    projectPath: Temp\UnityTempFile-64ae50631bc043e40ac015b4763f4cb6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-66deadadcf7dea747938d3b19fd6004f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-66deadadcf7dea747938d3b19fd6004f
-    projectPath: Temp\UnityTempFile-66deadadcf7dea747938d3b19fd6004f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6708603f9bac0544695317aee236e602
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6708603f9bac0544695317aee236e602
-    projectPath: Temp\UnityTempFile-6708603f9bac0544695317aee236e602
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-694a54e2f951c6a4fb0369694f32be50
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-694a54e2f951c6a4fb0369694f32be50
-    projectPath: Temp\UnityTempFile-694a54e2f951c6a4fb0369694f32be50
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6a8a5683918e3fe49bd484c86e09a657
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6a8a5683918e3fe49bd484c86e09a657
-    projectPath: Temp\UnityTempFile-6a8a5683918e3fe49bd484c86e09a657
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6a9fe66a963657a4fbbf5d7597bf1631
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6a9fe66a963657a4fbbf5d7597bf1631
-    projectPath: Temp\UnityTempFile-6a9fe66a963657a4fbbf5d7597bf1631
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6ba1cddee9ec9c544bd591176c9c3533
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6ba1cddee9ec9c544bd591176c9c3533
-    projectPath: Temp\UnityTempFile-6ba1cddee9ec9c544bd591176c9c3533
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6bc82164e728e0c4aa2cc66f2d131b92
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6bc82164e728e0c4aa2cc66f2d131b92
-    projectPath: Temp\UnityTempFile-6bc82164e728e0c4aa2cc66f2d131b92
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6c85ea44910c2ad45822ffdfdcb74459
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6c85ea44910c2ad45822ffdfdcb74459
-    projectPath: Temp\UnityTempFile-6c85ea44910c2ad45822ffdfdcb74459
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6d05fecc1d0ce704eb82c310aa295aea
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6d05fecc1d0ce704eb82c310aa295aea
-    projectPath: Temp\UnityTempFile-6d05fecc1d0ce704eb82c310aa295aea
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6e9b2ca340a76fe40bced897361c28fc
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6e9b2ca340a76fe40bced897361c28fc
-    projectPath: Temp\UnityTempFile-6e9b2ca340a76fe40bced897361c28fc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-6fd1f64f58d3ff0438631c8d787c20cc
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6fd1f64f58d3ff0438631c8d787c20cc
-    projectPath: Temp\UnityTempFile-6fd1f64f58d3ff0438631c8d787c20cc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-70abae884e21c5143ac9a67b0780fd7c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-70abae884e21c5143ac9a67b0780fd7c
-    projectPath: Temp\UnityTempFile-70abae884e21c5143ac9a67b0780fd7c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-722119cb1170b3b42b7423cd77f10ebe
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-722119cb1170b3b42b7423cd77f10ebe
-    projectPath: Temp\UnityTempFile-722119cb1170b3b42b7423cd77f10ebe
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-724db9c85942b1142a2f57f94fa26bc2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-724db9c85942b1142a2f57f94fa26bc2
-    projectPath: Temp\UnityTempFile-724db9c85942b1142a2f57f94fa26bc2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-726628897a44e7b49b7a2d6298534390
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-726628897a44e7b49b7a2d6298534390
-    projectPath: Temp\UnityTempFile-726628897a44e7b49b7a2d6298534390
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7296bf7f96f013247b044c599f3581a0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7296bf7f96f013247b044c599f3581a0
-    projectPath: Temp\UnityTempFile-7296bf7f96f013247b044c599f3581a0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-73ec316aba0ab104596766e1ba72b174
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-73ec316aba0ab104596766e1ba72b174
-    projectPath: Temp\UnityTempFile-73ec316aba0ab104596766e1ba72b174
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-770008965498dd64585f17813bb1f9b2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-770008965498dd64585f17813bb1f9b2
-    projectPath: Temp\UnityTempFile-770008965498dd64585f17813bb1f9b2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-77373ad61f2a1ac489190de9d257cff1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-77373ad61f2a1ac489190de9d257cff1
-    projectPath: Temp\UnityTempFile-77373ad61f2a1ac489190de9d257cff1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-78786f2276e57684ea024b20cace2c51
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-78786f2276e57684ea024b20cace2c51
-    projectPath: Temp\UnityTempFile-78786f2276e57684ea024b20cace2c51
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7901c1c30f6da4d4aadafa114666c12b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7901c1c30f6da4d4aadafa114666c12b
-    projectPath: Temp\UnityTempFile-7901c1c30f6da4d4aadafa114666c12b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-79aa44c2b98354d45acbf0d3c684472d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-79aa44c2b98354d45acbf0d3c684472d
-    projectPath: Temp\UnityTempFile-79aa44c2b98354d45acbf0d3c684472d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-79e4256c716ffed4e9064ac239faa0e8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-79e4256c716ffed4e9064ac239faa0e8
-    projectPath: Temp\UnityTempFile-79e4256c716ffed4e9064ac239faa0e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-79eb6b3be6f92db408dfc9c57414cea0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-79eb6b3be6f92db408dfc9c57414cea0
-    projectPath: Temp\UnityTempFile-79eb6b3be6f92db408dfc9c57414cea0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7a152fd35ead1094287a708835525ef7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7a152fd35ead1094287a708835525ef7
-    projectPath: Temp\UnityTempFile-7a152fd35ead1094287a708835525ef7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7a855f66878b46d499763b6d284968f3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7a855f66878b46d499763b6d284968f3
-    projectPath: Temp\UnityTempFile-7a855f66878b46d499763b6d284968f3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7b691b2d8dba72548be160b51ab43daa
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7b691b2d8dba72548be160b51ab43daa
-    projectPath: Temp\UnityTempFile-7b691b2d8dba72548be160b51ab43daa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7c8d5337ac9322d4782e882a09a6e752
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7c8d5337ac9322d4782e882a09a6e752
-    projectPath: Temp\UnityTempFile-7c8d5337ac9322d4782e882a09a6e752
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7e1b9e66f458a21428d9e2d870d7f0c5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7e1b9e66f458a21428d9e2d870d7f0c5
-    projectPath: Temp\UnityTempFile-7e1b9e66f458a21428d9e2d870d7f0c5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7e62ec85eb0f09841b8f0c2397d0231a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7e62ec85eb0f09841b8f0c2397d0231a
-    projectPath: Temp\UnityTempFile-7e62ec85eb0f09841b8f0c2397d0231a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7ea2b419736ccaf4db78c02d909e33aa
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7ea2b419736ccaf4db78c02d909e33aa
-    projectPath: Temp\UnityTempFile-7ea2b419736ccaf4db78c02d909e33aa
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-7f5afff73fb732e479fda1998c90649c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7f5afff73fb732e479fda1998c90649c
-    projectPath: Temp\UnityTempFile-7f5afff73fb732e479fda1998c90649c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-82bbc913b957f8541a4651d96ad33fa4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-82bbc913b957f8541a4651d96ad33fa4
-    projectPath: Temp\UnityTempFile-82bbc913b957f8541a4651d96ad33fa4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-839138582a4f75e409787ad6db2f8ab1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-839138582a4f75e409787ad6db2f8ab1
-    projectPath: Temp\UnityTempFile-839138582a4f75e409787ad6db2f8ab1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-83feb7509e6fe8f4a9415340b6261a59
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-83feb7509e6fe8f4a9415340b6261a59
-    projectPath: Temp\UnityTempFile-83feb7509e6fe8f4a9415340b6261a59
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-860ce3540da002347876423c8029993a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-860ce3540da002347876423c8029993a
-    projectPath: Temp\UnityTempFile-860ce3540da002347876423c8029993a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-86122b84b18750446834c98ce07dc04a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-86122b84b18750446834c98ce07dc04a
-    projectPath: Temp\UnityTempFile-86122b84b18750446834c98ce07dc04a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-87e67b8fd9ea82b4dabed9a7a4f02ce8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-87e67b8fd9ea82b4dabed9a7a4f02ce8
-    projectPath: Temp\UnityTempFile-87e67b8fd9ea82b4dabed9a7a4f02ce8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-885a975f8ad9ce44891c249622d1ac77
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-885a975f8ad9ce44891c249622d1ac77
-    projectPath: Temp\UnityTempFile-885a975f8ad9ce44891c249622d1ac77
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-886bf44f997073b4fac09c253502f555
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-886bf44f997073b4fac09c253502f555
-    projectPath: Temp\UnityTempFile-886bf44f997073b4fac09c253502f555
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8a31b62bdf937ae4cb5bddb1ff4bc85c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8a31b62bdf937ae4cb5bddb1ff4bc85c
-    projectPath: Temp\UnityTempFile-8a31b62bdf937ae4cb5bddb1ff4bc85c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8a5c54f143889a840bd113015ff9c134
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8a5c54f143889a840bd113015ff9c134
-    projectPath: Temp\UnityTempFile-8a5c54f143889a840bd113015ff9c134
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-8eb19396d59a6c847a963f63995f09d2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8eb19396d59a6c847a963f63995f09d2
-    projectPath: Temp\UnityTempFile-8eb19396d59a6c847a963f63995f09d2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-90336710c9c90874d9a5e74321002951
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-90336710c9c90874d9a5e74321002951
-    projectPath: Temp\UnityTempFile-90336710c9c90874d9a5e74321002951
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-90bf28ad233a99249a633abd61fbaedc
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-90bf28ad233a99249a633abd61fbaedc
-    projectPath: Temp\UnityTempFile-90bf28ad233a99249a633abd61fbaedc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-93b756333d1883f458c22a94c6c508af
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-93b756333d1883f458c22a94c6c508af
-    projectPath: Temp\UnityTempFile-93b756333d1883f458c22a94c6c508af
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-93d9701a0384010448ddd125c920b50b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-93d9701a0384010448ddd125c920b50b
-    projectPath: Temp\UnityTempFile-93d9701a0384010448ddd125c920b50b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9497bd63f5e6d7749b33021d89a2cb94
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9497bd63f5e6d7749b33021d89a2cb94
-    projectPath: Temp\UnityTempFile-9497bd63f5e6d7749b33021d89a2cb94
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-96f858ddf50776e44bfac489c7da1e79
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-96f858ddf50776e44bfac489c7da1e79
-    projectPath: Temp\UnityTempFile-96f858ddf50776e44bfac489c7da1e79
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9706a15681088f144b2668c170ff8c57
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9706a15681088f144b2668c170ff8c57
-    projectPath: Temp\UnityTempFile-9706a15681088f144b2668c170ff8c57
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9741d8b3649ce264babd348cd67e394d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9741d8b3649ce264babd348cd67e394d
-    projectPath: Temp\UnityTempFile-9741d8b3649ce264babd348cd67e394d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9850ccb42808c9a4a8bd198ce82d244d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9850ccb42808c9a4a8bd198ce82d244d
-    projectPath: Temp\UnityTempFile-9850ccb42808c9a4a8bd198ce82d244d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-985e6789679bfad43a7718cb6d798fa2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-985e6789679bfad43a7718cb6d798fa2
-    projectPath: Temp\UnityTempFile-985e6789679bfad43a7718cb6d798fa2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-989b741c432161d49af3f42f916adbeb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-989b741c432161d49af3f42f916adbeb
-    projectPath: Temp\UnityTempFile-989b741c432161d49af3f42f916adbeb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-99c7d8bd0a72ca643afda589c4ea982e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-99c7d8bd0a72ca643afda589c4ea982e
-    projectPath: Temp\UnityTempFile-99c7d8bd0a72ca643afda589c4ea982e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9b02c9c5f205e2e4690045ed06913d5d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9b02c9c5f205e2e4690045ed06913d5d
-    projectPath: Temp\UnityTempFile-9b02c9c5f205e2e4690045ed06913d5d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9b882caf7bdff8348aadb4f307b49674
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9b882caf7bdff8348aadb4f307b49674
-    projectPath: Temp\UnityTempFile-9b882caf7bdff8348aadb4f307b49674
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9c4f0459d0125794a82308abc84253c4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9c4f0459d0125794a82308abc84253c4
-    projectPath: Temp\UnityTempFile-9c4f0459d0125794a82308abc84253c4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9d5037eb1c0a8f94b8ca9fef17abc620
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9d5037eb1c0a8f94b8ca9fef17abc620
-    projectPath: Temp\UnityTempFile-9d5037eb1c0a8f94b8ca9fef17abc620
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9d8fd37e22070b540b6a520eac9f85d4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9d8fd37e22070b540b6a520eac9f85d4
-    projectPath: Temp\UnityTempFile-9d8fd37e22070b540b6a520eac9f85d4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9e20af0296b566f4c8cc7676ab037e39
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9e20af0296b566f4c8cc7676ab037e39
-    projectPath: Temp\UnityTempFile-9e20af0296b566f4c8cc7676ab037e39
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9e7b0ad67951ce84f8658d648dd66862
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9e7b0ad67951ce84f8658d648dd66862
-    projectPath: Temp\UnityTempFile-9e7b0ad67951ce84f8658d648dd66862
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9f547f0e05939394bb0e8992a43b280d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9f547f0e05939394bb0e8992a43b280d
-    projectPath: Temp\UnityTempFile-9f547f0e05939394bb0e8992a43b280d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-9f9734af6b3d9bd4c9a18a1ac32f0a0a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9f9734af6b3d9bd4c9a18a1ac32f0a0a
-    projectPath: Temp\UnityTempFile-9f9734af6b3d9bd4c9a18a1ac32f0a0a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a0ece6a358fdfaa4780b6a1a2531ac42
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a0ece6a358fdfaa4780b6a1a2531ac42
-    projectPath: Temp\UnityTempFile-a0ece6a358fdfaa4780b6a1a2531ac42
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a1f5f3df1b917cd49ab56ac9a6ea5bc8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a1f5f3df1b917cd49ab56ac9a6ea5bc8
-    projectPath: Temp\UnityTempFile-a1f5f3df1b917cd49ab56ac9a6ea5bc8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a2562a606e32d4447ae50848efe658bb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a2562a606e32d4447ae50848efe658bb
-    projectPath: Temp\UnityTempFile-a2562a606e32d4447ae50848efe658bb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a4840612008428243a2c4e415815bfa2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a4840612008428243a2c4e415815bfa2
-    projectPath: Temp\UnityTempFile-a4840612008428243a2c4e415815bfa2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a53631e291a822a47b37a79fcd303388
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a53631e291a822a47b37a79fcd303388
-    projectPath: Temp\UnityTempFile-a53631e291a822a47b37a79fcd303388
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a5997bcc10c18d646bd5758ad3e6893f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a5997bcc10c18d646bd5758ad3e6893f
-    projectPath: Temp\UnityTempFile-a5997bcc10c18d646bd5758ad3e6893f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a5c7a9ef82a8eef4e9aa39ee68895e99
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a5c7a9ef82a8eef4e9aa39ee68895e99
-    projectPath: Temp\UnityTempFile-a5c7a9ef82a8eef4e9aa39ee68895e99
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a7da1c79f6c8f30428984773d319f1e5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a7da1c79f6c8f30428984773d319f1e5
-    projectPath: Temp\UnityTempFile-a7da1c79f6c8f30428984773d319f1e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-a86a7ceb2adcff44489e005f272ed22f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a86a7ceb2adcff44489e005f272ed22f
-    projectPath: Temp\UnityTempFile-a86a7ceb2adcff44489e005f272ed22f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-aa87ac80f3c701c4fac3cdee3fa4a3f3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-aa87ac80f3c701c4fac3cdee3fa4a3f3
-    projectPath: Temp\UnityTempFile-aa87ac80f3c701c4fac3cdee3fa4a3f3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ab27c990c4f0faf43840bbcafdb30b43
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ab27c990c4f0faf43840bbcafdb30b43
-    projectPath: Temp\UnityTempFile-ab27c990c4f0faf43840bbcafdb30b43
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ab691ac405194b2499d5397938784160
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ab691ac405194b2499d5397938784160
-    projectPath: Temp\UnityTempFile-ab691ac405194b2499d5397938784160
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ab8efadc273a49d41a1c80e2045107fb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ab8efadc273a49d41a1c80e2045107fb
-    projectPath: Temp\UnityTempFile-ab8efadc273a49d41a1c80e2045107fb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-abda34673b275ea409e740ffca36ef35
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-abda34673b275ea409e740ffca36ef35
-    projectPath: Temp\UnityTempFile-abda34673b275ea409e740ffca36ef35
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac1c9859483344243baccfe2ab88c557
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ac1c9859483344243baccfe2ab88c557
-    projectPath: Temp\UnityTempFile-ac1c9859483344243baccfe2ab88c557
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ac593279eb3791e40b37f26a5915cbee
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ac593279eb3791e40b37f26a5915cbee
-    projectPath: Temp\UnityTempFile-ac593279eb3791e40b37f26a5915cbee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-accb618e09427df4090d9f08aa8ab7a7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-accb618e09427df4090d9f08aa8ab7a7
-    projectPath: Temp\UnityTempFile-accb618e09427df4090d9f08aa8ab7a7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ada2df43650740a45a4d349d4f2109df
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ada2df43650740a45a4d349d4f2109df
-    projectPath: Temp\UnityTempFile-ada2df43650740a45a4d349d4f2109df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b18cc69166176e1448d6df70487b1f76
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b18cc69166176e1448d6df70487b1f76
-    projectPath: Temp\UnityTempFile-b18cc69166176e1448d6df70487b1f76
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b26713b74a005124f930cd124652f6fe
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b26713b74a005124f930cd124652f6fe
-    projectPath: Temp\UnityTempFile-b26713b74a005124f930cd124652f6fe
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b40cfba0fec127f499983aab81b6e8ff
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b40cfba0fec127f499983aab81b6e8ff
-    projectPath: Temp\UnityTempFile-b40cfba0fec127f499983aab81b6e8ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b44b062386e1d724c858f0645b141c4d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b44b062386e1d724c858f0645b141c4d
-    projectPath: Temp\UnityTempFile-b44b062386e1d724c858f0645b141c4d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b4803a28fad1ca248ab1ffe21c513e19
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b4803a28fad1ca248ab1ffe21c513e19
-    projectPath: Temp\UnityTempFile-b4803a28fad1ca248ab1ffe21c513e19
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b5844bf426d83814cba68a65dae47564
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b5844bf426d83814cba68a65dae47564
-    projectPath: Temp\UnityTempFile-b5844bf426d83814cba68a65dae47564
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b5e6fbc9aa54f9a4c8384d0dbc908fca
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b5e6fbc9aa54f9a4c8384d0dbc908fca
-    projectPath: Temp\UnityTempFile-b5e6fbc9aa54f9a4c8384d0dbc908fca
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b67dcc47108cb9244be037265f393d55
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b67dcc47108cb9244be037265f393d55
-    projectPath: Temp\UnityTempFile-b67dcc47108cb9244be037265f393d55
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b6af85e811fc73549bc0ae2e68b7c8d1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b6af85e811fc73549bc0ae2e68b7c8d1
-    projectPath: Temp\UnityTempFile-b6af85e811fc73549bc0ae2e68b7c8d1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b9258430f9890e14da83bf9f4b726ed3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b9258430f9890e14da83bf9f4b726ed3
-    projectPath: Temp\UnityTempFile-b9258430f9890e14da83bf9f4b726ed3
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b95920443204e3d4ebd1cc4685f8bbee
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b95920443204e3d4ebd1cc4685f8bbee
-    projectPath: Temp\UnityTempFile-b95920443204e3d4ebd1cc4685f8bbee
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b970c13ef5eb89548a29e13156f76269
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b970c13ef5eb89548a29e13156f76269
-    projectPath: Temp\UnityTempFile-b970c13ef5eb89548a29e13156f76269
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-b9dbe494485fdf94fbdb4658013ef42d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b9dbe494485fdf94fbdb4658013ef42d
-    projectPath: Temp\UnityTempFile-b9dbe494485fdf94fbdb4658013ef42d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ba614b0a2a3775f44b5ca3ed1a4c2084
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ba614b0a2a3775f44b5ca3ed1a4c2084
-    projectPath: Temp\UnityTempFile-ba614b0a2a3775f44b5ca3ed1a4c2084
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bbe8cb96978c5c048959a68ad9262e4a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bbe8cb96978c5c048959a68ad9262e4a
-    projectPath: Temp\UnityTempFile-bbe8cb96978c5c048959a68ad9262e4a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bc5935eaf886c3d44a1277d217450101
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bc5935eaf886c3d44a1277d217450101
-    projectPath: Temp\UnityTempFile-bc5935eaf886c3d44a1277d217450101
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bc799c449e3d48146abcad8cc230bf41
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bc799c449e3d48146abcad8cc230bf41
-    projectPath: Temp\UnityTempFile-bc799c449e3d48146abcad8cc230bf41
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bc944f1d5005b9942a01a2c1fcdd6c3a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bc944f1d5005b9942a01a2c1fcdd6c3a
-    projectPath: Temp\UnityTempFile-bc944f1d5005b9942a01a2c1fcdd6c3a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bd8f9b34376b4b24ba05a87a5f7979c2
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bd8f9b34376b4b24ba05a87a5f7979c2
-    projectPath: Temp\UnityTempFile-bd8f9b34376b4b24ba05a87a5f7979c2
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bea4694808354b943a37533e5b8ab175
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bea4694808354b943a37533e5b8ab175
-    projectPath: Temp\UnityTempFile-bea4694808354b943a37533e5b8ab175
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bedccacda63f7ef4f88c0ac8680b206c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bedccacda63f7ef4f88c0ac8680b206c
-    projectPath: Temp\UnityTempFile-bedccacda63f7ef4f88c0ac8680b206c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bee57e111ccaf4f4cb5b6c197894f558
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bee57e111ccaf4f4cb5b6c197894f558
-    projectPath: Temp\UnityTempFile-bee57e111ccaf4f4cb5b6c197894f558
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bee63d198a539ea4ab1468e80a8eaca5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bee63d198a539ea4ab1468e80a8eaca5
-    projectPath: Temp\UnityTempFile-bee63d198a539ea4ab1468e80a8eaca5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-bf2c979478be3c94fa2839bf56a6275e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bf2c979478be3c94fa2839bf56a6275e
-    projectPath: Temp\UnityTempFile-bf2c979478be3c94fa2839bf56a6275e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c0284da52cd9ea64a890ff98d93ceb82
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c0284da52cd9ea64a890ff98d93ceb82
-    projectPath: Temp\UnityTempFile-c0284da52cd9ea64a890ff98d93ceb82
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c03de7399d795f94cac553f363c1f8b0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c03de7399d795f94cac553f363c1f8b0
-    projectPath: Temp\UnityTempFile-c03de7399d795f94cac553f363c1f8b0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c0a9b7073760aa84c933353f8004295b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c0a9b7073760aa84c933353f8004295b
-    projectPath: Temp\UnityTempFile-c0a9b7073760aa84c933353f8004295b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c19b7f1a81cc91b48976e5795698525f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c19b7f1a81cc91b48976e5795698525f
-    projectPath: Temp\UnityTempFile-c19b7f1a81cc91b48976e5795698525f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c293c8dd18bf51644a62e630ab5e14b0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c293c8dd18bf51644a62e630ab5e14b0
-    projectPath: Temp\UnityTempFile-c293c8dd18bf51644a62e630ab5e14b0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c2d4c6fe643489d45ac57564bed48a4d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c2d4c6fe643489d45ac57564bed48a4d
-    projectPath: Temp\UnityTempFile-c2d4c6fe643489d45ac57564bed48a4d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c327cf69563ce0f4ba164a5ae2511928
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c327cf69563ce0f4ba164a5ae2511928
-    projectPath: Temp\UnityTempFile-c327cf69563ce0f4ba164a5ae2511928
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c4edf81eaa1483e4c816b1498e67fae8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c4edf81eaa1483e4c816b1498e67fae8
-    projectPath: Temp\UnityTempFile-c4edf81eaa1483e4c816b1498e67fae8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c53a6f35a3837a8409dbdbe3ed964f7d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c53a6f35a3837a8409dbdbe3ed964f7d
-    projectPath: Temp\UnityTempFile-c53a6f35a3837a8409dbdbe3ed964f7d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c5578dd4303d98144807b5b6760173c8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c5578dd4303d98144807b5b6760173c8
-    projectPath: Temp\UnityTempFile-c5578dd4303d98144807b5b6760173c8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c5a51b1fff28a234aaa844b5b66cbc4a
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c5a51b1fff28a234aaa844b5b66cbc4a
-    projectPath: Temp\UnityTempFile-c5a51b1fff28a234aaa844b5b66cbc4a
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c6033beae7960b14ea36ed3b34be4869
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c6033beae7960b14ea36ed3b34be4869
-    projectPath: Temp\UnityTempFile-c6033beae7960b14ea36ed3b34be4869
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c661b1c1160eaf94ab2e2ff8afd58e09
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c661b1c1160eaf94ab2e2ff8afd58e09
-    projectPath: Temp\UnityTempFile-c661b1c1160eaf94ab2e2ff8afd58e09
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c6aa45dbc5a4f4a4aa0eb0c8d1ba39f0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c6aa45dbc5a4f4a4aa0eb0c8d1ba39f0
-    projectPath: Temp\UnityTempFile-c6aa45dbc5a4f4a4aa0eb0c8d1ba39f0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c773648e078d3b741a669a7cda314048
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c773648e078d3b741a669a7cda314048
-    projectPath: Temp\UnityTempFile-c773648e078d3b741a669a7cda314048
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c78c587558c45f24ca2fa1075a570f03
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c78c587558c45f24ca2fa1075a570f03
-    projectPath: Temp\UnityTempFile-c78c587558c45f24ca2fa1075a570f03
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c78f206e5da05534ead051f55bac16e5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c78f206e5da05534ead051f55bac16e5
-    projectPath: Temp\UnityTempFile-c78f206e5da05534ead051f55bac16e5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c79436e519db14645b7c159212a0cfd1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c79436e519db14645b7c159212a0cfd1
-    projectPath: Temp\UnityTempFile-c79436e519db14645b7c159212a0cfd1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c7b71989d0974614dab67ccb2d7f828e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c7b71989d0974614dab67ccb2d7f828e
-    projectPath: Temp\UnityTempFile-c7b71989d0974614dab67ccb2d7f828e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c7c3786dd3037de429de79e6df1e1297
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c7c3786dd3037de429de79e6df1e1297
-    projectPath: Temp\UnityTempFile-c7c3786dd3037de429de79e6df1e1297
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c83c89729ba8d64429a84418cdab22e8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c83c89729ba8d64429a84418cdab22e8
-    projectPath: Temp\UnityTempFile-c83c89729ba8d64429a84418cdab22e8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-c89821ce850d3024088ac5ba3088028c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c89821ce850d3024088ac5ba3088028c
-    projectPath: Temp\UnityTempFile-c89821ce850d3024088ac5ba3088028c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cb6db779e5c1c6c4dab652e663eed4ec
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cb6db779e5c1c6c4dab652e663eed4ec
-    projectPath: Temp\UnityTempFile-cb6db779e5c1c6c4dab652e663eed4ec
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cb792753944367743a07a84a39469337
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cb792753944367743a07a84a39469337
-    projectPath: Temp\UnityTempFile-cb792753944367743a07a84a39469337
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cbac7e2b57c37ec488dd8203f0db4879
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cbac7e2b57c37ec488dd8203f0db4879
-    projectPath: Temp\UnityTempFile-cbac7e2b57c37ec488dd8203f0db4879
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cbb9e7f432ac606469061c1617fdbb41
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cbb9e7f432ac606469061c1617fdbb41
-    projectPath: Temp\UnityTempFile-cbb9e7f432ac606469061c1617fdbb41
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cc5cdec89387e054b890cdd51721cfb5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cc5cdec89387e054b890cdd51721cfb5
-    projectPath: Temp\UnityTempFile-cc5cdec89387e054b890cdd51721cfb5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cd786b2bb36063f47a8b204afcd3ab95
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cd786b2bb36063f47a8b204afcd3ab95
-    projectPath: Temp\UnityTempFile-cd786b2bb36063f47a8b204afcd3ab95
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cdca8f8122710bf44a0ad58fcfa19bd5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cdca8f8122710bf44a0ad58fcfa19bd5
-    projectPath: Temp\UnityTempFile-cdca8f8122710bf44a0ad58fcfa19bd5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ce7c9f0e5617b6844bdcae5fccbd6fa9
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ce7c9f0e5617b6844bdcae5fccbd6fa9
-    projectPath: Temp\UnityTempFile-ce7c9f0e5617b6844bdcae5fccbd6fa9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cf51b7dc4516e0a40ab251b4f78eb0ef
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cf51b7dc4516e0a40ab251b4f78eb0ef
-    projectPath: Temp\UnityTempFile-cf51b7dc4516e0a40ab251b4f78eb0ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-cfb55901f187df0478a8e8caf885849e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cfb55901f187df0478a8e8caf885849e
-    projectPath: Temp\UnityTempFile-cfb55901f187df0478a8e8caf885849e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d0d16619ce1f4c241a3371ef9da39ec1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d0d16619ce1f4c241a3371ef9da39ec1
-    projectPath: Temp\UnityTempFile-d0d16619ce1f4c241a3371ef9da39ec1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d17bb5e7a9f44954aa32948a690e0736
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d17bb5e7a9f44954aa32948a690e0736
-    projectPath: Temp\UnityTempFile-d17bb5e7a9f44954aa32948a690e0736
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d19f7627d5e8ed34b93273c2da437b05
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d19f7627d5e8ed34b93273c2da437b05
-    projectPath: Temp\UnityTempFile-d19f7627d5e8ed34b93273c2da437b05
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d1e4b136f0a30524a8aaf65f868d64c5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d1e4b136f0a30524a8aaf65f868d64c5
-    projectPath: Temp\UnityTempFile-d1e4b136f0a30524a8aaf65f868d64c5
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d2da8ef6824d77e49a227d2701371b63
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d2da8ef6824d77e49a227d2701371b63
-    projectPath: Temp\UnityTempFile-d2da8ef6824d77e49a227d2701371b63
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d2dcae54d9e4e284d92ac7a2aca79f2e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d2dcae54d9e4e284d92ac7a2aca79f2e
-    projectPath: Temp\UnityTempFile-d2dcae54d9e4e284d92ac7a2aca79f2e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d54ac71badfa9e5499225093554a5fb7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d54ac71badfa9e5499225093554a5fb7
-    projectPath: Temp\UnityTempFile-d54ac71badfa9e5499225093554a5fb7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d671777a9ecf5cc4fb3746abbf9c5a4c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d671777a9ecf5cc4fb3746abbf9c5a4c
-    projectPath: Temp\UnityTempFile-d671777a9ecf5cc4fb3746abbf9c5a4c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d7a4783c333477c4985d145485cde501
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d7a4783c333477c4985d145485cde501
-    projectPath: Temp\UnityTempFile-d7a4783c333477c4985d145485cde501
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d868c40ded53374498f2461c4efcc4bb
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d868c40ded53374498f2461c4efcc4bb
-    projectPath: Temp\UnityTempFile-d868c40ded53374498f2461c4efcc4bb
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d8f622995923b6f4294e9a6a231662e1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d8f622995923b6f4294e9a6a231662e1
-    projectPath: Temp\UnityTempFile-d8f622995923b6f4294e9a6a231662e1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-d9fc7c9c256038b4887cd9e0b2b364b4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d9fc7c9c256038b4887cd9e0b2b364b4
-    projectPath: Temp\UnityTempFile-d9fc7c9c256038b4887cd9e0b2b364b4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-db9aee3a7f3181d48b4471467a761d9d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-db9aee3a7f3181d48b4471467a761d9d
-    projectPath: Temp\UnityTempFile-db9aee3a7f3181d48b4471467a761d9d
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dd025861d522b6e4b9bda959860246db
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-dd025861d522b6e4b9bda959860246db
-    projectPath: Temp\UnityTempFile-dd025861d522b6e4b9bda959860246db
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-dfabdc67c787c2742b107768b825b6b0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-dfabdc67c787c2742b107768b825b6b0
-    projectPath: Temp\UnityTempFile-dfabdc67c787c2742b107768b825b6b0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e13ee66f7cbfdee43a40f87cbfd1e7ff
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e13ee66f7cbfdee43a40f87cbfd1e7ff
-    projectPath: Temp\UnityTempFile-e13ee66f7cbfdee43a40f87cbfd1e7ff
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e24f16042f81beb4eaacd9f508f919fc
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e24f16042f81beb4eaacd9f508f919fc
-    projectPath: Temp\UnityTempFile-e24f16042f81beb4eaacd9f508f919fc
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e25c57f79e7278c4fb6fef699a0378a4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e25c57f79e7278c4fb6fef699a0378a4
-    projectPath: Temp\UnityTempFile-e25c57f79e7278c4fb6fef699a0378a4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e2c4a2fcb53fb894da7e727e6106f102
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e2c4a2fcb53fb894da7e727e6106f102
-    projectPath: Temp\UnityTempFile-e2c4a2fcb53fb894da7e727e6106f102
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e42c61578da025c4893bd8ac433874a6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e42c61578da025c4893bd8ac433874a6
-    projectPath: Temp\UnityTempFile-e42c61578da025c4893bd8ac433874a6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e73ba7f580aae2749827157b40f10134
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e73ba7f580aae2749827157b40f10134
-    projectPath: Temp\UnityTempFile-e73ba7f580aae2749827157b40f10134
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e8269ee6b644ad243a4e1ee5870e6e6f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e8269ee6b644ad243a4e1ee5870e6e6f
-    projectPath: Temp\UnityTempFile-e8269ee6b644ad243a4e1ee5870e6e6f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-e8e932bfd4ec64e4ebc03338f6f6b394
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e8e932bfd4ec64e4ebc03338f6f6b394
-    projectPath: Temp\UnityTempFile-e8e932bfd4ec64e4ebc03338f6f6b394
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ea1cc7d8b46186d44a050a1c7fa3dd40
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ea1cc7d8b46186d44a050a1c7fa3dd40
-    projectPath: Temp\UnityTempFile-ea1cc7d8b46186d44a050a1c7fa3dd40
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ebb0274cf3d8e2a45a209de690724f8c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ebb0274cf3d8e2a45a209de690724f8c
-    projectPath: Temp\UnityTempFile-ebb0274cf3d8e2a45a209de690724f8c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ebd1b854666236544947a1ae14752bad
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ebd1b854666236544947a1ae14752bad
-    projectPath: Temp\UnityTempFile-ebd1b854666236544947a1ae14752bad
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ed4127f023372a3448813128cd01dcd0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ed4127f023372a3448813128cd01dcd0
-    projectPath: Temp\UnityTempFile-ed4127f023372a3448813128cd01dcd0
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-edc9b5dc8c0a6e749bd81fa0a474168b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-edc9b5dc8c0a6e749bd81fa0a474168b
-    projectPath: Temp\UnityTempFile-edc9b5dc8c0a6e749bd81fa0a474168b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ef6ec495165591242bc9a9e345e82c1f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ef6ec495165591242bc9a9e345e82c1f
-    projectPath: Temp\UnityTempFile-ef6ec495165591242bc9a9e345e82c1f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f1cf7fad243bef74ab89981451183793
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f1cf7fad243bef74ab89981451183793
-    projectPath: Temp\UnityTempFile-f1cf7fad243bef74ab89981451183793
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f22c1f4c39204b747a81e9dfd1c98c84
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f22c1f4c39204b747a81e9dfd1c98c84
-    projectPath: Temp\UnityTempFile-f22c1f4c39204b747a81e9dfd1c98c84
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f3ce2e4c7c79bda45b6a6537cdaf72df
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f3ce2e4c7c79bda45b6a6537cdaf72df
-    projectPath: Temp\UnityTempFile-f3ce2e4c7c79bda45b6a6537cdaf72df
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f3ef18dc879e25e4d8d6baa56601a796
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f3ef18dc879e25e4d8d6baa56601a796
-    projectPath: Temp\UnityTempFile-f3ef18dc879e25e4d8d6baa56601a796
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f56c9febfa9652e4aace5c20c1430cf6
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f56c9febfa9652e4aace5c20c1430cf6
-    projectPath: Temp\UnityTempFile-f56c9febfa9652e4aace5c20c1430cf6
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f5d848fc4c28ac5449e25241acf067b8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f5d848fc4c28ac5449e25241acf067b8
-    projectPath: Temp\UnityTempFile-f5d848fc4c28ac5449e25241acf067b8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f6247b8887365f14e91d0d1ec438cc7b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f6247b8887365f14e91d0d1ec438cc7b
-    projectPath: Temp\UnityTempFile-f6247b8887365f14e91d0d1ec438cc7b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f815fc3d7e73e3349adf5c06185c686e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f815fc3d7e73e3349adf5c06185c686e
-    projectPath: Temp\UnityTempFile-f815fc3d7e73e3349adf5c06185c686e
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-f8be9663caf7162469b83c002091aff4
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f8be9663caf7162469b83c002091aff4
-    projectPath: Temp\UnityTempFile-f8be9663caf7162469b83c002091aff4
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fa4d8e58a09dd76468b858cd97c472de
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fa4d8e58a09dd76468b858cd97c472de
-    projectPath: Temp\UnityTempFile-fa4d8e58a09dd76468b858cd97c472de
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fb8fb9177e93f7f4eb974d8836dc6e5c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fb8fb9177e93f7f4eb974d8836dc6e5c
-    projectPath: Temp\UnityTempFile-fb8fb9177e93f7f4eb974d8836dc6e5c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fc87a5ec7c2d6a14aaafc430519ca5ef
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fc87a5ec7c2d6a14aaafc430519ca5ef
-    projectPath: Temp\UnityTempFile-fc87a5ec7c2d6a14aaafc430519ca5ef
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fd6adc7f29733254c8c96f2d358b78f1
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fd6adc7f29733254c8c96f2d358b78f1
-    projectPath: Temp\UnityTempFile-fd6adc7f29733254c8c96f2d358b78f1
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-fdf50839628bfcc4cbe774696a0d371b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fdf50839628bfcc4cbe774696a0d371b
-    projectPath: Temp\UnityTempFile-fdf50839628bfcc4cbe774696a0d371b
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-feca79c932d0e0044ac5b09143fde76f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-feca79c932d0e0044ac5b09143fde76f
-    projectPath: Temp\UnityTempFile-feca79c932d0e0044ac5b09143fde76f
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ffae849a517285545a2938c779bd9f7c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ffae849a517285545a2938c779bd9f7c
-    projectPath: Temp\UnityTempFile-ffae849a517285545a2938c779bd9f7c
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\UnityTempFile-ffbae3c907534524d9c2935dd836560f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ffbae3c907534524d9c2935dd836560f
-    projectPath: Temp\UnityTempFile-ffbae3c907534524d9c2935dd836560f
+  - path: Temp\UnityTempFile-fe5c2377e72dccd46a375fdc3f27983f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fe5c2377e72dccd46a375fdc3f27983f
+    projectPath: Temp\UnityTempFile-fe5c2377e72dccd46a375fdc3f27983f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

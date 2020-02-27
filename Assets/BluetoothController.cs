@@ -12,6 +12,7 @@ public class BluetoothController : MonoBehaviour
     public GameObject setText;
     public GameObject animationSearch;
     public GameObject reload;
+    private Animator reload_a;
     private BluetoothDevice device;
     void Awake()
     {
@@ -35,13 +36,39 @@ public class BluetoothController : MonoBehaviour
         }
     }
 
-    private IEnumerator wait(int opcion)
+    private IEnumerator wait(int option)
     {
         //show animate out animation
-        if(opcion == 1)
+        if(option == 1)
+        {
+            this.reload.GetComponent<Animator>().Play("Pressed");
             yield return new WaitForSeconds(2);
+            this.reload.SetActive(false);
+            this.animationSearch.SetActive(true);
+        }
+
+        if(option == 2)
+        {
+            this.animationSearch.SetActive(false);
+            this.state.SetActive(true);
+            this.state.GetComponent<Image>().sprite = this.check;
+            yield return new WaitForSeconds(4);
+            this.state.SetActive(false);
+        }   
         else
-          yield return new WaitForSeconds(4);
+        {
+            this.animationSearch.SetActive(false);
+            this.state.SetActive(true);
+            this.state.GetComponent<Image>().sprite = this.wrong;
+
+            yield return new WaitForSeconds(4);
+            this.state.SetActive(false);
+            this.reload.SetActive(true);
+            
+
+        }
+
+          
         //load the scene we want
     }
     void Start()
@@ -58,9 +85,8 @@ public class BluetoothController : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(dev.Name))
         {
-            this.animationSearch.SetActive(false);
-            this.state.SetActive(true);
-            this.state.GetComponent<Image>().sprite = this.check;
+            StartCoroutine(this.wait(2));
+           
             
 
         }
@@ -70,8 +96,7 @@ public class BluetoothController : MonoBehaviour
     {
 
         StartCoroutine(this.wait(1)); 
-        this.reload.SetActive(false);
-        this.animationSearch.SetActive(true);
+        
         this.connect();
     }
 
@@ -109,8 +134,7 @@ public class BluetoothController : MonoBehaviour
         /*
 		 * The ManageConnection Coroutine will start when the device is ready for reading.
 		 */
-        
-        wait(0);
+
         device.connect();
 
 
@@ -150,13 +174,8 @@ public class BluetoothController : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(dev.Name))
         {
-            this.animationSearch.SetActive(false);
-            this.state.SetActive(true);
-            this.state.GetComponent<Image>().sprite = this.wrong;
+            StartCoroutine(wait(0));
             
-            StartCoroutine(this.wait(0));
-            this.state.SetActive(false);
-            this.reload.SetActive(true);
         }
     }
 
