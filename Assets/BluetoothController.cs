@@ -4,6 +4,7 @@ using UnityEngine;
 using TechTweaking.Bluetooth;
 using UnityEngine.UI;
 
+
 public class BluetoothController : MonoBehaviour
 {
     public GameObject state;
@@ -12,29 +13,88 @@ public class BluetoothController : MonoBehaviour
     public GameObject setText;
     public GameObject animationSearch;
     public GameObject reload;
-    private Animator reload_a;
     private BluetoothDevice device;
     void Awake()
     {
+        
+        
+
+        BluetoothAdapter.enableBluetooth(); //you can by this force enabling Bluetooth without asking the user
         device = new BluetoothDevice();
+        device.Name = "CasaMemoriaTumaco";
+        device.setEndByte(10);
+        device.ReadingCoroutine = ManageConnection;
 
-        if (BluetoothAdapter.isBluetoothEnabled())
+        device.connect();        //StartCoroutine(wait(3));
+
+    }
+    void Start()
+    {
+
+        //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
+
+        BluetoothAdapter.OnConnected += HandleOnConnected;
+        BluetoothAdapter.OnDeviceNotFound += HandleOnDeviceNotFound;
+        BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;
+
+        //BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;//This would mean a failure in connection! the reason might be that your remote device is OFF
+
+        //BluetoothAdapter.OnDeviceNotFound += HandleOnDeviceNotFound; //Because connecting using the 'Name' property is 
+
+    }
+    void HandleOnDeviceOff(BluetoothDevice dev)
+    {
+        if (!string.IsNullOrEmpty(dev.Name))
         {
-
-            connect();
-        }
-        else
-        {
-
-            //BluetoothAdapter.enableBluetooth(); //you can by this force enabling Bluetooth without asking the user
-
-            BluetoothAdapter.OnBluetoothStateChanged += HandleOnBluetoothStateChanged;
-            BluetoothAdapter.listenToBluetoothState(); // if you want to listen to the following two events  OnBluetoothOFF or OnBluetoothON
-
-            BluetoothAdapter.askEnableBluetooth();//Ask user to enable Bluetooth
+            StartCoroutine(wait(4));
 
         }
     }
+    void HandleOnDeviceNotFound(BluetoothDevice dev)
+    {
+        if (!string.IsNullOrEmpty(dev.Name))
+        {
+            StartCoroutine(wait(4));
+
+        }
+    }
+
+
+    void HandleOnConnected(BluetoothDevice dev)
+    {
+        if (!string.IsNullOrEmpty(dev.Name))
+        {
+
+            StartCoroutine(wait(2));
+
+        }
+    }
+
+
+    IEnumerator ManageConnection(BluetoothDevice device)
+    {
+      
+        while (device.IsReading)
+        {
+            if (device.IsDataAvailable)
+            {
+                byte[] msg = device.read();//because we called setEndByte(10)..read will always return a packet excluding the last byte 10.
+               
+                if (msg != null && msg.Length > 0)
+                {
+                    string content = System.Text.ASCIIEncoding.ASCII.GetString(msg);
+                    
+                }
+
+            }
+
+            yield return null;
+        }
+        
+        
+
+    }
+
 
     private IEnumerator wait(int option)
     {
@@ -44,7 +104,11 @@ public class BluetoothController : MonoBehaviour
             this.reload.GetComponent<Animator>().Play("Pressed");
             yield return new WaitForSeconds(2);
             this.reload.SetActive(false);
-            this.animationSearch.SetActive(true);
+            this.disconnect();
+            this.Awake();
+            
+
+
         }
 
         if(option == 2)
@@ -52,16 +116,30 @@ public class BluetoothController : MonoBehaviour
             this.animationSearch.SetActive(false);
             this.state.SetActive(true);
             this.state.GetComponent<Image>().sprite = this.check;
+            this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Sincronizacion realizada correctamente";
             yield return new WaitForSeconds(4);
             this.state.SetActive(false);
-        }   
-        else
+            
+        }
+        if (option == 3)
+        {
+            this.animationSearch.SetActive(true);
+            this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
+           
+            yield return new WaitForSeconds(4);
+            
+            
+
+        }
+    
+        if(option == 4)
         {
             this.animationSearch.SetActive(false);
             this.state.SetActive(true);
             this.state.GetComponent<Image>().sprite = this.wrong;
-
+            this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "No se pudo sincronizar la conexion.";
             yield return new WaitForSeconds(4);
+            this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Vuelva intentar la sincronizacion";
             this.state.SetActive(false);
             this.reload.SetActive(true);
             
@@ -71,113 +149,34 @@ public class BluetoothController : MonoBehaviour
           
         //load the scene we want
     }
-    void Start()
-    {
-       
-        BluetoothAdapter.OnDeviceDiscovered += BluetoothAdapter_OnDeviceDiscovered;
-        BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;//This would mean a failure in connection! the reason might be that your remote device is OFF
 
-        BluetoothAdapter.OnDeviceNotFound += HandleOnDeviceNotFound; //Because connecting using the 'Name' property is 
+   
 
-    }
+   
 
-    private void BluetoothAdapter_OnDeviceDiscovered(BluetoothDevice dev, short s)
-    {
-        if (!string.IsNullOrEmpty(dev.Name))
-        {
-            StartCoroutine(this.wait(2));
-           
-            
 
-        }
-    }
 
     public void reset()
     {
-
-        StartCoroutine(this.wait(1)); 
         
-        this.connect();
-    }
-
-    // Update is called once per frame
-    private void connect()
-    {
-
-
-
-
-
-        /* The Property device.MacAdress doesn't require pairing. 
-		 * Also Mac Adress in this library is Case sensitive,  all chars must be capital letters
-		 */
-        //device.MacAddress = "XX:XX:XX:XX:XX:XX";
-
-
-        device.Name = "CasaMemoriaTumaco";
-        /*
-        * * 
-		* Trying to identefy a device by its name using the Property device.Name require the remote device to be paired
-		* but you can try to alter the parameter 'allowDiscovery' of the Connect(int attempts, int time, bool allowDiscovery) method.
-		* allowDiscovery will try to locate the unpaired device, but this is a heavy and undesirable feature, and connection will take a longer time
-		*/
-
-
-        /*
-		 * 10 equals the char '\n' which is a "new Line" in Ascci representation, 
-		 * so the read() method will retun a packet that was ended by the byte 10. simply read() will read lines.
-		 * If you don't use the setEndByte() method, device.read() will return any available data (line or not), then you can order them as you want.
-		 */
-        device.setEndByte(10);
-
-
-        /*
-		 * The ManageConnection Coroutine will start when the device is ready for reading.
-		 */
-
-        device.connect();
-
+        StartCoroutine(this.wait(1));
+        
 
 
     }
 
     
 
-
-    void HandleOnBluetoothStateChanged(bool isBtEnabled)
-    {
-        if (isBtEnabled)
-        {
-            connect();
-            //We now don't need our recievers
-            BluetoothAdapter.OnBluetoothStateChanged -= HandleOnBluetoothStateChanged;
-            BluetoothAdapter.stopListenToBluetoothState();
-        }
-    }
+    
 
 
 
-    void HandleOnDeviceOff(BluetoothDevice dev)
-    {
-        if (!string.IsNullOrEmpty(dev.Name))
-        {
-            this.animationSearch.SetActive(false);
-            this.state.SetActive(true);
-            this.state.GetComponent<Image>().sprite = this.wrong;
-     
-        }
-     
-    }
+
+
+
+ 
 
     //Because connecting using the 'Name' property is just searching, the Plugin might not find it!.
-    void HandleOnDeviceNotFound(BluetoothDevice dev)
-    {
-        if (!string.IsNullOrEmpty(dev.Name))
-        {
-            StartCoroutine(wait(0));
-            
-        }
-    }
 
     public void disconnect()
     {

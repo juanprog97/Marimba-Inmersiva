@@ -44,8 +44,9 @@ public class HighRateTerminal : MonoBehaviour
 	{
 		if (device != null) {
 			device.connect ();
-		}
-	}
+           
+        }
+    }
 	
 	public void disconnect ()//Disconnect the public global variable "device" if it's not null.
 	{
@@ -62,8 +63,25 @@ public class HighRateTerminal : MonoBehaviour
 	
 	void HandleOnDevicePicked (BluetoothDevice device)//Called when device is Picked by user
 	{
-		
-		this.device = device;//save a global reference to the device
+
+
+
+        device.setEndByte(10);
+        if (device.read() != null)
+        {
+            this.device = device;
+            devicNameText.text = device.Name;
+        }
+        else
+        {
+            devicNameText.text = "No send Data";
+        }
+            //
+          //  device.ReadingCoroutine = ManageConnection;
+            
+           
+        
+		//save a global reference to the device
 		
 		//this.device.UUID = UUID; //This is only required for Android to Android connection
 		
@@ -71,14 +89,12 @@ public class HighRateTerminal : MonoBehaviour
 		 * 10 equals the char '\n' which is a "new Line" in Ascci representation, 
 		 * so the read() method will retun a packet that was ended by the byte 10. simply read() will read lines.
 		 */
-		device.setEndByte (10);
+		
 		
 		
 		//Assign the 'Coroutine' that will handle your reading Functionality, this will improve your code style
 		//Other way would be listening to the event Bt.OnReadingStarted, and starting the courotine from there
-		device.ReadingCoroutine = ManageConnection;
 		
-		devicNameText.text = device.Name;
 		
 	}
 	

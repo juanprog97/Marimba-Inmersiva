@@ -32,6 +32,7 @@ public class AutoConnect : MonoBehaviour
 
 	void Start ()
 	{
+        
 		BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;//This would mean a failure in connection! the reason might be that your remote device is OFF
 
 		BluetoothAdapter.OnDeviceNotFound += HandleOnDeviceNotFound; //Because connecting using the 'Name' property is just searching, the Plugin might not find it!.
@@ -109,6 +110,13 @@ public class AutoConnect : MonoBehaviour
 		} 
 	}
 	
+    public void reload()
+    {
+        statusText.text = "Reloading...";
+        this.OnDestroy();
+        this.connect();
+        
+    }
 	public void disconnect ()
 	{
 		if (device != null)
