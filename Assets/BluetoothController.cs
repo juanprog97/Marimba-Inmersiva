@@ -16,9 +16,10 @@ public class BluetoothController : MonoBehaviour
     private BluetoothDevice device;
     void Awake()
     {
-        
-        
 
+
+        this.animationSearch.SetActive(true);
+        this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
         BluetoothAdapter.enableBluetooth(); //you can by this force enabling Bluetooth without asking the user
         device = new BluetoothDevice();
         device.Name = "CasaMemoriaTumaco";
@@ -121,16 +122,7 @@ public class BluetoothController : MonoBehaviour
             this.state.SetActive(false);
             
         }
-        if (option == 3)
-        {
-            this.animationSearch.SetActive(true);
-            this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
-           
-            yield return new WaitForSeconds(4);
-            
-            
 
-        }
     
         if(option == 4)
         {
