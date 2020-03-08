@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/ConnectBluetooth.unity
+    guid: 4cbd07a9ecc6f0847ada0f4409f2e615
+  - enabled: 1
     path: Assets/Scenes/SimpleMenu.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
@@ -17,7 +20,4 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Info.unity
     guid: 94d5e46e5cfe6b64bacec2e8c0c9ec82
-  - enabled: 0
-    path: Assets/Scenes/ConnectBluetooth.unity
-    guid: 4cbd07a9ecc6f0847ada0f4409f2e615
   m_configObjects: {}

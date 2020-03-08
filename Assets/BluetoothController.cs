@@ -7,13 +7,16 @@ using UnityEngine.SceneManagement;
 
 public class BluetoothController : MonoBehaviour
 {
+    private string commandt;
     public GameObject state;
     public Sprite check;
     public Sprite wrong;
     public GameObject setText;
     public GameObject animationSearch;
     public GameObject reload;
-    private static BluetoothDevice device;
+    public GameObject Scene;
+    private BluetoothDevice device;
+    
     void Awake()
     {
 
@@ -29,6 +32,7 @@ public class BluetoothController : MonoBehaviour
         device.connect();        //StartCoroutine(wait(3));
 
     }
+    
     void Start()
     {
         UnityEngine.XR.XRSettings.enabled = false;
@@ -60,7 +64,10 @@ public class BluetoothController : MonoBehaviour
         }
     }
 
-
+    public string getCommand()
+    {
+       return this.commandt;
+    }
     void HandleOnConnected(BluetoothDevice dev)
     {
         if (!string.IsNullOrEmpty(dev.Name))
@@ -70,6 +77,7 @@ public class BluetoothController : MonoBehaviour
 
         }
     }
+    
 
 
     IEnumerator ManageConnection(BluetoothDevice device)
@@ -84,7 +92,9 @@ public class BluetoothController : MonoBehaviour
                 if (msg != null && msg.Length > 0)
                 {
                     string content = System.Text.ASCIIEncoding.ASCII.GetString(msg);
-                    
+                    this.commandt = content;
+
+
                 }
 
             }
@@ -118,16 +128,13 @@ public class BluetoothController : MonoBehaviour
             this.state.SetActive(true);
             this.state.GetComponent<Image>().sprite = this.check;
             this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Sincronizacion realizada correctamente";
+            this.Scene.SetActive(false);
             yield return new WaitForSeconds(4);
-            this.wait(3);
+            SceneManager.LoadScene(1, LoadSceneMode.Additive);
+           
             
         }
-        if(option == 3)
-        {
-            yield return new WaitForSeconds(1);
-            SceneManager.LoadScene(0);
-
-        }
+     
 
     
         if(option == 4)

@@ -69,6 +69,7 @@
      <Compile Include="Assets\BT_Library\Scripts\CoreLibrary\BtBridge.cs" />
      <Compile Include="Assets\BT_Library\Scripts\CoreLibrary\BtPackets.cs" />
      <Compile Include="Assets\BT_Library\Scripts\ScrollTerminalUI.cs" />
+     <Compile Include="Assets\controllerCommand.cs" />
      <Compile Include="Assets\Script\MenuController.cs" />
      <Compile Include="Assets\Script\option1.cs" />
      <Compile Include="Assets\Script\option2.cs" />
