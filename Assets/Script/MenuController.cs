@@ -5,8 +5,12 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     private int index = 0;
+    void start()
+    {
+        UnityEngine.XR.XRSettings.enabled = true;
+    }
     public int getIndex()
     {
         return this.index;

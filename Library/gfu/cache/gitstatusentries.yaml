@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2020-03-01T10:49:25.673-05:00
-  initializedAtString: 2020-03-01T10:28:18.598-05:00
+  lastUpdatedAtString: 2020-03-07T21:55:32.749-05:00
+  initializedAtString: 2020-03-07T21:12:21.419-05:00
   entries:
   - path: .vs\ProyectoMarimbaInteractiva\v16\.suo
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\.vs\ProyectoMarimbaInteractiva\v16\.suo
@@ -28,12 +28,732 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: AppMuseum.apk
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\AppMuseum.apk
+    projectPath: AppMuseum.apk
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assembly-CSharp.csproj
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp.csproj
+    projectPath: Assembly-CSharp.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor.csproj
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp-Editor.csproj
+    projectPath: Assembly-CSharp-Editor.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assembly-CSharp-Editor-firstpass.csproj
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assembly-CSharp-Editor-firstpass.csproj
+    projectPath: Assembly-CSharp-Editor-firstpass.csproj
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Assets\BluetoothController.cs
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\BluetoothController.cs
     projectPath: Assets\BluetoothController.cs
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Assets\Editor.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor.meta
+    projectPath: Assets\Editor.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia.meta
+    projectPath: Assets\Editor\Vuforia.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures.meta
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images.meta
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml.meta
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Body_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\RocketBooster.Top_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\CylinderTarget.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\CylinderTarget.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\CylinderTarget.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf
+    projectPath: Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\CylinderTarget\cylinder_booster_USLetter.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\ImageTargets.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\ImageTargets.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\ImageTargets.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf
+    projectPath: Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\ImageTargets\target_images_USLetter.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\MultiTarget.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\MultiTarget.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\MultiTarget.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf
+    projectPath: Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf.meta
+    projectPath: Assets\Editor\Vuforia\ForPrint\MultiTarget\mars_box_USLetter.pdf.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_1_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_10_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_11_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_12_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_2_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_3_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_4_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_5_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_6_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_7_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_8_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\key_9_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\Pantalla2_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\pantallaTesis_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\MarkerMarimba\screenAR_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaEmulator\emulator_ground_plane_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Astronaut_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Drone_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Fissure_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Back_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Bottom_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Front_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Left_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Right_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\MarsBox.Top_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg.meta
+    projectPath: Assets\Editor\Vuforia\ImageTargetTextures\VuforiaMars_Images\Oxygen_scaled.jpg.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\MainMenu.controller
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\MainMenu.controller
+    projectPath: Assets\MaterialsAndTextures\MainMenu.controller
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\MainMenu.controller.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\MainMenu.controller.meta
+    projectPath: Assets\MaterialsAndTextures\MainMenu.controller.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\Message.png
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Message.png
+    projectPath: Assets\MaterialsAndTextures\Message.png
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\Message.png.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\Message.png.meta
+    projectPath: Assets\MaterialsAndTextures\Message.png.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\New Animation.anim
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\New
+      Animation.anim
+    projectPath: Assets\MaterialsAndTextures\New Animation.anim
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\New Animation.anim.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\New
+      Animation.anim.meta
+    projectPath: Assets\MaterialsAndTextures\New Animation.anim.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\New Material.mat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\New
+      Material.mat
+    projectPath: Assets\MaterialsAndTextures\New Material.mat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\MaterialsAndTextures\New Material.mat.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\MaterialsAndTextures\New
+      Material.mat.meta
+    projectPath: Assets\MaterialsAndTextures\New Material.mat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Resources\VuforiaConfiguration.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Resources\VuforiaConfiguration.asset
+    projectPath: Assets\Resources\VuforiaConfiguration.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\Game.unity
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Scenes\Game.unity
+    projectPath: Assets\Scenes\Game.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Scenes\SimpleMenu.unity
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Scenes\SimpleMenu.unity
+    projectPath: Assets\Scenes\SimpleMenu.unity
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\Script\MenuController.cs
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Script\MenuController.cs
+    projectPath: Assets\Script\MenuController.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Assets\StreamingAssets.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets.meta
+    projectPath: Assets\StreamingAssets.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia.meta
+    projectPath: Assets\StreamingAssets\Vuforia.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\MarkerMarimba.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\MarkerMarimba.dat
+    projectPath: Assets\StreamingAssets\Vuforia\MarkerMarimba.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\MarkerMarimba.dat.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\MarkerMarimba.dat.meta
+    projectPath: Assets\StreamingAssets\Vuforia\MarkerMarimba.dat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\MarkerMarimba.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\MarkerMarimba.xml
+    projectPath: Assets\StreamingAssets\Vuforia\MarkerMarimba.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\MarkerMarimba.xml.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\MarkerMarimba.xml.meta
+    projectPath: Assets\StreamingAssets\Vuforia\MarkerMarimba.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat
+    projectPath: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat.meta
+    projectPath: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.dat.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml
+    projectPath: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml.meta
+    projectPath: Assets\StreamingAssets\Vuforia\VuforiaMars_Images.xml.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\Vuforia\Databases.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases.meta
+    projectPath: Assets\Vuforia\Databases.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\Emulator.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\Emulator.meta
+    projectPath: Assets\Vuforia\Databases\Emulator.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat
+    projectPath: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat.meta
+    projectPath: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.dat.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml
+    projectPath: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml.meta
+    projectPath: Assets\Vuforia\Databases\Emulator\VuforiaEmulator.xml.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\ForPrint.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\ForPrint.meta
+    projectPath: Assets\Vuforia\Databases\ForPrint.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\ForPrint\Emulator.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\ForPrint\Emulator.meta
+    projectPath: Assets\Vuforia\Databases\ForPrint\Emulator.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\ForPrint\Emulator\Emulator Ground Plane.pdf
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\ForPrint\Emulator\Emulator
+      Ground Plane.pdf
+    projectPath: Assets\Vuforia\Databases\ForPrint\Emulator\Emulator Ground Plane.pdf
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Databases\ForPrint\Emulator\Emulator Ground Plane.pdf.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Databases\ForPrint\Emulator\Emulator
+      Ground Plane.pdf.meta
+    projectPath: Assets\Vuforia\Databases\ForPrint\Emulator\Emulator Ground Plane.pdf.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Editor\Scripts.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Editor\Scripts.meta
+    projectPath: Assets\Vuforia\Editor\Scripts.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs
+    projectPath: Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs.meta
+    projectPath: Assets\Vuforia\Editor\Scripts\OpenSourceInitializer.cs.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef
+    projectPath: Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef.meta
+    projectPath: Assets\Vuforia\Editor\Scripts\VuforiaEditorScripts.asmdef.meta
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Assets\vuforiaScript.cs
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\vuforiaScript.cs
+    projectPath: Assets\vuforiaScript.cs
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Assets\vuforiaScript.cs.meta
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Assets\vuforiaScript.cs.meta
+    projectPath: Assets\vuforiaScript.cs.meta
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: BluetoothProbe.apk
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\BluetoothProbe.apk
     projectPath: BluetoothProbe.apk
@@ -46,12 +766,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\CrashedAssetImports.txt
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\CrashedAssetImports.txt
+    projectPath: Library\CrashedAssetImports.txt
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\CurrentLayout.dwlt
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\CurrentLayout.dwlt
+    projectPath: Library\CurrentLayout.dwlt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\EditorInstance.json
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\EditorInstance.json
     projectPath: Library\EditorInstance.json
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Library\EditorUserBuildSettings.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\EditorUserBuildSettings.asset
+    projectPath: Library\EditorUserBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\gfu\cache\gitlocks.yaml
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\gfu\cache\gitlocks.yaml
     projectPath: Library\gfu\cache\gitlocks.yaml
@@ -76,21 +814,897 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\InspectorExpandedItems.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\InspectorExpandedItems.asset
+    projectPath: Library\InspectorExpandedItems.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\LastBuild.buildreport
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\LastBuild.buildreport
     projectPath: Library\LastBuild.buildreport
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\LastSceneManagerSetup.txt
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\LastSceneManagerSetup.txt
+    projectPath: Library\LastSceneManagerSetup.txt
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be
+    projectPath: Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be.info
+    projectPath: Library\metadata\01\01a0d482078f4ce9a9aad0308dfdf5be.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53
+    projectPath: Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53.info
+    projectPath: Library\metadata\02\0216d4a921ffef344bdc45b385f1bf53.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb
+    projectPath: Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb.info
+    projectPath: Library\metadata\02\028d433ce54ebfb4091e1df641b8aabb.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    projectPath: Library\metadata\06\06a6d43752a6a6440822e730bd68070c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\06\06a6d43752a6a6440822e730bd68070c.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\06\06a6d43752a6a6440822e730bd68070c.info
+    projectPath: Library\metadata\06\06a6d43752a6a6440822e730bd68070c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1
+    projectPath: Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1.info
+    projectPath: Library\metadata\09\093d69fde9a047b1b38d6c498a656bc1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f
+    projectPath: Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f.info
+    projectPath: Library\metadata\0e\0e7e44176fbdc9b4aa7cfe18b688106f.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8
+    projectPath: Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8.info
+    projectPath: Library\metadata\0f\0ffc3b88f0c2ab546b55c4dbd00319f8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7
+    projectPath: Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7.info
+    projectPath: Library\metadata\20\2046fa6904ec47f79f4f5849f13b13c7.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\21\21c7256dec9132140af63b32f95af6ad
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\21\21c7256dec9132140af63b32f95af6ad
+    projectPath: Library\metadata\21\21c7256dec9132140af63b32f95af6ad
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\21\21c7256dec9132140af63b32f95af6ad.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\21\21c7256dec9132140af63b32f95af6ad.info
+    projectPath: Library\metadata\21\21c7256dec9132140af63b32f95af6ad.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a
+    projectPath: Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a.info
+    projectPath: Library\metadata\24\24ffeb47bb9a466da639fb09a146bb4a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\26\26544ddd965644f3b2d6346f4de9775e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\26\26544ddd965644f3b2d6346f4de9775e
+    projectPath: Library\metadata\26\26544ddd965644f3b2d6346f4de9775e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\26\26544ddd965644f3b2d6346f4de9775e.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\26\26544ddd965644f3b2d6346f4de9775e.info
+    projectPath: Library\metadata\26\26544ddd965644f3b2d6346f4de9775e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22
+    projectPath: Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22.info
+    projectPath: Library\metadata\2c\2cb3fcf533d74e49972f09a3e97bca22.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666
+    projectPath: Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666.info
+    projectPath: Library\metadata\2f\2feb120d7f5872f499dfed51deb3d666.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6
+    projectPath: Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6.info
+    projectPath: Library\metadata\31\318ac27b67500ea4498f806a3d7df7e6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\33\33aedae9989557c4298ce94822d5745e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\33\33aedae9989557c4298ce94822d5745e
+    projectPath: Library\metadata\33\33aedae9989557c4298ce94822d5745e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\33\33aedae9989557c4298ce94822d5745e.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\33\33aedae9989557c4298ce94822d5745e.info
+    projectPath: Library\metadata\33\33aedae9989557c4298ce94822d5745e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3b\3b318b5996063a14d95c24c308870509
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\3b\3b318b5996063a14d95c24c308870509
+    projectPath: Library\metadata\3b\3b318b5996063a14d95c24c308870509
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3b\3b318b5996063a14d95c24c308870509.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\3b\3b318b5996063a14d95c24c308870509.info
+    projectPath: Library\metadata\3b\3b318b5996063a14d95c24c308870509.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995
+    projectPath: Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995.info
+    projectPath: Library\metadata\3b\3b3cf30ab7479fc45a6362fc4cb5e995.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\43\4381073313ab7ea4f905979151a55156
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\43\4381073313ab7ea4f905979151a55156
+    projectPath: Library\metadata\43\4381073313ab7ea4f905979151a55156
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\43\4381073313ab7ea4f905979151a55156.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\43\4381073313ab7ea4f905979151a55156.info
+    projectPath: Library\metadata\43\4381073313ab7ea4f905979151a55156.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc
+    projectPath: Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc.info
+    projectPath: Library\metadata\44\44f8302d27a65c3418ec2fc90f4a81dc.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3
+    projectPath: Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3.info
+    projectPath: Library\metadata\44\44ff14367e5941ac8b2e7fbe8355a8a3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a
+    projectPath: Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a.info
+    projectPath: Library\metadata\46\46dfa83552e64a15bb2fcfd10039305a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618
+    projectPath: Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618.info
+    projectPath: Library\metadata\4a\4ab1e2e72a52218429d2dc18bab3b618.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\56\568c762fba0f495484ea2677595114f6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\56\568c762fba0f495484ea2677595114f6
+    projectPath: Library\metadata\56\568c762fba0f495484ea2677595114f6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\56\568c762fba0f495484ea2677595114f6.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\56\568c762fba0f495484ea2677595114f6.info
+    projectPath: Library\metadata\56\568c762fba0f495484ea2677595114f6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6daafcd4686925745b97ae49e802fd88
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6d\6daafcd4686925745b97ae49e802fd88
+    projectPath: Library\metadata\6d\6daafcd4686925745b97ae49e802fd88
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\6d\6daafcd4686925745b97ae49e802fd88.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6d\6daafcd4686925745b97ae49e802fd88.info
+    projectPath: Library\metadata\6d\6daafcd4686925745b97ae49e802fd88.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff
+    projectPath: Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff.info
+    projectPath: Library\metadata\6d\6de677bb34a9d444abcbc1265b6475ff.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3
+    projectPath: Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3.info
+    projectPath: Library\metadata\6e\6e3ac25fe5c94d7d956f50c7c0df72e3.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\metadata\6e\6edcf435809abef4c841442283c6fee3
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\6e\6edcf435809abef4c841442283c6fee3
     projectPath: Library\metadata\6e\6edcf435809abef4c841442283c6fee3
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\metadata\72\72ecbb38408dd4a359615d7c990a628a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\72\72ecbb38408dd4a359615d7c990a628a
+    projectPath: Library\metadata\72\72ecbb38408dd4a359615d7c990a628a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\72\72ecbb38408dd4a359615d7c990a628a.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\72\72ecbb38408dd4a359615d7c990a628a.info
+    projectPath: Library\metadata\72\72ecbb38408dd4a359615d7c990a628a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6
+    projectPath: Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6.info
+    projectPath: Library\metadata\77\77fb44a366db5cb41b8c06649271f8e6.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\78\78eb5653c5b77844196a06006d678259
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\78\78eb5653c5b77844196a06006d678259
+    projectPath: Library\metadata\78\78eb5653c5b77844196a06006d678259
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\78\78eb5653c5b77844196a06006d678259.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\78\78eb5653c5b77844196a06006d678259.info
+    projectPath: Library\metadata\78\78eb5653c5b77844196a06006d678259.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7a\7a65fdc4f8a691a42a9978300fb0adc8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7a\7a65fdc4f8a691a42a9978300fb0adc8
+    projectPath: Library\metadata\7a\7a65fdc4f8a691a42a9978300fb0adc8
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1
+    projectPath: Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1.info
+    projectPath: Library\metadata\7a\7a7da849527748169c9d1a3dbbff2af1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c
+    projectPath: Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c.info
+    projectPath: Library\metadata\7b\7be80de589f5824449a812d2a1d2a94c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22
+    projectPath: Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22.info
+    projectPath: Library\metadata\88\88ae6815c2214b71b7e8e53efddf0b22.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\88\88d434469196e9e4d804d005fdd71bbc
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\88\88d434469196e9e4d804d005fdd71bbc
+    projectPath: Library\metadata\88\88d434469196e9e4d804d005fdd71bbc
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\88\88d434469196e9e4d804d005fdd71bbc.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\88\88d434469196e9e4d804d005fdd71bbc.info
+    projectPath: Library\metadata\88\88d434469196e9e4d804d005fdd71bbc.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\8f\8f013db9845d3914b9456370639ba1e9
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\8f\8f013db9845d3914b9456370639ba1e9
+    projectPath: Library\metadata\8f\8f013db9845d3914b9456370639ba1e9
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8f\8f013db9845d3914b9456370639ba1e9.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\8f\8f013db9845d3914b9456370639ba1e9.info
+    projectPath: Library\metadata\8f\8f013db9845d3914b9456370639ba1e9.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467
+    projectPath: Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467.info
+    projectPath: Library\metadata\8f\8fbbd32925f69a645abcc62c18b50467.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\91\9102bde7958c14cdab4168322239413a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\91\9102bde7958c14cdab4168322239413a
+    projectPath: Library\metadata\91\9102bde7958c14cdab4168322239413a
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\91\9102bde7958c14cdab4168322239413a.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\91\9102bde7958c14cdab4168322239413a.info
+    projectPath: Library\metadata\91\9102bde7958c14cdab4168322239413a.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\91\911ea977843f1374ea7ceae64e93156f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\91\911ea977843f1374ea7ceae64e93156f
+    projectPath: Library\metadata\91\911ea977843f1374ea7ceae64e93156f
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\91\911ea977843f1374ea7ceae64e93156f.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\91\911ea977843f1374ea7ceae64e93156f.info
+    projectPath: Library\metadata\91\911ea977843f1374ea7ceae64e93156f.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\95\95848e71f68645e28e4797852423e995
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\95\95848e71f68645e28e4797852423e995
+    projectPath: Library\metadata\95\95848e71f68645e28e4797852423e995
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\95\95848e71f68645e28e4797852423e995.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\95\95848e71f68645e28e4797852423e995.info
+    projectPath: Library\metadata\95\95848e71f68645e28e4797852423e995.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3
+    projectPath: Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3.info
+    projectPath: Library\metadata\a2\a2bb3d0318e378941b89de675cd173a3.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1
+    projectPath: Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1.info
+    projectPath: Library\metadata\a3\a35a2d04e4ca5f643a173fb3a98d5fd1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b
+    projectPath: Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b.info
+    projectPath: Library\metadata\a3\a39240edce7bd3940867ccf14ba4270b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c
+    projectPath: Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c.info
+    projectPath: Library\metadata\a5\a5d9cd04a9a628f4a948008e0994002c.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5
+    projectPath: Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5.info
+    projectPath: Library\metadata\b9\b930a4b8266e83742987b4344dcec5b5.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b9\b958d9787b8c44b396c3c7720b300534
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\b9\b958d9787b8c44b396c3c7720b300534
+    projectPath: Library\metadata\b9\b958d9787b8c44b396c3c7720b300534
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\b9\b958d9787b8c44b396c3c7720b300534.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\b9\b958d9787b8c44b396c3c7720b300534.info
+    projectPath: Library\metadata\b9\b958d9787b8c44b396c3c7720b300534.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8
+    projectPath: Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8.info
+    projectPath: Library\metadata\bb\bb83c9fcc0a34dceb281db025f9829d8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    projectPath: Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d.info
+    projectPath: Library\metadata\bc\bc72f8689eefa484699b4ed79b36553d.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2
+    projectPath: Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2.info
+    projectPath: Library\metadata\c0\c02cbb104a9ec194da68d5a7b51517f2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8
+    projectPath: Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8.info
+    projectPath: Library\metadata\c6\c60fde2f6d3ec6249bf8090fdb0995e8.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e
+    projectPath: Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e.info
+    projectPath: Library\metadata\c9\c925a63c2f4e4eb99861743e415f644e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    projectPath: Library\metadata\ca\caf0f3a88341ab549852764c706f63c2
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\ca\caf0f3a88341ab549852764c706f63c2.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ca\caf0f3a88341ab549852764c706f63c2.info
+    projectPath: Library\metadata\ca\caf0f3a88341ab549852764c706f63c2.info
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
+  - path: Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e
+    projectPath: Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e.info
+    projectPath: Library\metadata\cc\cc6daa766aade3b4cbaeeac788249a2e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\cd\cd759bcce9643934392e470cd9d0d179
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\cd\cd759bcce9643934392e470cd9d0d179
+    projectPath: Library\metadata\cd\cd759bcce9643934392e470cd9d0d179
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\cd\cd759bcce9643934392e470cd9d0d179.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\cd\cd759bcce9643934392e470cd9d0d179.info
+    projectPath: Library\metadata\cd\cd759bcce9643934392e470cd9d0d179.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1
+    projectPath: Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1.info
+    projectPath: Library\metadata\d1\d1ca7faad2580d2418d657c270f3bce1.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b
+    projectPath: Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b.info
+    projectPath: Library\metadata\d2\d28f7a8a9b3dfff44bb6faf80929212b.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d
+    projectPath: Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d.info
+    projectPath: Library\metadata\d5\d579be2dc3b14c829dbd2d0e88064c4d.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c
+    projectPath: Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c.info
+    projectPath: Library\metadata\d6\d66032d25cff61c4585c2f395d4f6a3c.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa
+    projectPath: Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa.info
+    projectPath: Library\metadata\d8\d8149f11134543378fe41c8f9b07e2aa.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd
+    projectPath: Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd.info
+    projectPath: Library\metadata\e4\e4fbf59d372f48aba622316e1febb4cd.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719
+    projectPath: Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719.info
+    projectPath: Library\metadata\e8\e822de06b1e7abf4c9c199de2942c719.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340
+    projectPath: Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340.info
+    projectPath: Library\metadata\e8\e8ea1fa6394e8d94893c329a44c9a340.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ea\eab28fbba74990244b40f30d8e190ead
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ea\eab28fbba74990244b40f30d8e190ead
+    projectPath: Library\metadata\ea\eab28fbba74990244b40f30d8e190ead
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ea\eab28fbba74990244b40f30d8e190ead.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ea\eab28fbba74990244b40f30d8e190ead.info
+    projectPath: Library\metadata\ea\eab28fbba74990244b40f30d8e190ead.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f1\f114e6025da31c947bc12a0004f00b05
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f1\f114e6025da31c947bc12a0004f00b05
+    projectPath: Library\metadata\f1\f114e6025da31c947bc12a0004f00b05
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f1\f114e6025da31c947bc12a0004f00b05.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f1\f114e6025da31c947bc12a0004f00b05.info
+    projectPath: Library\metadata\f1\f114e6025da31c947bc12a0004f00b05.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04
+    projectPath: Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04.info
+    projectPath: Library\metadata\f9\f930368b2014406d9fc39e0bc4925f04.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de
+    projectPath: Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de.info
+    projectPath: Library\metadata\fc\fc373d9b39a416f438ca99ae10f8d3de.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e
+    projectPath: Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e.info
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e.info
+    projectPath: Library\metadata\ff\ffc7c831c42c458eb64d2e4321e7558e.info
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PlayerDataCache\Android\Data\2e498d1c8094910479dc3e1b768306a4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\2e498d1c8094910479dc3e1b768306a4
+    projectPath: Library\PlayerDataCache\Android\Data\2e498d1c8094910479dc3e1b768306a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PlayerDataCache\Android\Data\441fe5a431281f043a35ecdb89838470
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\441fe5a431281f043a35ecdb89838470
+    projectPath: Library\PlayerDataCache\Android\Data\441fe5a431281f043a35ecdb89838470
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
+    projectPath: Library\PlayerDataCache\Android\Data\68e6db2ebdc24f95958faec2be5558d6
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
+    projectPath: Library\PlayerDataCache\Android\Data\79459efec17a4d00a321bdcc27bbc385
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
+    projectPath: Library\PlayerDataCache\Android\Data\8f586378b4e144a9851e7b34d9b748ee
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\boot.config
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\boot.config
+    projectPath: Library\PlayerDataCache\Android\Data\boot.config
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
+    projectPath: Library\PlayerDataCache\Android\Data\dd89cf5b9246416f84610a006f916af7
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\e3265ab4bf004d28a9537516768c1c75
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\e3265ab4bf004d28a9537516768c1c75
+    projectPath: Library\PlayerDataCache\Android\Data\e3265ab4bf004d28a9537516768c1c75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
+    projectPath: Library\PlayerDataCache\Android\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
+    projectPath: Library\PlayerDataCache\Android\Data\f952c082cb03451daed3ee968ac6c63e
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\fe393ace9b354375a9cb14cdbbc28be4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\fe393ace9b354375a9cb14cdbbc28be4
+    projectPath: Library\PlayerDataCache\Android\Data\fe393ace9b354375a9cb14cdbbc28be4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Library\PlayerDataCache\Android\Data\globalgamemanagers
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\globalgamemanagers
     projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    projectPath: Library\PlayerDataCache\Android\Data\globalgamemanagers.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\level0
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\level0
+    projectPath: Library\PlayerDataCache\Android\Data\level0
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -130,9 +1744,27 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\Resources\unity_builtin_extra
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\Resources\unity_builtin_extra
+    projectPath: Library\PlayerDataCache\Android\Data\Resources\unity_builtin_extra
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    projectPath: Library\PlayerDataCache\Android\Data\sharedassets0.assets
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
   - path: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
     projectPath: Library\PlayerDataCache\Android\ScriptsOnlyCache.yaml
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ProjectSettings.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ProjectSettings.asset
+    projectPath: Library\ProjectSettings.asset
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -225,10 +1857,184 @@ MonoBehaviour:
     projectPath: Library\ScriptAssemblies\VuforiaEditorScripts.dll
     originalPath: 
     indexStatus: 0
-    workTreeStatus: 3
+    workTreeStatus: 5
+  - path: Library\ScriptAssemblies\VuforiaEditorScripts.pdb
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ScriptAssemblies\VuforiaEditorScripts.pdb
+    projectPath: Library\ScriptAssemblies\VuforiaEditorScripts.pdb
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 5
   - path: Library\ScriptAssemblies\VuforiaScripts.dll
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ScriptAssemblies\VuforiaScripts.dll
     projectPath: Library\ScriptAssemblies\VuforiaScripts.dll
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\0\017c4091d64333e7295ebc5be782f7e2.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\0\017c4091d64333e7295ebc5be782f7e2.bin
+    projectPath: Library\ShaderCache\0\017c4091d64333e7295ebc5be782f7e2.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\0\0c0494b2651f9b552ba42925e0aaf566.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\0\0c0494b2651f9b552ba42925e0aaf566.bin
+    projectPath: Library\ShaderCache\0\0c0494b2651f9b552ba42925e0aaf566.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1522ddf92b7728d533bbb5ed087d6127.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\1\1522ddf92b7728d533bbb5ed087d6127.bin
+    projectPath: Library\ShaderCache\1\1522ddf92b7728d533bbb5ed087d6127.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1a2e09c17515d1b590b060264a7217eb.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\1\1a2e09c17515d1b590b060264a7217eb.bin
+    projectPath: Library\ShaderCache\1\1a2e09c17515d1b590b060264a7217eb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\1\1ecd54fa5a2338462c1f40d783855051.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\1\1ecd54fa5a2338462c1f40d783855051.bin
+    projectPath: Library\ShaderCache\1\1ecd54fa5a2338462c1f40d783855051.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\3\3b8f2f8970af1682a47561921a9d9abb.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\3\3b8f2f8970af1682a47561921a9d9abb.bin
+    projectPath: Library\ShaderCache\3\3b8f2f8970af1682a47561921a9d9abb.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4485988f1ccfe19ac8ca33bb4669c3ad.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\4\4485988f1ccfe19ac8ca33bb4669c3ad.bin
+    projectPath: Library\ShaderCache\4\4485988f1ccfe19ac8ca33bb4669c3ad.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4fa4dbdd798d96820b661d0acb6fa5b0.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\4\4fa4dbdd798d96820b661d0acb6fa5b0.bin
+    projectPath: Library\ShaderCache\4\4fa4dbdd798d96820b661d0acb6fa5b0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\4\4fd98bb82fd93272da0001922b49df54.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\4\4fd98bb82fd93272da0001922b49df54.bin
+    projectPath: Library\ShaderCache\4\4fd98bb82fd93272da0001922b49df54.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\54db86e6c704da3119f6fd5442b00baf.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\5\54db86e6c704da3119f6fd5442b00baf.bin
+    projectPath: Library\ShaderCache\5\54db86e6c704da3119f6fd5442b00baf.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\56ce322f4ba6caccae9fb316bcf1bf5e.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\5\56ce322f4ba6caccae9fb316bcf1bf5e.bin
+    projectPath: Library\ShaderCache\5\56ce322f4ba6caccae9fb316bcf1bf5e.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\5\5cd030cfd7678b462764ae643d53cd41.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\5\5cd030cfd7678b462764ae643d53cd41.bin
+    projectPath: Library\ShaderCache\5\5cd030cfd7678b462764ae643d53cd41.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\72bbb9bb3a93047be1e7eb193c447b9c.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\7\72bbb9bb3a93047be1e7eb193c447b9c.bin
+    projectPath: Library\ShaderCache\7\72bbb9bb3a93047be1e7eb193c447b9c.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\7\76b69948a7264796680016f76bccb7f0.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\7\76b69948a7264796680016f76bccb7f0.bin
+    projectPath: Library\ShaderCache\7\76b69948a7264796680016f76bccb7f0.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8143ef64eaa6f7142b7733c06f572d9b.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\8\8143ef64eaa6f7142b7733c06f572d9b.bin
+    projectPath: Library\ShaderCache\8\8143ef64eaa6f7142b7733c06f572d9b.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\8\8e6d5e46e399178a9052c98c1bf36df3.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\8\8e6d5e46e399178a9052c98c1bf36df3.bin
+    projectPath: Library\ShaderCache\8\8e6d5e46e399178a9052c98c1bf36df3.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\a\a1ee45c76390cc0bb9aeb73cfb02575d.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\a\a1ee45c76390cc0bb9aeb73cfb02575d.bin
+    projectPath: Library\ShaderCache\a\a1ee45c76390cc0bb9aeb73cfb02575d.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b6b2d035d38e8b88072c363c1aa64d79.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\b\b6b2d035d38e8b88072c363c1aa64d79.bin
+    projectPath: Library\ShaderCache\b\b6b2d035d38e8b88072c363c1aa64d79.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\b7bd4d7c4a55eda64a3a210c78b33661.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\b\b7bd4d7c4a55eda64a3a210c78b33661.bin
+    projectPath: Library\ShaderCache\b\b7bd4d7c4a55eda64a3a210c78b33661.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\b\ba30869bd6d87ed748f7593a37af6179.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\b\ba30869bd6d87ed748f7593a37af6179.bin
+    projectPath: Library\ShaderCache\b\ba30869bd6d87ed748f7593a37af6179.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d021b451ecb998f825d3cf128fae2085.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\d\d021b451ecb998f825d3cf128fae2085.bin
+    projectPath: Library\ShaderCache\d\d021b451ecb998f825d3cf128fae2085.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\d\d0df1914064f7e4619121031e8649dc8.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\d\d0df1914064f7e4619121031e8649dc8.bin
+    projectPath: Library\ShaderCache\d\d0df1914064f7e4619121031e8649dc8.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\EditorEncounteredVariants
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\EditorEncounteredVariants
+    projectPath: Library\ShaderCache\EditorEncounteredVariants
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\ShaderCache\f\f1873dd32b2f6dc44b650fb546145af9.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\f\f1873dd32b2f6dc44b650fb546145af9.bin
+    projectPath: Library\ShaderCache\f\f1873dd32b2f6dc44b650fb546145af9.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\ShaderCache\f\fe079b818db937bcfcfdf96f3c2ebba6.bin
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\ShaderCache\f\fe079b818db937bcfcfdf96f3c2ebba6.bin
+    projectPath: Library\ShaderCache\f\fe079b818db937bcfcfdf96f3c2ebba6.bin
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\shadercompiler-UnityShaderCompiler.exe1.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe1.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\shadercompiler-UnityShaderCompiler.exe2.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe2.log
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Library\shadercompiler-UnityShaderCompiler.exe3.log
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\shadercompiler-UnityShaderCompiler.exe3.log
+    projectPath: Library\shadercompiler-UnityShaderCompiler.exe3.log
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -241,6 +2047,72 @@ MonoBehaviour:
   - path: Library\StateCache\SceneView\8dc928-mainStage.json
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Library\StateCache\SceneView\8dc928-mainStage.json
     projectPath: Library\StateCache\SceneView\8dc928-mainStage.json
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csproj.CoreCompileInputs.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    projectPath: obj\Debug\Assembly-CSharp-Editor-firstpass.csprojAssemblyReference.cache
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: Packages\MarkerMarimba.unitypackage
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Packages\MarkerMarimba.unitypackage
+    projectPath: Packages\MarkerMarimba.unitypackage
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: ProjectSettings\EditorBuildSettings.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\ProjectSettings\EditorBuildSettings.asset
+    projectPath: ProjectSettings\EditorBuildSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProjectSettings\ProjectSettings.asset
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\ProjectSettings\ProjectSettings.asset
+    projectPath: ProjectSettings\ProjectSettings.asset
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: ProyectoMarimbaInteractiva.sln
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\ProyectoMarimbaInteractiva.sln
+    projectPath: ProyectoMarimbaInteractiva.sln
+    originalPath: 
+    indexStatus: 0
+    workTreeStatus: 3
+  - path: QCAR\somedata16
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\QCAR\somedata16
+    projectPath: QCAR\somedata16
     originalPath: 
     indexStatus: 0
     workTreeStatus: 3
@@ -640,6 +2512,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\3997e2241185407d80309a82f9148466
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\3997e2241185407d80309a82f9148466
     projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\3997e2241185407d80309a82f9148466
@@ -754,6 +2632,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
@@ -781,6 +2665,12 @@ MonoBehaviour:
   - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fade42e8bc714b018fac513c043d323b
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fade42e8bc714b018fac513c043d323b
     projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fade42e8bc714b018fac513c043d323b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1354,36 +3244,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split10
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split10
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split11
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split11
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split11
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split12
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split12
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split12
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split13
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split13
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split13
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split14
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split14
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split14
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split2
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split2
     projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split2
@@ -1420,24 +3280,36 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split8
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split9
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split9
-    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\sharedassets0.assets.split9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\unity
       default resources
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\unity
       default resources
     projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\bin\Data\unity
       default resources
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.dat
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.xml
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\MarkerMarimba.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.dat
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.xml
+    projectPath: Temp\gradleOut\build\intermediates\merged_assets\release\mergeReleaseAssets\out\Vuforia\VuforiaMars_Images.xml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -1825,6 +3697,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    projectPath: Temp\gradleOut\src\main\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\gradleOut\src\main\assets\bin\Data\3997e2241185407d80309a82f9148466
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\3997e2241185407d80309a82f9148466
     projectPath: Temp\gradleOut\src\main\assets\bin\Data\3997e2241185407d80309a82f9148466
@@ -1939,6 +3817,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    projectPath: Temp\gradleOut\src\main\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\gradleOut\src\main\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     projectPath: Temp\gradleOut\src\main\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
@@ -1966,6 +3850,12 @@ MonoBehaviour:
   - path: Temp\gradleOut\src\main\assets\bin\Data\fade42e8bc714b018fac513c043d323b
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\fade42e8bc714b018fac513c043d323b
     projectPath: Temp\gradleOut\src\main\assets\bin\Data\fade42e8bc714b018fac513c043d323b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    projectPath: Temp\gradleOut\src\main\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2539,36 +4429,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split10
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split10
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split11
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split11
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split11
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split12
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split12
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split12
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split13
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split13
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split13
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split14
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split14
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split14
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split2
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split2
     projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split2
@@ -2605,22 +4465,34 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split8
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split9
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split9
-    projectPath: Temp\gradleOut\src\main\assets\bin\Data\sharedassets0.assets.split9
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\gradleOut\src\main\assets\bin\Data\unity default resources
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\bin\Data\unity
       default resources
     projectPath: Temp\gradleOut\src\main\assets\bin\Data\unity default resources
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.dat
+    projectPath: Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.xml
+    projectPath: Temp\gradleOut\src\main\assets\Vuforia\MarkerMarimba.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
+    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
+    projectPath: Temp\gradleOut\src\main\assets\Vuforia\VuforiaMars_Images.xml
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2696,6 +4568,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\ProcessJobs\13feb9bace0c6a76d656c21cf60b846d.bakert
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\ProcessJobs\13feb9bace0c6a76d656c21cf60b846d.bakert
+    projectPath: Temp\ProcessJobs\13feb9bace0c6a76d656c21cf60b846d.bakert
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\StagingArea\aar\VuforiaWrapper.aar
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\aar\VuforiaWrapper.aar
     projectPath: Temp\StagingArea\aar\VuforiaWrapper.aar
@@ -2723,6 +4601,12 @@ MonoBehaviour:
   - path: Temp\StagingArea\assets\bin\Data\1e3b057af24249748ff873be7fafee47
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\1e3b057af24249748ff873be7fafee47
     projectPath: Temp\StagingArea\assets\bin\Data\1e3b057af24249748ff873be7fafee47
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\StagingArea\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
+    projectPath: Temp\StagingArea\assets\bin\Data\2e498d1c8094910479dc3e1b768306a4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -2840,6 +4724,12 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\StagingArea\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    projectPath: Temp\StagingArea\assets\bin\Data\e3265ab4bf004d28a9537516768c1c75
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\StagingArea\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
     projectPath: Temp\StagingArea\assets\bin\Data\e73a58f6e2794ae7b1b7e50b7fb811b0
@@ -2867,6 +4757,12 @@ MonoBehaviour:
   - path: Temp\StagingArea\assets\bin\Data\fade42e8bc714b018fac513c043d323b
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\fade42e8bc714b018fac513c043d323b
     projectPath: Temp\StagingArea\assets\bin\Data\fade42e8bc714b018fac513c043d323b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\StagingArea\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
+    projectPath: Temp\StagingArea\assets\bin\Data\fe393ace9b354375a9cb14cdbbc28be4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -3440,36 +5336,6 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split10
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split10
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split10
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split11
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split11
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split11
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split12
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split12
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split12
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split13
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split13
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split13
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split14
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split14
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split14
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
   - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split2
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split2
     projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split2
@@ -3503,18 +5369,6 @@ MonoBehaviour:
   - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split7
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split7
     projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split7
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split8
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split8
-    originalPath: 
-    indexStatus: 1
-    workTreeStatus: 1
-  - path: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split9
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split9
-    projectPath: Temp\StagingArea\assets\bin\Data\sharedassets0.assets.split9
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
@@ -3585,6 +5439,30 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
+  - path: Temp\StagingArea\raw\Vuforia\MarkerMarimba.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\raw\Vuforia\MarkerMarimba.dat
+    projectPath: Temp\StagingArea\raw\Vuforia\MarkerMarimba.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\StagingArea\raw\Vuforia\MarkerMarimba.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\raw\Vuforia\MarkerMarimba.xml
+    projectPath: Temp\StagingArea\raw\Vuforia\MarkerMarimba.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
+    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.dat
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
+    projectPath: Temp\StagingArea\raw\Vuforia\VuforiaMars_Images.xml
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
   - path: Temp\StagingArea\res\mipmap-anydpi-v26\app_icon.xml
     fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\StagingArea\res\mipmap-anydpi-v26\app_icon.xml
     projectPath: Temp\StagingArea\res\mipmap-anydpi-v26\app_icon.xml
@@ -3639,231 +5517,387 @@ MonoBehaviour:
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-076d5e89967c6184da55b96671034f6e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-076d5e89967c6184da55b96671034f6e
-    projectPath: Temp\UnityTempFile-076d5e89967c6184da55b96671034f6e
+  - path: Temp\UnityTempFile-083b913463711f542aac57cb6e296101
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-083b913463711f542aac57cb6e296101
+    projectPath: Temp\UnityTempFile-083b913463711f542aac57cb6e296101
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0982db6389767114095b43e364cb3864
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0982db6389767114095b43e364cb3864
-    projectPath: Temp\UnityTempFile-0982db6389767114095b43e364cb3864
+  - path: Temp\UnityTempFile-0eee81efe4e96aa4089f0da0cc1e6f18
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0eee81efe4e96aa4089f0da0cc1e6f18
+    projectPath: Temp\UnityTempFile-0eee81efe4e96aa4089f0da0cc1e6f18
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-0ac46f18adb0aef4e9a1bbd82739b0e3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-0ac46f18adb0aef4e9a1bbd82739b0e3
-    projectPath: Temp\UnityTempFile-0ac46f18adb0aef4e9a1bbd82739b0e3
+  - path: Temp\UnityTempFile-150ebc671d1897340abebe050ef12522
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-150ebc671d1897340abebe050ef12522
+    projectPath: Temp\UnityTempFile-150ebc671d1897340abebe050ef12522
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-100b125bfd2b16b43a7160f25c3dd7cc
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-100b125bfd2b16b43a7160f25c3dd7cc
-    projectPath: Temp\UnityTempFile-100b125bfd2b16b43a7160f25c3dd7cc
+  - path: Temp\UnityTempFile-1961e3ea99cca6b4cbc3c402a3d6fdbc
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1961e3ea99cca6b4cbc3c402a3d6fdbc
+    projectPath: Temp\UnityTempFile-1961e3ea99cca6b4cbc3c402a3d6fdbc
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-14d0fed93f88f41469689c5c6ba0269f
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-14d0fed93f88f41469689c5c6ba0269f
-    projectPath: Temp\UnityTempFile-14d0fed93f88f41469689c5c6ba0269f
+  - path: Temp\UnityTempFile-1f2893b451be61043881b9dde71781de
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1f2893b451be61043881b9dde71781de
+    projectPath: Temp\UnityTempFile-1f2893b451be61043881b9dde71781de
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1cc7732a44247d24586597b10b17e1cd
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1cc7732a44247d24586597b10b17e1cd
-    projectPath: Temp\UnityTempFile-1cc7732a44247d24586597b10b17e1cd
+  - path: Temp\UnityTempFile-22e34c0133641de49845724e7b3b19ca
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-22e34c0133641de49845724e7b3b19ca
+    projectPath: Temp\UnityTempFile-22e34c0133641de49845724e7b3b19ca
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-1deec0697550dc1499e1849cb0745078
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-1deec0697550dc1499e1849cb0745078
-    projectPath: Temp\UnityTempFile-1deec0697550dc1499e1849cb0745078
+  - path: Temp\UnityTempFile-245535c7acf270649b1cddc3ff31f209
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-245535c7acf270649b1cddc3ff31f209
+    projectPath: Temp\UnityTempFile-245535c7acf270649b1cddc3ff31f209
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-26f335009f554e246be118fbc4511cfe
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-26f335009f554e246be118fbc4511cfe
-    projectPath: Temp\UnityTempFile-26f335009f554e246be118fbc4511cfe
+  - path: Temp\UnityTempFile-292a701145f837d4c90801ddef26b6e0
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-292a701145f837d4c90801ddef26b6e0
+    projectPath: Temp\UnityTempFile-292a701145f837d4c90801ddef26b6e0
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2cb1da4211bef144ea70b5bcf159fc56
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2cb1da4211bef144ea70b5bcf159fc56
-    projectPath: Temp\UnityTempFile-2cb1da4211bef144ea70b5bcf159fc56
+  - path: Temp\UnityTempFile-2ca3bf2f64fcea8428b8ec2c85775786
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2ca3bf2f64fcea8428b8ec2c85775786
+    projectPath: Temp\UnityTempFile-2ca3bf2f64fcea8428b8ec2c85775786
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-2d679ade356e1884eb2880ebcdf73a8b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-2d679ade356e1884eb2880ebcdf73a8b
-    projectPath: Temp\UnityTempFile-2d679ade356e1884eb2880ebcdf73a8b
+  - path: Temp\UnityTempFile-30b181221fb039942b20ab6119e9be17
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-30b181221fb039942b20ab6119e9be17
+    projectPath: Temp\UnityTempFile-30b181221fb039942b20ab6119e9be17
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-328a583af1209494383e44619bc5fd58
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-328a583af1209494383e44619bc5fd58
-    projectPath: Temp\UnityTempFile-328a583af1209494383e44619bc5fd58
+  - path: Temp\UnityTempFile-34ee10a6ed1038444868261ebc3fe573
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-34ee10a6ed1038444868261ebc3fe573
+    projectPath: Temp\UnityTempFile-34ee10a6ed1038444868261ebc3fe573
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4254adf4d7e3a114fa2be14a59ab4617
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4254adf4d7e3a114fa2be14a59ab4617
-    projectPath: Temp\UnityTempFile-4254adf4d7e3a114fa2be14a59ab4617
+  - path: Temp\UnityTempFile-360579eb59c420f4bb3d2454b1c31fe8
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-360579eb59c420f4bb3d2454b1c31fe8
+    projectPath: Temp\UnityTempFile-360579eb59c420f4bb3d2454b1c31fe8
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-46182cc17ea54314eabaa370befd5855
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-46182cc17ea54314eabaa370befd5855
-    projectPath: Temp\UnityTempFile-46182cc17ea54314eabaa370befd5855
+  - path: Temp\UnityTempFile-3c27979a4663dbc48a78fc82688bd857
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-3c27979a4663dbc48a78fc82688bd857
+    projectPath: Temp\UnityTempFile-3c27979a4663dbc48a78fc82688bd857
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4bdbc9f16b385c94ea2540979a429dd7
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4bdbc9f16b385c94ea2540979a429dd7
-    projectPath: Temp\UnityTempFile-4bdbc9f16b385c94ea2540979a429dd7
+  - path: Temp\UnityTempFile-5047cd68ff44f9944bfd04a4ef62860f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5047cd68ff44f9944bfd04a4ef62860f
+    projectPath: Temp\UnityTempFile-5047cd68ff44f9944bfd04a4ef62860f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-4d0c0bbc2307a7345b2406a018a34a0d
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-4d0c0bbc2307a7345b2406a018a34a0d
-    projectPath: Temp\UnityTempFile-4d0c0bbc2307a7345b2406a018a34a0d
+  - path: Temp\UnityTempFile-568b6cfa045f7db40917a5fe98f8d246
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-568b6cfa045f7db40917a5fe98f8d246
+    projectPath: Temp\UnityTempFile-568b6cfa045f7db40917a5fe98f8d246
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-53d17370a287ab14eaf68c9f4f6fd112
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-53d17370a287ab14eaf68c9f4f6fd112
-    projectPath: Temp\UnityTempFile-53d17370a287ab14eaf68c9f4f6fd112
+  - path: Temp\UnityTempFile-578f0e408cfa59643a78581fcc72d1d7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-578f0e408cfa59643a78581fcc72d1d7
+    projectPath: Temp\UnityTempFile-578f0e408cfa59643a78581fcc72d1d7
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-557f9d79816bb7a479906b87c441cd65
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-557f9d79816bb7a479906b87c441cd65
-    projectPath: Temp\UnityTempFile-557f9d79816bb7a479906b87c441cd65
+  - path: Temp\UnityTempFile-5a5d26e524e6a984cbced850d369651b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5a5d26e524e6a984cbced850d369651b
+    projectPath: Temp\UnityTempFile-5a5d26e524e6a984cbced850d369651b
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-611275da3e4861247ba7a37adbd1a068
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-611275da3e4861247ba7a37adbd1a068
-    projectPath: Temp\UnityTempFile-611275da3e4861247ba7a37adbd1a068
+  - path: Temp\UnityTempFile-5cbb1850d78b1b34188a1bfd9f206ab5
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-5cbb1850d78b1b34188a1bfd9f206ab5
+    projectPath: Temp\UnityTempFile-5cbb1850d78b1b34188a1bfd9f206ab5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-6857e6ee1f405f54aab4f177d8764fa3
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6857e6ee1f405f54aab4f177d8764fa3
-    projectPath: Temp\UnityTempFile-6857e6ee1f405f54aab4f177d8764fa3
+  - path: Temp\UnityTempFile-6776d3d22fa07ee4f9b6e411745b55c2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-6776d3d22fa07ee4f9b6e411745b55c2
+    projectPath: Temp\UnityTempFile-6776d3d22fa07ee4f9b6e411745b55c2
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-718988a3e6bebca4399437fd12129d09
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-718988a3e6bebca4399437fd12129d09
-    projectPath: Temp\UnityTempFile-718988a3e6bebca4399437fd12129d09
+  - path: Temp\UnityTempFile-73295ac7a76400746b3f4bd4b80ee584
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-73295ac7a76400746b3f4bd4b80ee584
+    projectPath: Temp\UnityTempFile-73295ac7a76400746b3f4bd4b80ee584
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-7f9bea685cf521543a262596a9c54b6e
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7f9bea685cf521543a262596a9c54b6e
-    projectPath: Temp\UnityTempFile-7f9bea685cf521543a262596a9c54b6e
+  - path: Temp\UnityTempFile-78d559d3b28573342be5f1064a197d91
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-78d559d3b28573342be5f1064a197d91
+    projectPath: Temp\UnityTempFile-78d559d3b28573342be5f1064a197d91
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-8b972c879685bd644830b6a1b34120bd
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8b972c879685bd644830b6a1b34120bd
-    projectPath: Temp\UnityTempFile-8b972c879685bd644830b6a1b34120bd
+  - path: Temp\UnityTempFile-78f91bf2f111b3b42954c914cb10ffc6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-78f91bf2f111b3b42954c914cb10ffc6
+    projectPath: Temp\UnityTempFile-78f91bf2f111b3b42954c914cb10ffc6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9690e0c025e990e4583ce998b4f55c3b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9690e0c025e990e4583ce998b4f55c3b
-    projectPath: Temp\UnityTempFile-9690e0c025e990e4583ce998b4f55c3b
+  - path: Temp\UnityTempFile-7990921d67465704dacbdd67818c3dda
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7990921d67465704dacbdd67818c3dda
+    projectPath: Temp\UnityTempFile-7990921d67465704dacbdd67818c3dda
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-9c69bf1aa9e47d749ae23cfa5786bd35
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9c69bf1aa9e47d749ae23cfa5786bd35
-    projectPath: Temp\UnityTempFile-9c69bf1aa9e47d749ae23cfa5786bd35
+  - path: Temp\UnityTempFile-7e1452f3d2536994da1d1b37809734cd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-7e1452f3d2536994da1d1b37809734cd
+    projectPath: Temp\UnityTempFile-7e1452f3d2536994da1d1b37809734cd
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a0184241a5bf1734ea921f90b1b4b315
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a0184241a5bf1734ea921f90b1b4b315
-    projectPath: Temp\UnityTempFile-a0184241a5bf1734ea921f90b1b4b315
+  - path: Temp\UnityTempFile-802c38999032f7747a4790be28cdece4
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-802c38999032f7747a4790be28cdece4
+    projectPath: Temp\UnityTempFile-802c38999032f7747a4790be28cdece4
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a6e66409db5d62e46ba58782cce33df8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a6e66409db5d62e46ba58782cce33df8
-    projectPath: Temp\UnityTempFile-a6e66409db5d62e46ba58782cce33df8
+  - path: Temp\UnityTempFile-82db56245e414764dbfd970559674d8f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-82db56245e414764dbfd970559674d8f
+    projectPath: Temp\UnityTempFile-82db56245e414764dbfd970559674d8f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-a95acb4676dfc0446ad6e29f87661d6b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a95acb4676dfc0446ad6e29f87661d6b
-    projectPath: Temp\UnityTempFile-a95acb4676dfc0446ad6e29f87661d6b
+  - path: Temp\UnityTempFile-85273c2e051b61f45b730edcdd4bc0e3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-85273c2e051b61f45b730edcdd4bc0e3
+    projectPath: Temp\UnityTempFile-85273c2e051b61f45b730edcdd4bc0e3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-abc5688a3c66ec34c9fbbaeea957b4de
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-abc5688a3c66ec34c9fbbaeea957b4de
-    projectPath: Temp\UnityTempFile-abc5688a3c66ec34c9fbbaeea957b4de
+  - path: Temp\UnityTempFile-8571527056b7df94f9acc14f85169e2a
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8571527056b7df94f9acc14f85169e2a
+    projectPath: Temp\UnityTempFile-8571527056b7df94f9acc14f85169e2a
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-b7cbaaf62c3f49f4eaa10773fb090530
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b7cbaaf62c3f49f4eaa10773fb090530
-    projectPath: Temp\UnityTempFile-b7cbaaf62c3f49f4eaa10773fb090530
+  - path: Temp\UnityTempFile-85866ba6c6ca588449f45442f5657c25
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-85866ba6c6ca588449f45442f5657c25
+    projectPath: Temp\UnityTempFile-85866ba6c6ca588449f45442f5657c25
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-bea0d39d8af3c6f4884b8dcb893fb4c9
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bea0d39d8af3c6f4884b8dcb893fb4c9
-    projectPath: Temp\UnityTempFile-bea0d39d8af3c6f4884b8dcb893fb4c9
+  - path: Temp\UnityTempFile-866dfdd5de757ee4a9f5916c997f546f
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-866dfdd5de757ee4a9f5916c997f546f
+    projectPath: Temp\UnityTempFile-866dfdd5de757ee4a9f5916c997f546f
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-c731f6f5d46c33b45b9717411d17d988
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c731f6f5d46c33b45b9717411d17d988
-    projectPath: Temp\UnityTempFile-c731f6f5d46c33b45b9717411d17d988
+  - path: Temp\UnityTempFile-896a0e5df051735469cb112f1873bca5
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-896a0e5df051735469cb112f1873bca5
+    projectPath: Temp\UnityTempFile-896a0e5df051735469cb112f1873bca5
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-cd4c5c3202911194d81073fec04876b5
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cd4c5c3202911194d81073fec04876b5
-    projectPath: Temp\UnityTempFile-cd4c5c3202911194d81073fec04876b5
+  - path: Temp\UnityTempFile-89c104a814975434c8f9e0509dd7375e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-89c104a814975434c8f9e0509dd7375e
+    projectPath: Temp\UnityTempFile-89c104a814975434c8f9e0509dd7375e
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-ce8604cc4d53e4041848b68d6d068bbd
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ce8604cc4d53e4041848b68d6d068bbd
-    projectPath: Temp\UnityTempFile-ce8604cc4d53e4041848b68d6d068bbd
+  - path: Temp\UnityTempFile-8e60bbfa9e3f8414ea381452eaeb25c3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8e60bbfa9e3f8414ea381452eaeb25c3
+    projectPath: Temp\UnityTempFile-8e60bbfa9e3f8414ea381452eaeb25c3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-d0988cad35a35b9479d6e48a312ad2f0
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-d0988cad35a35b9479d6e48a312ad2f0
-    projectPath: Temp\UnityTempFile-d0988cad35a35b9479d6e48a312ad2f0
+  - path: Temp\UnityTempFile-8f57f63f61fc8b1408817ceea832e31d
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-8f57f63f61fc8b1408817ceea832e31d
+    projectPath: Temp\UnityTempFile-8f57f63f61fc8b1408817ceea832e31d
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-dfb731ec8d915dc48b7630da780d68b8
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-dfb731ec8d915dc48b7630da780d68b8
-    projectPath: Temp\UnityTempFile-dfb731ec8d915dc48b7630da780d68b8
+  - path: Temp\UnityTempFile-9c18724f1049e0144b04664858177ff6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9c18724f1049e0144b04664858177ff6
+    projectPath: Temp\UnityTempFile-9c18724f1049e0144b04664858177ff6
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-e7b4b423ce7c77541b398aa73d48012c
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e7b4b423ce7c77541b398aa73d48012c
-    projectPath: Temp\UnityTempFile-e7b4b423ce7c77541b398aa73d48012c
+  - path: Temp\UnityTempFile-9f4954a353e87c24bb917221882397eb
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-9f4954a353e87c24bb917221882397eb
+    projectPath: Temp\UnityTempFile-9f4954a353e87c24bb917221882397eb
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fb1fc0bfcca43e34980ee26a3b090e73
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fb1fc0bfcca43e34980ee26a3b090e73
-    projectPath: Temp\UnityTempFile-fb1fc0bfcca43e34980ee26a3b090e73
+  - path: Temp\UnityTempFile-a7120ccfe4d857b49bd90864cdeaec06
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a7120ccfe4d857b49bd90864cdeaec06
+    projectPath: Temp\UnityTempFile-a7120ccfe4d857b49bd90864cdeaec06
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1
-  - path: Temp\UnityTempFile-fd968e09e78a1c3418854fcbbac0c17b
-    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fd968e09e78a1c3418854fcbbac0c17b
-    projectPath: Temp\UnityTempFile-fd968e09e78a1c3418854fcbbac0c17b
+  - path: Temp\UnityTempFile-a71b7a2a4ef7acb449398b8471463423
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-a71b7a2a4ef7acb449398b8471463423
+    projectPath: Temp\UnityTempFile-a71b7a2a4ef7acb449398b8471463423
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-aab4c29df9c06db44a860bf275da7d60
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-aab4c29df9c06db44a860bf275da7d60
+    projectPath: Temp\UnityTempFile-aab4c29df9c06db44a860bf275da7d60
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-ac1b30d0612889e47a17b64b173eb99b
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-ac1b30d0612889e47a17b64b173eb99b
+    projectPath: Temp\UnityTempFile-ac1b30d0612889e47a17b64b173eb99b
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-aff05e2965e077d4981c9b9620b9b368
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-aff05e2965e077d4981c9b9620b9b368
+    projectPath: Temp\UnityTempFile-aff05e2965e077d4981c9b9620b9b368
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b2d5afff89762514c8284089f7f61f50
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b2d5afff89762514c8284089f7f61f50
+    projectPath: Temp\UnityTempFile-b2d5afff89762514c8284089f7f61f50
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-b702795cd7784bc47add780428f1373c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-b702795cd7784bc47add780428f1373c
+    projectPath: Temp\UnityTempFile-b702795cd7784bc47add780428f1373c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bc4e49dc6dbc4f74782ebbd472918727
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bc4e49dc6dbc4f74782ebbd472918727
+    projectPath: Temp\UnityTempFile-bc4e49dc6dbc4f74782ebbd472918727
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-bc5694b75aa06334f97eac38d7839d97
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-bc5694b75aa06334f97eac38d7839d97
+    projectPath: Temp\UnityTempFile-bc5694b75aa06334f97eac38d7839d97
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c1791e9324a3f6d408edc0eb8c769bb7
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c1791e9324a3f6d408edc0eb8c769bb7
+    projectPath: Temp\UnityTempFile-c1791e9324a3f6d408edc0eb8c769bb7
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c48e22ee4f781a3499d22521b49d2900
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c48e22ee4f781a3499d22521b49d2900
+    projectPath: Temp\UnityTempFile-c48e22ee4f781a3499d22521b49d2900
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c550b33b5ecf91b49991dd409703da48
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c550b33b5ecf91b49991dd409703da48
+    projectPath: Temp\UnityTempFile-c550b33b5ecf91b49991dd409703da48
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c7780d1a21950ad4a8af35510a33e851
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c7780d1a21950ad4a8af35510a33e851
+    projectPath: Temp\UnityTempFile-c7780d1a21950ad4a8af35510a33e851
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c79c596e2e7fa9e40b53267a092293a6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c79c596e2e7fa9e40b53267a092293a6
+    projectPath: Temp\UnityTempFile-c79c596e2e7fa9e40b53267a092293a6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-c9948704ef35d4a4abd361b56e66b039
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-c9948704ef35d4a4abd361b56e66b039
+    projectPath: Temp\UnityTempFile-c9948704ef35d4a4abd361b56e66b039
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cf07664bfb21bbd40975e23b0325c1cf
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cf07664bfb21bbd40975e23b0325c1cf
+    projectPath: Temp\UnityTempFile-cf07664bfb21bbd40975e23b0325c1cf
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cf255ae8f56438c43a44bdb752099f27
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cf255ae8f56438c43a44bdb752099f27
+    projectPath: Temp\UnityTempFile-cf255ae8f56438c43a44bdb752099f27
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-cfbb390dd11500a4683b8bf3ac8e85ed
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-cfbb390dd11500a4683b8bf3ac8e85ed
+    projectPath: Temp\UnityTempFile-cfbb390dd11500a4683b8bf3ac8e85ed
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-db1933bd1b872e1468d00ffabdae8b5e
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-db1933bd1b872e1468d00ffabdae8b5e
+    projectPath: Temp\UnityTempFile-db1933bd1b872e1468d00ffabdae8b5e
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e20a33a18db492b4fb94b2b53de82f3c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e20a33a18db492b4fb94b2b53de82f3c
+    projectPath: Temp\UnityTempFile-e20a33a18db492b4fb94b2b53de82f3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e61dd6309f354d241b1317e8fc781c68
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e61dd6309f354d241b1317e8fc781c68
+    projectPath: Temp\UnityTempFile-e61dd6309f354d241b1317e8fc781c68
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-e7d3b7b32b3acbf44a3072b213d4bdf2
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-e7d3b7b32b3acbf44a3072b213d4bdf2
+    projectPath: Temp\UnityTempFile-e7d3b7b32b3acbf44a3072b213d4bdf2
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-edc920369cb41ae41a152eaa128b1a3c
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-edc920369cb41ae41a152eaa128b1a3c
+    projectPath: Temp\UnityTempFile-edc920369cb41ae41a152eaa128b1a3c
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f22cf2ffee511aa449b3fc29c9a960e6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f22cf2ffee511aa449b3fc29c9a960e6
+    projectPath: Temp\UnityTempFile-f22cf2ffee511aa449b3fc29c9a960e6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f324d9d4a80f06e42820a648dae061dd
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f324d9d4a80f06e42820a648dae061dd
+    projectPath: Temp\UnityTempFile-f324d9d4a80f06e42820a648dae061dd
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f72468f84ca023b4580d28669426ece6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f72468f84ca023b4580d28669426ece6
+    projectPath: Temp\UnityTempFile-f72468f84ca023b4580d28669426ece6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-f9be08c9229ffe74abfbd871df9c86c6
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-f9be08c9229ffe74abfbd871df9c86c6
+    projectPath: Temp\UnityTempFile-f9be08c9229ffe74abfbd871df9c86c6
+    originalPath: 
+    indexStatus: 1
+    workTreeStatus: 1
+  - path: Temp\UnityTempFile-fee8bcdab4a596444a5f66ff871d3ed3
+    fullPath: C:\Trabajo\Tesis\ProyectoMarimba\ProyectoMarimbaInteractiva\Temp\UnityTempFile-fee8bcdab4a596444a5f66ff871d3ed3
+    projectPath: Temp\UnityTempFile-fee8bcdab4a596444a5f66ff871d3ed3
     originalPath: 
     indexStatus: 1
     workTreeStatus: 1

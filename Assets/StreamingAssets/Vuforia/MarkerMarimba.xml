@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="screenAR" size="7.000000 7.000000" />
+    <ImageTarget name="key_12" size="3.000000 3.000000" />
+    <ImageTarget name="key_11" size="3.000000 3.000000" />
+    <ImageTarget name="key_10" size="3.000000 3.000000" />
+    <ImageTarget name="key_9" size="3.000000 3.000000" />
+    <ImageTarget name="key_8" size="3.000000 3.000000" />
+    <ImageTarget name="key_7" size="3.000000 3.000000" />
+    <ImageTarget name="key_6" size="3.000000 3.000000" />
+    <ImageTarget name="key_5" size="3.000000 3.000000" />
+    <ImageTarget name="key_4" size="3.000000 3.000000" />
+    <ImageTarget name="key_3" size="3.000000 3.000000" />
+    <ImageTarget name="key_2" size="3.000000 3.000000" />
+    <ImageTarget name="key_1" size="3.000000 3.000000" />
+    <ImageTarget name="Pantalla2" size="5.000000 4.994475" />
+    <ImageTarget name="pantallaTesis" size="8.000000 9.099622" />
+  </Tracking>
+</QCARConfig>

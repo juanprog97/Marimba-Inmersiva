@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TechTweaking.Bluetooth;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class BluetoothController : MonoBehaviour
 {
@@ -13,7 +13,7 @@ public class BluetoothController : MonoBehaviour
     public GameObject setText;
     public GameObject animationSearch;
     public GameObject reload;
-    private BluetoothDevice device;
+    private static BluetoothDevice device;
     void Awake()
     {
 
@@ -31,7 +31,7 @@ public class BluetoothController : MonoBehaviour
     }
     void Start()
     {
-
+        UnityEngine.XR.XRSettings.enabled = false;
         //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
 
         BluetoothAdapter.OnConnected += HandleOnConnected;
@@ -119,8 +119,14 @@ public class BluetoothController : MonoBehaviour
             this.state.GetComponent<Image>().sprite = this.check;
             this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Sincronizacion realizada correctamente";
             yield return new WaitForSeconds(4);
-            this.state.SetActive(false);
+            this.wait(3);
             
+        }
+        if(option == 3)
+        {
+            yield return new WaitForSeconds(1);
+            SceneManager.LoadScene(0);
+
         }
 
     

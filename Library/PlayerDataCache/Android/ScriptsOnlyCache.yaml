@@ -1,8 +1,11 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - BluetoothController
-    - TechTweaking.Bluetooth.BluetoothAdapter
+    - MenuController
+    - option1
+    - option2
+    - option3
+    - vuforiaScript
     GitHub.Unity.45.dll:
     - GitHub.Unity.ApplicationCache
     - GitHub.Unity.EnvironmentCache
@@ -16,7 +19,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -28,14 +30,19 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
-    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.Text
     Vuforia.UnityExtensions.dll:
+    - DefaultInitializationErrorHandlerPlaceHolder
+    - DefaultTrackableBehaviourPlaceholder
+    - Vuforia.ImageTargetBehaviour
+    - Vuforia.TurnOffBehaviour
+    - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
   sceneClasses:
-    Assets/Scenes/ConnectBluetooth.unity:
+    Assets/Scenes/SimpleMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -44,7 +51,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 21
       Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
@@ -53,6 +66,8 @@ ScriptsOnlyBuild:
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
@@ -65,8 +80,6 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9484}
-    - Class: 114
       Script: {instanceID: 9486}
     - Class: 114
       Script: {instanceID: 9492}
@@ -77,19 +90,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9542}
     - Class: 114
+      Script: {instanceID: 9544}
+    - Class: 114
+      Script: {instanceID: 9760}
+    - Class: 114
+      Script: {instanceID: 9808}
+    - Class: 114
+      Script: {instanceID: 9910}
+    - Class: 114
       Script: {instanceID: 9928}
     - Class: 114
-      Script: {instanceID: 9938}
+      Script: {instanceID: 9980}
+    - Class: 114
+      Script: {instanceID: 9984}
+    - Class: 114
+      Script: {instanceID: 9996}
+    - Class: 114
+      Script: {instanceID: 10018}
+    - Class: 114
+      Script: {instanceID: 10026}
     - Class: 114
       Script: {instanceID: 10028}
     - Class: 114
-      Script: {instanceID: 10148}
+      Script: {instanceID: 10046}
+    - Class: 114
+      Script: {instanceID: 10558}
     - Class: 114
       Script: {instanceID: 10602}
     - Class: 114
       Script: {instanceID: 10614}
-    - Class: 114
-      Script: {instanceID: 10766}
     - Class: 114
       Script: {instanceID: 11026}
     - Class: 115
@@ -105,6 +134,8 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 258
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1117,6 +1148,12 @@ ScriptsOnlyBuild:
     className: SVGImage
   - hash:
       serializedVersion: 2
+      Hash: 6b86e55f245bb41b890f46c9a48a313b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: vuforiaScript
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: VuforiaScripts.dll
     namespaceName: 
@@ -1681,5 +1718,5 @@ ScriptsOnlyBuild:
     className: JoystickHandler
   platform: 13
   scenePathNames:
-  - Assets/Scenes/ConnectBluetooth.unity
-  playerPath: C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/BluetoothProbe.apk
+  - Assets/Scenes/SimpleMenu.unity
+  playerPath: C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/AppMuseum.apk

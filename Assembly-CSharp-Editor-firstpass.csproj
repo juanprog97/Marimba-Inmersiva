@@ -686,10 +686,6 @@
       <Project>{0B708800-CA6D-E506-682D-B0FC8A1906B6}</Project>
       <Name>VuforiaScripts</Name>
     </ProjectReference>
-    <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{36DAE0D1-DDA1-1535-EEAE-5047ADBABA96}</Project>
-      <Name>VuforiaEditorScripts</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

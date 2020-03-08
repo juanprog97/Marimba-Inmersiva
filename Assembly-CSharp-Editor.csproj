@@ -58,6 +58,7 @@
      <Compile Include="Assets\BT_Library\Scripts\Editor\BtEditor.cs" />
      <Compile Include="Assets\BT_Library\Scripts\Editor\BtEditorLib.cs" />
      <Compile Include="Assets\BT_Library\Scripts\Editor\PluginsMerger.cs" />
+     <None Include="Assets\Editor\Vuforia\CylinderTargetTextures\VuforiaMars_Images\authoringinfo.xml" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
@@ -692,10 +693,6 @@
     <ProjectReference Include="VuforiaScripts.csproj">
       <Project>{0B708800-CA6D-E506-682D-B0FC8A1906B6}</Project>
       <Name>VuforiaScripts</Name>
-    </ProjectReference>
-    <ProjectReference Include="VuforiaEditorScripts.csproj">
-      <Project>{36DAE0D1-DDA1-1535-EEAE-5047ADBABA96}</Project>
-      <Name>VuforiaEditorScripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
