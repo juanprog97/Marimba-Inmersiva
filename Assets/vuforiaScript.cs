@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
@@ -6,27 +7,45 @@ using Vuforia;
 public class vuforiaScript : MonoBehaviour, ITrackableEventHandler
 {
     private TrackableBehaviour mTrackableBehaviour;
-    private BluetoothController command;
-    public GameObject Cond;
     public GameObject xPos;
     public GameObject yPos;
     public GameObject Menu;
     public GameObject zPos;
+    private BluetoothController command;
+    public GameObject Cond;
     public GameObject notFound;
+ 
     void Start()
     {
+        Menu.SetActive(false);
+        notFound.SetActive(true);
+        
+        try
+        {
+
+            this.command = GameObject.Find("Bluetooth").GetComponent<BluetoothController>();
+        }
+        catch (NullReferenceException ex)
+        {
+           
+        }
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
         {
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
         }
-        this.command = GameObject.Find("Bluetooth").GetComponent<BluetoothController>();
+       
     }
     // Update is called once per frame
     void Update()
     {
         Cond.GetComponent<UnityEngine.UI.Text>().text = this.command.getCommand();
 
+    }
+
+    public String comma()
+    {
+        return this.command.getCommand();
     }
     public void OnTrackableStateChanged(
       TrackableBehaviour.Status previousStatus,

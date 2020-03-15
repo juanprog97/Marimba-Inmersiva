@@ -15,11 +15,14 @@ public class BluetoothController : MonoBehaviour
     public GameObject animationSearch;
     public GameObject reload;
     public GameObject Scene;
-    private BluetoothDevice device;
-    
+    public BluetoothDevice device;
+    public GameObject Ar_t;
+    public GameObject Target_t;
+    public GameObject Canv_t;
+    public GameObject Canv1_t;
+
     void Awake()
     {
-
 
         this.animationSearch.SetActive(true);
         this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
@@ -32,7 +35,10 @@ public class BluetoothController : MonoBehaviour
         device.connect();        //StartCoroutine(wait(3));
 
     }
-    
+
+   
+        
+
     void Start()
     {
         UnityEngine.XR.XRSettings.enabled = false;
@@ -128,12 +134,19 @@ public class BluetoothController : MonoBehaviour
             this.state.SetActive(true);
             this.state.GetComponent<Image>().sprite = this.check;
             this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Sincronizacion realizada correctamente";
-            this.Scene.SetActive(false);
-            yield return new WaitForSeconds(4);
-            SceneManager.LoadScene(1, LoadSceneMode.Additive);
+            yield return new WaitForSeconds(5);
+            this.Canv1_t.SetActive(false);
+            this.Ar_t.SetActive(true);
+            this.Target_t.SetActive(true);
+            this.Canv_t.SetActive(true);
            
             
-        }
+
+
+
+
+
+}
      
 
     

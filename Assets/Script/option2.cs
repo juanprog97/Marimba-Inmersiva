@@ -14,7 +14,7 @@ public class option2 : MonoBehaviour
     void Update()
     {
         this.anim = component.GetComponent<Animator>();
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && indexView.GetComponent<MenuController>().getIndex() == 1)
+        if (indexView.GetComponent<MenuController>().getEnterValue() && indexView.GetComponent<MenuController>().getIndex() == 1)
         {
             StartCoroutine(LoadSceneAFterTransition(this.anim));
             this.key = 1;
@@ -29,10 +29,7 @@ public class option2 : MonoBehaviour
             this.anim.Play("Deselect2");
             this.sta = 0;
         }
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-
-        }
+      
 
     }
     private IEnumerator LoadSceneAFterTransition(Animator an)
@@ -41,6 +38,6 @@ public class option2 : MonoBehaviour
         an.Play("onPress2");
         yield return new WaitForSeconds(2f);
         //load the scene we want
-        SceneManager.LoadScene(0);
+       // SceneManager.LoadScene(0);
     }
 }

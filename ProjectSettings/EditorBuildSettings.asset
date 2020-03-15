@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ConnectBluetooth.unity
     guid: 4cbd07a9ecc6f0847ada0f4409f2e615
   - enabled: 1

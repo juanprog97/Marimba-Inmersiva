@@ -46,77 +46,6 @@ ScriptsOnlyBuild:
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
   sceneClasses:
-    Assets/Scenes/ConnectBluetooth.unity:
-    - Class: 1
-      Script: {instanceID: 0}
-    - Class: 4
-      Script: {instanceID: 0}
-    - Class: 20
-      Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
-    - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
-      Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
-    - Class: 74
-      Script: {instanceID: 0}
-    - Class: 81
-      Script: {instanceID: 0}
-    - Class: 91
-      Script: {instanceID: 0}
-    - Class: 95
-      Script: {instanceID: 0}
-    - Class: 104
-      Script: {instanceID: 0}
-    - Class: 108
-      Script: {instanceID: 0}
-    - Class: 109
-      Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 14852}
-    - Class: 114
-      Script: {instanceID: 14854}
-    - Class: 114
-      Script: {instanceID: 14860}
-    - Class: 114
-      Script: {instanceID: 14866}
-    - Class: 114
-      Script: {instanceID: 14874}
-    - Class: 114
-      Script: {instanceID: 14910}
-    - Class: 114
-      Script: {instanceID: 15078}
-    - Class: 114
-      Script: {instanceID: 15920}
-    - Class: 114
-      Script: {instanceID: 15928}
-    - Class: 114
-      Script: {instanceID: 15984}
-    - Class: 114
-      Script: {instanceID: 16270}
-    - Class: 114
-      Script: {instanceID: 16278}
-    - Class: 114
-      Script: {instanceID: 16406}
-    - Class: 114
-      Script: {instanceID: 16570}
-    - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
-    - Class: 157
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
-      Script: {instanceID: 0}
     Assets/Scenes/SimpleMenu.unity:
     - Class: 1
       Script: {instanceID: 0}
@@ -136,6 +65,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -150,38 +81,58 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
+    - Class: 109
+      Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14854}
-    - Class: 114
-      Script: {instanceID: 14860}
+      Script: {instanceID: 14864}
     - Class: 114
       Script: {instanceID: 14866}
     - Class: 114
-      Script: {instanceID: 14874}
+      Script: {instanceID: 14872}
     - Class: 114
-      Script: {instanceID: 14910}
+      Script: {instanceID: 14878}
     - Class: 114
-      Script: {instanceID: 14912}
+      Script: {instanceID: 14886}
     - Class: 114
-      Script: {instanceID: 15030}
+      Script: {instanceID: 14922}
     - Class: 114
-      Script: {instanceID: 15034}
+      Script: {instanceID: 14924}
+    - Class: 114
+      Script: {instanceID: 15042}
     - Class: 114
       Script: {instanceID: 15046}
     - Class: 114
-      Script: {instanceID: 15068}
+      Script: {instanceID: 15058}
     - Class: 114
-      Script: {instanceID: 15076}
+      Script: {instanceID: 15080}
     - Class: 114
-      Script: {instanceID: 15772}
+      Script: {instanceID: 15088}
     - Class: 114
-      Script: {instanceID: 15820}
+      Script: {instanceID: 15090}
     - Class: 114
-      Script: {instanceID: 15902}
+      Script: {instanceID: 15784}
     - Class: 114
-      Script: {instanceID: 15958}
+      Script: {instanceID: 15832}
     - Class: 114
-      Script: {instanceID: 16234}
+      Script: {instanceID: 15914}
+    - Class: 114
+      Script: {instanceID: 15932}
+    - Class: 114
+      Script: {instanceID: 15940}
+    - Class: 114
+      Script: {instanceID: 15970}
+    - Class: 114
+      Script: {instanceID: 15996}
+    - Class: 114
+      Script: {instanceID: 16246}
+    - Class: 114
+      Script: {instanceID: 16282}
+    - Class: 114
+      Script: {instanceID: 16290}
+    - Class: 114
+      Script: {instanceID: 16418}
+    - Class: 114
+      Script: {instanceID: 16582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1569,7 +1520,7 @@ ScriptsOnlyBuild:
     className: BtDiscovery
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: f0c450ccbe4a294651ebd9e68baeb4e5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MenuController
@@ -1593,7 +1544,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 41e99360d47903fcf1e2a2b4b1189062
+      Hash: 0639693b3e401d17f0595167dd184318
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BluetoothController
@@ -1659,7 +1610,7 @@ ScriptsOnlyBuild:
     className: SVGImage
   - hash:
       serializedVersion: 2
-      Hash: eadeea67aba4e2cc5e90aa8e1a68c8d0
+      Hash: bd01f936e22e7e552d960066e01e0081
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: vuforiaScript
@@ -1785,6 +1736,5 @@ ScriptsOnlyBuild:
     className: JoystickHandler
   platform: 13
   scenePathNames:
-  - Assets/Scenes/ConnectBluetooth.unity
   - Assets/Scenes/SimpleMenu.unity
   playerPath: C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/AppMuseum.apk

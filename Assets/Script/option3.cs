@@ -13,7 +13,7 @@ public class option3 : MonoBehaviour
     void Update()
     {
         this.anim = component.GetComponent<Animator>();
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && indexView.GetComponent<MenuController>().getIndex() == 2)
+        if (indexView.GetComponent<MenuController>().getEnterValue() && indexView.GetComponent<MenuController>().getIndex() == 2)
         {
             StartCoroutine(LoadSceneAFterTransition(this.anim));
             this.key = 1;
@@ -28,10 +28,7 @@ public class option3 : MonoBehaviour
             this.anim.Play("Deselected3");
             this.sta = 0;
         }
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
-        {
-
-        }
+      
 
     }
     private IEnumerator LoadSceneAFterTransition(Animator an)
@@ -40,6 +37,6 @@ public class option3 : MonoBehaviour
         an.Play("onPress3");
         yield return new WaitForSeconds(2f);
         //load the scene we want
-        Application.Quit();
+       // Application.Quit();
     }
 }

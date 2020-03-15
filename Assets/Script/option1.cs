@@ -19,7 +19,7 @@ public class option1 : MonoBehaviour
     void Update()
     {
         this.anim = component.GetComponent<Animator>();
-        if (Input.GetKeyDown(KeyCode.KeypadEnter) && indexView.GetComponent<MenuController>().getIndex() == 0)
+        if (indexView.GetComponent<MenuController>().getEnterValue() && indexView.GetComponent<MenuController>().getIndex() == 0)
         {
             StartCoroutine(LoadSceneAFterTransition(this.anim));
             this.key = 1;
@@ -46,6 +46,6 @@ public class option1 : MonoBehaviour
         an.Play("Onpress");
         yield return new WaitForSeconds(2f);
         //load the scene we want
-        SceneManager.LoadScene(1);
+        //SceneManager.LoadScene(1);
     }
 }
