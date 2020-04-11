@@ -70,6 +70,9 @@
      <Compile Include="Assets\BT_Library\Scripts\CoreLibrary\BtPackets.cs" />
      <Compile Include="Assets\BT_Library\Scripts\ScrollTerminalUI.cs" />
      <Compile Include="Assets\controllerCommand.cs" />
+     <Compile Include="Assets\detectCol.cs" />
+     <Compile Include="Assets\note_s.cs" />
+     <Compile Include="Assets\PulseNote.cs" />
      <Compile Include="Assets\Script\MenuController.cs" />
      <Compile Include="Assets\Script\option1.cs" />
      <Compile Include="Assets\Script\option2.cs" />

@@ -73,6 +73,7 @@ public class BluetoothController : MonoBehaviour
     public string getCommand()
     {
        return this.commandt;
+        
     }
     void HandleOnConnected(BluetoothDevice dev)
     {
