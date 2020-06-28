@@ -16,7 +16,7 @@ public class MenuController : MonoBehaviour
 
     void start()
     {
-        UnityEngine.XR.XRSettings.enabled = true;
+       // UnityEngine.XR.XRSettings.enabled = true;
         this.enter = false;
         
     }

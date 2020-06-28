@@ -2,6 +2,8 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BluetoothController
+    - ControllerMenu
+    - MenuConfigurationController
     - MenuController
     - TechTweaking.Bluetooth.BluetoothAdapter
     - option1
@@ -15,7 +17,6 @@ ScriptsOnlyBuild:
     - GitHub.Unity.GitLocksCache
     - GitHub.Unity.GitStatusCache
     - GitHub.Unity.RepositoryInfoCache
-    - GitHub.Unity.Window
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
     - TMPro.TMP_Settings
@@ -39,12 +40,13 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
     Vuforia.UnityExtensions.dll:
-    - DefaultInitializationErrorHandlerPlaceHolder
-    - DefaultTrackableBehaviourPlaceholder
     - Vuforia.ImageTargetBehaviour
     - Vuforia.TurnOffBehaviour
     - Vuforia.VuforiaBehaviour
     - Vuforia.VuforiaConfiguration
+    VuforiaScripts.dll:
+    - DefaultInitializationErrorHandler
+    - DefaultTrackableEventHandler
   sceneClasses:
     Assets/Scenes/SimpleMenu.unity:
     - Class: 1
@@ -84,55 +86,59 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 14864}
+      Script: {instanceID: 14752}
     - Class: 114
-      Script: {instanceID: 14866}
+      Script: {instanceID: 14754}
     - Class: 114
-      Script: {instanceID: 14872}
+      Script: {instanceID: 14760}
     - Class: 114
-      Script: {instanceID: 14878}
+      Script: {instanceID: 14766}
     - Class: 114
-      Script: {instanceID: 14886}
+      Script: {instanceID: 14774}
     - Class: 114
-      Script: {instanceID: 14922}
+      Script: {instanceID: 14810}
     - Class: 114
-      Script: {instanceID: 14924}
+      Script: {instanceID: 14812}
     - Class: 114
-      Script: {instanceID: 15042}
+      Script: {instanceID: 14946}
     - Class: 114
-      Script: {instanceID: 15046}
+      Script: {instanceID: 14968}
     - Class: 114
-      Script: {instanceID: 15058}
+      Script: {instanceID: 14976}
     - Class: 114
-      Script: {instanceID: 15080}
+      Script: {instanceID: 14978}
     - Class: 114
-      Script: {instanceID: 15088}
+      Script: {instanceID: 15530}
     - Class: 114
-      Script: {instanceID: 15090}
+      Script: {instanceID: 15656}
+    - Class: 114
+      Script: {instanceID: 15702}
+    - Class: 114
+      Script: {instanceID: 15734}
     - Class: 114
       Script: {instanceID: 15784}
     - Class: 114
-      Script: {instanceID: 15832}
+      Script: {instanceID: 15802}
     - Class: 114
-      Script: {instanceID: 15914}
+      Script: {instanceID: 15804}
     - Class: 114
-      Script: {instanceID: 15932}
+      Script: {instanceID: 15812}
     - Class: 114
-      Script: {instanceID: 15940}
+      Script: {instanceID: 15842}
     - Class: 114
-      Script: {instanceID: 15970}
+      Script: {instanceID: 15868}
     - Class: 114
-      Script: {instanceID: 15996}
+      Script: {instanceID: 16096}
     - Class: 114
-      Script: {instanceID: 16246}
+      Script: {instanceID: 16118}
     - Class: 114
-      Script: {instanceID: 16282}
+      Script: {instanceID: 16132}
     - Class: 114
-      Script: {instanceID: 16290}
+      Script: {instanceID: 16140}
     - Class: 114
-      Script: {instanceID: 16418}
+      Script: {instanceID: 16264}
     - Class: 114
-      Script: {instanceID: 16582}
+      Script: {instanceID: 16416}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1418,6 +1424,12 @@ ScriptsOnlyBuild:
     className: TMP_SelectionCaret
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: note_s
+  - hash:
+      serializedVersion: 2
       Hash: 87ff43d2baf3385cba327d8f803a4ebb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -1452,6 +1464,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 0ec9aea881acae63d971819738a957f0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MenuConfigurationController
   - hash:
       serializedVersion: 2
       Hash: 9e70ecf91466f07d9bd649be625cae52
@@ -1538,13 +1556,19 @@ ScriptsOnlyBuild:
     className: BasicDemo
   - hash:
       serializedVersion: 2
+      Hash: c863522ceefffae053f50279a7421944
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ControllerMenu
+  - hash:
+      serializedVersion: 2
       Hash: b8a5e8091ab0b8861d2add371082c5e0
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 0639693b3e401d17f0595167dd184318
+      Hash: 7297d6c868bc9ede9560adceaa094fe1
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BluetoothController
@@ -1604,10 +1628,10 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: f1b001dcf0f786a375c9ef019a1abfd4
-    assemblyName: Unity.VectorGraphics.dll
+      Hash: 745fafd626ee48fff45c3e26daf68c04
+    assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: SVGImage
+    className: detectCol
   - hash:
       serializedVersion: 2
       Hash: bd01f936e22e7e552d960066e01e0081
@@ -1628,7 +1652,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: 35a9693c388776aaf487636491a20f11
+      Hash: 4a0369cd366c126cd420018a4ac01f32
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
@@ -1644,6 +1668,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 745fafd626ee48fff45c3e26daf68c04
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PulseNote
   - hash:
       serializedVersion: 2
       Hash: c1933cc0a2f4ff6eb13333347497beb3
@@ -1737,4 +1767,4 @@ ScriptsOnlyBuild:
   platform: 13
   scenePathNames:
   - Assets/Scenes/SimpleMenu.unity
-  playerPath: C:/Trabajo/Tesis/ProyectoMarimba/ProyectoMarimbaInteractiva/AppMuseum.apk
+  playerPath: C:/Users/juan/Desktop/Indian/AppMuseum.apk

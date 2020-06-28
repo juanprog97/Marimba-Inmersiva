@@ -14,43 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: AeupgZf/////AAABmUiPdscj6kdFrVEntyWw8QUBrW1k2XUMv1f2rF0YgKLKWUyCDpkbmZOv1zGSy/HW/d5GWlT45V4k5MI6QxvUcp5TuPkCC+Bw/m+JVLktDgCiE1euVYCwn8xZzbMe3YLmf/G3uWQzod4cBOoZj2UpacpMjLQqeRvo/EfzhefEsZG7bWuVlzNo+L2WkflL+WOWofdVvgrWsu5yQvVLWkO0jO4u0/Xm/AmvDUiyXBMq3v5JGDNS82to3hZsvQkLlfhzqDQDSocREnE3C+jxQVYZNgzWdE9XgtN/nxO3QcJouBKpgejJZ7k+7Efh7WEmSqmLUbLd9CSMp/6sXDmyH7PACem2FWF81h/jRnaS5QGpvVY1
-    ufoLicenseKey: QVFvaHR2ei8vLy8vQUFBQUtMWjZGV08vaEU3bnZ5NmhSaFo1OERoK0hrRmpCcFVyTXIxSmp3Q1JXVXBMTmxMV2g4WUw4NFpXRmROQS9DSXA4MTdiRWxQMWptQzVxN3NsNys2K1EvN2Vwa3pxaUVMSjlPTzhCaW4zaDVpQTN6TE93ak1yQ0c2YytTc2w0LzVYVTJTL1BxRzhXVzlER1d2TmNEenlpVFJnOUdsTmZvSmRoczlmT3BxSzBjWnJMc1NHTmE5OW1MUzdjRzNYR1hHOXNaeFBIT0RYQzQ0TENNRG03ZmlqQWJWTGxRR0pORFhkTjB3SHUwczJCbVpDcTg2UDBEbExuOWFRcnEzalQyRUgrUUZ1N2NVbmpsNll2VHowUmtGWFpRVkNuWXU3NThlTCtxYVhsMzg4WGloQU1RNGczRFd6ZHRubTFMdEJiT2NPY2hIVnNUVmZZMXlWSXB3bS8vaWdmWnJWdTNTMUh1SFVKQTExYWNKQ1p6Zno=
+    ufoLicenseKey: QVQ1TUlqbi8vLy8vQUFBQUtEMjhXY1dKUkVWMHYyckY5SEN4clhlTzhIMHNtbmI2RDlCRW9rUWY3S1c5VmMyU1AxT3o2SmxNZzZJR0pmVkEzbFNiaTdZZGhhcFVmNkdyMFdjanVwcEtJbUVENkYvcTk4Q0JWaEgraU4vSU5mQ2Z6WGw1L21sNEhDWklmaXJyaC9sWTJLUWRVWXp4OEtqSVlReHFPZmQ3TGhkZUJtYURQakJOc2FMZFRnT3hZak9CTkhmUHBUMlBLbXpEa1ZkYjN3eDNCVis1QWptVTUvYk1XQlc1YmtybXdYcjArYkRTZG5nK2pjaldhOWE5Rk5QSXBLdmxnd01lZG4zVHJpa1p2VmtqMmNJeVZ2dHd6alBlNWdJVHhCaXh0YzRPZFRSeXVoMXlZeVAzellPQ1NWbGl1QUZFQm5zdGJUUGJ3bHIwY2dJQVRUQkx6cEFHaCtvWFhvSzlqbmpJM0tQVmNBbXhPOVBRcGJlY3M0OHc=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
-    maxSimultaneousObjectTargets: 2
-    useDelayedLoadingObjectTargets: 0
+    maxSimultaneousImageTargets: 12
+    maxSimultaneousObjectTargets: 11
+    useDelayedLoadingObjectTargets: 1
     version: 8.1.7
     eulaAcceptedVersions: '{"Values":["8.1","8.3","0.0","8.0","8.5","8.6"]}'
   digitalEyewear:
-    cameraOffset: 0.05
+    cameraOffset: 0.06
     distortionRenderingLayer: 31
     eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: Generic Cardboard
-    viewerManufacturer: Vuforia
-    useCustomViewer: 1
+    viewerName: Cardboard v1
+    viewerManufacturer: Google
+    useCustomViewer: 0
     customViewer:
       Version: 0
-      Name: CasaMuseum
+      Name: 
       Manufacturer: 
       ButtonType: 0
-      ScreenToLensDistance: 0.055
-      InterLensDistance: 0.065
+      ScreenToLensDistance: 0
+      InterLensDistance: 0
       TrayAlignment: 0
-      LensCenterToTrayDistance: 0.04
-      DistortionCoefficients: {x: 0.4, y: 0.4}
-      FieldOfView: {x: 65, y: 65, z: 65, w: 65}
+      LensCenterToTrayDistance: 0
+      DistortionCoefficients: {x: 0, y: 0}
+      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
       ContainsMagnet: 0
   database:
     disableModelExtraction: 0
   videoBackground:
     clippingMode: 0
     numDivisions: 2
-    videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
-      type: 3}
-    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
+    videoBackgroundShader: {fileID: 0}
+    matteShader: {fileID: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0

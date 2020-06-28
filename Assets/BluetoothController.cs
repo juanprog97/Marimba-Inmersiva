@@ -8,27 +8,33 @@ using UnityEngine.SceneManagement;
 public class BluetoothController : MonoBehaviour
 {
     private string commandt;
-    public GameObject state;
-    public Sprite check;
-    public Sprite wrong;
-    public GameObject setText;
-    public GameObject animationSearch;
-    public GameObject reload;
-    public GameObject Scene;
+    // public GameObject state;
+    //public Sprite check;
+    //public Sprite wrong;
+    // public GameObject setText;
+    // public GameObject animationSearch;
+    //public GameObject reload;
+    //public GameObject Scene;
+    private int state;
+    public GameObject Controller_Menu;
+    private ControllerMenu state_menu;
+    public GameObject configurationBluetooth;
     public BluetoothDevice device;
-    public GameObject Ar_t;
-    public GameObject Target_t;
-    public GameObject Canv_t;
-    public GameObject Canv1_t;
+  //  public GameObject Ar_t;
+   // public GameObject Target_t;
+   // public GameObject Canv_t;
+   // public GameObject Canv1_t;
 
     void Awake()
     {
 
-        this.animationSearch.SetActive(true);
-        this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
+        //this.animationSearch.SetActive(true);
+        //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
+        
         BluetoothAdapter.enableBluetooth(); //you can by this force enabling Bluetooth without asking the user
         device = new BluetoothDevice();
         device.Name = "CasaMemoriaTumaco";
+        this.state = 0;
         device.setEndByte(10);
         device.ReadingCoroutine = ManageConnection;
 
@@ -36,14 +42,24 @@ public class BluetoothController : MonoBehaviour
 
     }
 
-   
+    
+
+    public void reconnect()
+    {
+        disconnect();
+        device.setEndByte(10);
+        device.ReadingCoroutine = ManageConnection;
+        device.connect();
+        
+        
+    }
         
 
     void Start()
     {
-        UnityEngine.XR.XRSettings.enabled = false;
-        //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
 
+        //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Buscando Sincronizacion...";
+        state_menu = this.Controller_Menu.GetComponent<ControllerMenu>();
         BluetoothAdapter.OnConnected += HandleOnConnected;
         BluetoothAdapter.OnDeviceNotFound += HandleOnDeviceNotFound;
         BluetoothAdapter.OnDeviceOFF += HandleOnDeviceOff;
@@ -55,17 +71,19 @@ public class BluetoothController : MonoBehaviour
     }
     void HandleOnDeviceOff(BluetoothDevice dev)
     {
-        if (!string.IsNullOrEmpty(dev.Name))
+        if (!string.IsNullOrEmpty(dev.Name) && this.state_menu.getIndexScene() == 0)
         {
-            StartCoroutine(wait(4));
+            this.configurationBluetooth.SendMessage("seeConnectionBluetooth", -1);
+            this.state = -1;
 
         }
     }
     void HandleOnDeviceNotFound(BluetoothDevice dev)
     {
-        if (!string.IsNullOrEmpty(dev.Name))
+        if (!string.IsNullOrEmpty(dev.Name) && this.state_menu.getIndexScene() == 0)
         {
-            StartCoroutine(wait(4));
+            this.configurationBluetooth.SendMessage("seeConnectionBluetooth", -2);
+            this.state = -2;
 
         }
     }
@@ -77,15 +95,18 @@ public class BluetoothController : MonoBehaviour
     }
     void HandleOnConnected(BluetoothDevice dev)
     {
-        if (!string.IsNullOrEmpty(dev.Name))
+        if (!string.IsNullOrEmpty(dev.Name) && this.state_menu.getIndexScene() == 0)
         {
-
-            StartCoroutine(wait(2));
+            this.configurationBluetooth.SendMessage("seeConnectionBluetooth", 1);
+            this.state = 1;
 
         }
     }
     
-
+    public int getState()
+    {
+        return this.state;
+    }
 
     IEnumerator ManageConnection(BluetoothDevice device)
     {
@@ -114,7 +135,7 @@ public class BluetoothController : MonoBehaviour
     }
 
 
-    private IEnumerator wait(int option)
+    /*private IEnumerator wait(int option)
     {
         //show animate out animation
         if(option == 1)
@@ -140,14 +161,8 @@ public class BluetoothController : MonoBehaviour
             this.Ar_t.SetActive(true);
             this.Target_t.SetActive(true);
             this.Canv_t.SetActive(true);
-           
-            
-
-
-
-
-
-}
+         
+        }
      
 
     
@@ -182,7 +197,7 @@ public class BluetoothController : MonoBehaviour
         
 
 
-    }
+    }*/
 
     
 
