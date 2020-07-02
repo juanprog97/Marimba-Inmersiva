@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class detectCol : MonoBehaviour
 {
-    private bool shootNote;
+   
     public KeyCode key;
     Animation a_pulse;
+
+    [System.Obsolete]
     void Start()
     {
-        this.shootNote = false;
-        this.a_pulse = GameObject.FindObjectOfType<Animation>();
+       
+        this.a_pulse = this.gameObject.transform.FindChild("Pulsador").GetComponent<Animation>();
     }
 
     void OnGUI()
@@ -21,29 +23,6 @@ public class detectCol : MonoBehaviour
             a_pulse.Play("shootPusle");
         }
     }
-    void Update()
-    {
-      /*  if (Input.GetKeyDown(this.key))
-        {
-            StartCoroutine(pressed());
-        }*/
-    }
+    
 
-    void OnTriggerEnter(Collider other)
-    {
-        this.shootNote = true;
-        
-        
-       
-    }
-    void OnTriggerExit(Collider other)
-    {
-        this.shootNote = false;
-
-    }
-   /* IEnumerator pressed()
-    {
-       
-        yield return new WaitForSeconds(0.4);
-    }*/
 }
