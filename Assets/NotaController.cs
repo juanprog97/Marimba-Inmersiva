@@ -30,8 +30,9 @@ public class NotaController : MonoBehaviour
             gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - this.tempo* Time.deltaTime  , gameObject.transform.position.z);
 
         }
-        else if(gameObject.transform.position.y < -400)
+        if(gameObject.transform.position.y < -400)
         {
+            GameObject.Find("ControlGame").GetComponent<game_controller>().restarNotas();
             DestroyObject(gameObject);
         }
     }

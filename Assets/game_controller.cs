@@ -25,6 +25,9 @@ public class game_controller : MonoBehaviour
     private int num_note;
     private bool game_finished;
     private songCharacter dato;
+    private string[] canciones;
+    private int indexSong;
+    private TextMeshPro cancionEscoger;
 
 
     [Serializable]
@@ -37,63 +40,59 @@ public class game_controller : MonoBehaviour
     }
 
 
-  
-    void Start()
-    { 
-
-        Debug.Log(Application.dataPath);
-        string Jsona = File.ReadAllText(Application.dataPath + "/songs/song1.json");
+    void CargaCancion(String song)
+    {
+        
+        string Jsona = File.ReadAllText(Application.dataPath + "/songs/" + song + ".json");
         this.num_note = 0;
-        this.game_finished = true;
-    // songCharacter sound = JsonUtility.FromJson<songCharacter>(Jsona);
-        dato  = JsonConvert.DeserializeObject<songCharacter>(Jsona);
-        int y_t = 21;
+        dato = JsonConvert.DeserializeObject<songCharacter>(Jsona);
+        int y_t = 1221;
         int x_t;
-        for (int i = 0 ; i< dato.song.Count; i++)
+        for (int i = dato.song.Count-1; i >-1 ; i--)
         {
             x_t = 12;
-            for (int j = 0; j<12; j++)
+            for (int j = 0; j < 12; j++)
             {
-                if(dato.song[i][j] == 1)
+                if (dato.song[i][j] == 1)
                 {
                     num_note += 1;
                     switch (j)
                     {
                         case 0:
-                            Instantiate(nota_1, new Vector3(x_t , y_t, 14.8f), Quaternion.identity);
+                            Instantiate(nota_1, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 1:
-                            Instantiate(nota_2, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_2, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 2:
-                            Instantiate(nota_3, new Vector3(x_t, y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_3, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 3:
-                            Instantiate(nota_4, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_4, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 4:
-                            Instantiate(nota_5, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_5, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 5:
-                            Instantiate(nota_6, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_6, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 6:
-                            Instantiate(nota_7, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_7, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 7:
-                            Instantiate(nota_8, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_8, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 8:
-                            Instantiate(nota_9, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_9, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 9:
-                            Instantiate(nota_10, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_10, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 10:
-                            Instantiate(nota_11, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_11, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                         case 11:
-                            Instantiate(nota_12, new Vector3(x_t , y_t , 14.8f), Quaternion.identity);
+                            Instantiate(nota_12, new Vector3(x_t, y_t, 14.8f), Quaternion.identity);
                             break;
                     }
                 }
@@ -101,6 +100,27 @@ public class game_controller : MonoBehaviour
             }
             y_t += 300;
         }
+
+    }
+
+    [Obsolete]
+    void Start()
+    {
+        string tmpString;
+        int index;
+        this.indexSong = 0;
+        this.canciones = Directory.GetFiles(Application.dataPath + "/songs/", "*.json");
+        for(int i = 0; i<this.canciones.Length; i++)
+        {
+            tmpString = Path.GetFileName(this.canciones[i]);
+            index = tmpString.IndexOf(".json");
+            this.canciones[i] = tmpString.Substring(0, index);
+        }
+        this.cancionEscoger = cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").GetComponent<TextMeshPro>();
+        this.cancionEscoger.text = this.canciones[this.indexSong];
+        this.game_finished = true;
+    
+       
     }
 
     public bool estadoJuego() {
@@ -139,25 +159,92 @@ public class game_controller : MonoBehaviour
         {
             this.game_finished = false;
             cuentaRegresiva.SetActive(false);
-            TextMeshPro texts = cuentaRegresiva.transform.FindChild("background").FindChild("TextoCuenta").GetComponent<TextMeshPro>();
-            texts.text = "Presione M";
-            texts.fontSize = 10;
+            cuentaRegresiva.transform.FindChild("background").FindChild("TituloCuadro").gameObject.SetActive(true);
+            cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").gameObject.SetActive(true);
+            cuentaRegresiva.transform.FindChild("background").FindChild("Arrows").gameObject.SetActive(true);
+            cuentaRegresiva.transform.FindChild("background").FindChild("TextoCuenta").gameObject.SetActive(false);
         }
         
+    }
+
+    void cambiarCancion(int i)
+    {
+        if(i == 1)
+        {
+            if (this.indexSong == this.canciones.Length - 1)
+            {
+                this.indexSong = 0;
+            }
+            else
+            {
+                this.indexSong += 1;
+            }
+
+        }
+        else
+        {
+            if(this.indexSong == 0)
+            {
+                this.indexSong = this.canciones.Length - 1;
+            }
+            else
+            {
+                this.indexSong -= 1;
+            }
+        }
+
+        this.cancionEscoger.text = this.canciones[this.indexSong];
+
     }
 
     [Obsolete]
     void OnGUI()
     {
+        //Boton Medio
+       
         if (Event.current.Equals(Event.KeyboardEvent("m")))
         {
 
-            
-            StartCoroutine("CuentaRegresiva", 3);
+            if (this.game_finished == true)
+            {
+                CargaCancion(this.canciones[this.indexSong]);
+                cuentaRegresiva.transform.FindChild("background").FindChild("TituloCuadro").gameObject.SetActive(false);
+                cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").gameObject.SetActive(false);
+                cuentaRegresiva.transform.FindChild("background").FindChild("Arrows").gameObject.SetActive(false); 
+                cuentaRegresiva.transform.FindChild("background").FindChild("TextoCuenta").gameObject.SetActive(true); 
+                StartCoroutine("CuentaRegresiva", 3);
+            }
+           
            
 
         }
-        
+        //Boton izquierdo
+        if (Event.current.Equals(Event.KeyboardEvent("a")))
+        {
+            if(game_finished == true)
+            {
+                cambiarCancion(-1);
+            }
+
+         
+
+
+        }
+
+        //Boton Derecho
+
+        if (Event.current.Equals(Event.KeyboardEvent("s")))
+        {
+
+            if (game_finished == true )
+            {
+                cambiarCancion(1);
+            }
+                
+
+
+        }
+
     }
 
 
