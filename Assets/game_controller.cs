@@ -141,12 +141,22 @@ public class game_controller : MonoBehaviour
             game_finished = true;
             beatAndPlane.SetActive(false);
             Score.SetActive(false);
-            Score.GetComponent<ScoreController>().reset();
+            StartCoroutine("mostrarPuntaje");
+           
             cuentaRegresiva.SetActive(true);
         }
     }
 
-    
+    [Obsolete]
+    IEnumerator mostrarPuntaje()
+    {
+        cuentaRegresiva.transform.FindChild("background").FindChild("TituloCuadro").GetComponent<TextMeshPro>().text = "Puntaje";
+        cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").GetComponent<TextMeshPro>().text = Score.GetComponent<ScoreController>().getPuntaje().ToString();
+        yield return new WaitForSeconds(5.0f);
+        cuentaRegresiva.transform.FindChild("background").FindChild("TituloCuadro").GetComponent<TextMeshPro>().text = "Escoge tu canción";
+        cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").GetComponent<TextMeshPro>().text = this.canciones[this.indexSong];
+        Score.GetComponent<ScoreController>().reset();
+    }
 
 
     [Obsolete]

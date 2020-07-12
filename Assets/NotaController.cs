@@ -31,16 +31,17 @@ public class NotaController : MonoBehaviour
     [System.Obsolete]
     void Update()
     {
-        if(GameObject.Find("ControlGame").GetComponent<game_controller>().estadoJuego()!= true )
-        {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - this.tempo* Time.deltaTime  , gameObject.transform.position.z);
-
-        }
-        else if(gameObject.transform.position.y < -400)
+        
+        if(gameObject.transform.position.y < -400)
         {
             GameObject.Find("ControlGame").GetComponent<game_controller>().restarNotas();
             punt.fallo();
             DestroyObject(gameObject);
+        }
+        if (GameObject.Find("ControlGame").GetComponent<game_controller>().estadoJuego() != true)
+        {
+            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - this.tempo * Time.deltaTime, gameObject.transform.position.z);
+
         }
     }
   

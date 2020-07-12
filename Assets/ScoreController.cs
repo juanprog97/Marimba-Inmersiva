@@ -81,12 +81,16 @@ public class ScoreController : MonoBehaviour
 
     }
 
-
+    public int getPuntaje()
+    {
+        return this.puntaje;
+    }
     public void reset()
     {
         this.puntaje = 0;
         this.numAcertadas = 0;
-
+        this.scoreInt.text = this.puntaje.ToString();
+        this.multiplicador.text = "x" + pxt.ToString();
     }
 
     // Update is called once per frame
