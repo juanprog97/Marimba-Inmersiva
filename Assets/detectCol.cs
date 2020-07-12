@@ -21,7 +21,9 @@ public class detectCol : MonoBehaviour
         if (Input.GetKeyDown(this.key))
         {
             a_pulse.Play("shootPusle");
+            
         }
+
     }
     
 

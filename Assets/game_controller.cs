@@ -28,23 +28,25 @@ public class game_controller : MonoBehaviour
     private string[] canciones;
     private int indexSong;
     private TextMeshPro cancionEscoger;
-
+    public GameObject beatAndPlane;
+    public GameObject Score;
 
     [Serializable]
     private class songCharacter
     {
         public int beatTempo;
         public List<List<int>> song;
-       
-
     }
 
 
     void CargaCancion(String song)
     {
-        
+
+       
+       
         string Jsona = File.ReadAllText(Application.dataPath + "/songs/" + song + ".json");
         this.num_note = 0;
+        Score.SetActive(true);
         dato = JsonConvert.DeserializeObject<songCharacter>(Jsona);
         int y_t = 1221;
         int x_t;
@@ -118,6 +120,7 @@ public class game_controller : MonoBehaviour
         }
         this.cancionEscoger = cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").GetComponent<TextMeshPro>();
         this.cancionEscoger.text = this.canciones[this.indexSong];
+        
         this.game_finished = true;
     
        
@@ -136,6 +139,9 @@ public class game_controller : MonoBehaviour
         if(num_note == 0)
         {
             game_finished = true;
+            beatAndPlane.SetActive(false);
+            Score.SetActive(false);
+            Score.GetComponent<ScoreController>().reset();
             cuentaRegresiva.SetActive(true);
         }
     }
@@ -158,6 +164,8 @@ public class game_controller : MonoBehaviour
         else
         {
             this.game_finished = false;
+            beatAndPlane.SetActive(true);
+            
             cuentaRegresiva.SetActive(false);
             cuentaRegresiva.transform.FindChild("background").FindChild("TituloCuadro").gameObject.SetActive(true);
             cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").gameObject.SetActive(true);
