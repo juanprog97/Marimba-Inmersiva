@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-07-12T14:42:21.734-05:00
-  initializedAtString: 2020-07-12T14:42:21.734-05:00
+  lastUpdatedAtString: 2020-07-12T23:51:50.770-05:00
+  initializedAtString: 2020-07-12T23:51:50.770-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/juanprog97/Marimba-Inmersiva.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: 
-    tracking: 
+    name: master
+    tracking: origin/master
   currentConfigBranch:
-    name: 
+    name: master
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/juanprog97/Marimba-Inmersiva.git
+    trackingBranch: master
   currentConfigRemote:
     name: origin
     url: https://github.com/juanprog97/Marimba-Inmersiva.git
