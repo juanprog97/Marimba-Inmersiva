@@ -6,6 +6,7 @@ All Rights Reserved.
 Confidential and Proprietary - Protected under copyright and other laws.
 ==============================================================================*/
 
+using System;
 using UnityEngine;
 using Vuforia;
 
@@ -120,5 +121,10 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             component.enabled = false;
     }
 
+    /*  public void Invoke(global::BluetoothController bluetoothController, EventArgs empty)
+      {
+          throw new NotImplementedException();
+      }
+      */
     #endregion // PROTECTED_METHODS
 }

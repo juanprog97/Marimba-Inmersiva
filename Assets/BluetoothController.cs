@@ -4,6 +4,7 @@ using UnityEngine;
 using TechTweaking.Bluetooth;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System;
 
 public class BluetoothController : MonoBehaviour
 {
@@ -20,11 +21,15 @@ public class BluetoothController : MonoBehaviour
     private ControllerMenu state_menu;
     public GameObject configurationBluetooth;
     public BluetoothDevice device;
+    public event EventHandler<t_command> commandsBluetooth;
   //  public GameObject Ar_t;
-   // public GameObject Target_t;
-   // public GameObject Canv_t;
-   // public GameObject Canv1_t;
-
+  // public GameObject Target_t;
+  // public GameObject Canv_t;
+  // public GameObject Canv1_t;
+    public class t_command: EventArgs
+    {
+        public string commandt;
+    }
     void Awake()
     {
 
@@ -116,12 +121,17 @@ public class BluetoothController : MonoBehaviour
             if (device.IsDataAvailable)
             {
                 byte[] msg = device.read();//because we called setEndByte(10)..read will always return a packet excluding the last byte 10.
-               
+      
                 if (msg != null && msg.Length > 0)
                 {
                     string content = System.Text.ASCIIEncoding.ASCII.GetString(msg);
-                    this.commandt = content;
 
+                    this.commandt = content;
+                    if(commandt != "000")
+                    {
+                        commandsBluetooth?.Invoke(this, new t_command { commandt = this.commandt });
+                    }
+                    
 
                 }
 

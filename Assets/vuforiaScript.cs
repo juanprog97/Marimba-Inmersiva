@@ -13,6 +13,7 @@ public class vuforiaScript : MonoBehaviour, ITrackableEventHandler
     public GameObject zPos;
     private BluetoothController command;
     public GameObject Cond;
+   
     public GameObject notFound;
  
     void Start()
@@ -24,6 +25,7 @@ public class vuforiaScript : MonoBehaviour, ITrackableEventHandler
         {
 
             this.command = GameObject.Find("Bluetooth").GetComponent<BluetoothController>();
+            command.commandsBluetooth += getCommandBluetooth;
         }
         catch (NullReferenceException ex)
         {
@@ -36,6 +38,12 @@ public class vuforiaScript : MonoBehaviour, ITrackableEventHandler
         }
        
     }
+
+    private void getCommandBluetooth(object sender, BluetoothController.t_command e)
+    {
+        Menu.GetComponent<MenuController>().moveMenu(e.commandt);
+    }
+
     // Update is called once per frame
     void Update()
     {

@@ -11,9 +11,9 @@ void loop() {
   int pin3 = not(digitalRead(3));
   int pin4 = not(digitalRead(4));
   
-  Serial.print(pin2);
+  Serial.print(pin4);
   Serial.print(pin3);
-  Serial.println(pin4);
-  delay(100);
+  Serial.println(pin2);
+  delay(500);
  
 }
