@@ -13,7 +13,8 @@ void loop() {
   
   Serial.print(pin4);
   Serial.print(pin3);
-  Serial.println(pin2);
-  delay(500);
+  Serial.print(pin2);
+  Serial.println("000000000");
+  delay(100);
  
 }

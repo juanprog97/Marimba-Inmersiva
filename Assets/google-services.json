@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "163011365131",
+    "firebase_url": "https://quickstart-1595792293378.firebaseio.com",
+    "project_id": "quickstart-1595792293378",
+    "storage_bucket": "quickstart-1595792293378.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163011365131:android:85c0dc283b19fb37d27a0e",
+        "android_client_info": {
+          "package_name": "com.universidadjaveriana.museumApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163011365131-o6hp954dc9kkolp60uqjagoidr9bnn7i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universidadjaveriana.museumApp",
+            "certificate_hash": "ecb499319c059e3926d4185942ad2e3ec94d606d"
+          }
+        },
+        {
+          "client_id": "163011365131-86hq0i4qrh4bccbppc2upnv0l3sdgm1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkDuirpXKLc2Uq_YKjM0Xz4jobSmTvzQY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163011365131-86hq0i4qrh4bccbppc2upnv0l3sdgm1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

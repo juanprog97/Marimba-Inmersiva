@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
 public class note_s : MonoBehaviour
 {
     // Start is called before the first frame update
-    
-    void OnTriggerEnter(Collider other)
+    public GameObject parent;
+    void OnTriggerEnter(Collider collision )
     {
-
-        gameObject.SendMessageUpwards("colision");
-        
-
+        parent.GetComponent<NotaController>().colision();
     }
+
+ 
+
+ 
 
 
 }

@@ -1,52 +1,73 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class NotaController : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int tempo;
+    private float tempo;
     private ScoreController punt;
-    
+    public string id_Note;
+    private bool EstadoJuego;
+    private GameControl CodeGame;
     void Start()
     {
-       tempo =  GameObject.Find("ControlGame").GetComponent<game_controller>().consultarTemp();
+       CodeGame = GameObject.Find("Code_Control").GetComponent<GameControl>();
+       tempo =  map(CodeGame.GetComponent<GameControl>().consultarTemp());
        punt = GameObject.Find("Score").GetComponent<ScoreController>();
+
         
     }
 
-    [System.Obsolete]
+    float map(float temp_in)
+    {
+
+        return Convert.ToSingle(((temp_in - 100) * (0.35 - 0.15) / (300 - 100) + 0.15));
+
+    }
     IEnumerator animacion()
     {
-        Animator effect = gameObject.GetComponent<Animator>();
-        
-        effect.Play("Efecro");
-        yield return new WaitForSeconds(0.5f);
-        GameObject.Find("ControlGame").GetComponent<game_controller>().restarNotas();
         punt.acertado();
-        DestroyObject(gameObject);
+        CodeGame.restarNotas();
+        Animator effect = gameObject.GetComponent<Animator>();
+        effect.Play("nota"+this.id_Note);
+        yield return new WaitForSeconds(1.5f);
+        
+        Destroy(gameObject);
+      
 
+    }
+
+    private bool estadoJuego()
+    {
+        //Si el juego no esta corriendo es true y si esta corriendo el false
+        return GameObject.Find("Code_Control").GetComponent<GameControl>().estadoJuego();
     }
 
     [System.Obsolete]
     void Update()
     {
-        
-        if(gameObject.transform.position.y < -400)
-        {
-            GameObject.Find("ControlGame").GetComponent<game_controller>().restarNotas();
-            punt.fallo();
-            DestroyObject(gameObject);
-        }
-        if (GameObject.Find("ControlGame").GetComponent<game_controller>().estadoJuego() != true)
-        {
-            gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - this.tempo * Time.deltaTime, gameObject.transform.position.z);
 
+
+        if (estadoJuego() == false)
+        {
+            if (gameObject.transform.position.y < -0.5f)
+            {
+                CodeGame.restarNotas();
+                punt.fallo();
+                DestroyObject(gameObject);
+            }
+            else
+            {
+                gameObject.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - tempo * Time.deltaTime, gameObject.transform.position.z);
+            }
         }
     }
-  
+
     public void colision()
     {
+       
         StartCoroutine("animacion");
         
     }

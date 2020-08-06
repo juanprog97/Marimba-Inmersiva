@@ -16,7 +16,7 @@ public class option2 : MonoBehaviour
         this.anim = component.GetComponent<Animator>();
         if (indexView.GetComponent<MenuController>().getEnterValue() && indexView.GetComponent<MenuController>().getIndex() == 1)
         {
-            StartCoroutine(LoadSceneAFterTransition(this.anim));
+            this.anim.Play("onPress2");
             this.key = 1;
         }
         if (indexView.GetComponent<MenuController>().getIndex() == 1 && this.key != 1)

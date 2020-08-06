@@ -1,6 +1,6 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class MenuConfigurationController : MonoBehaviour
@@ -10,55 +10,43 @@ public class MenuConfigurationController : MonoBehaviour
     private Image state;
     public Sprite check;
     public Sprite wrong;
-
-    public GameObject managet_t;
-
-   // private bool state_menuConfiguration = true;
     private GameObject animationSearch;
     private GameObject reload;
     private GameObject stateObject;
-    public GameObject Bluetooth_t;
     private GameObject logo_t;
-    private BluetoothController state_bluetooth;
-    private string info_state;
+    private GameObject play_app;
     [System.Obsolete]
     void Start()
     {
-
+        UnityEngine.XR.XRSettings.enabled = false;
+        Screen.orientation = ScreenOrientation.Portrait;
         this.textMesh = gameObject.transform.FindChild("Panel").transform.FindChild("Notify").GetComponent<TMPro.TextMeshProUGUI>();
         this.stateObject = gameObject.transform.FindChild("Panel").transform.FindChild("State").gameObject;
         this.state = gameObject.transform.FindChild("Panel").transform.FindChild("State").GetComponent<Image>();
         this.logo_t = gameObject.transform.FindChild("Panel").transform.FindChild("Comunication").gameObject;
         this.animationSearch = gameObject.transform.FindChild("Panel").transform.FindChild("AnimacionBusqueda").gameObject;
         this.reload = gameObject.transform.FindChild("Panel").transform.FindChild("reloadSearch").gameObject;
+        this.play_app= gameObject.transform.FindChild("Panel").transform.FindChild("playApp").gameObject;
         this.textMesh.text = "Buscando Sincronizacion...";
-        this.state_bluetooth = Bluetooth_t.GetComponent<BluetoothController>();
         animationSearch.SetActive(true);
-        
-        
+        seeConnectionBluetooth();
     }
 
     [System.Obsolete]
-    public void seeConnectionBluetooth(int info)
+    public void seeConnectionBluetooth()
     {
-        
-        if (info == 1)
+        bool state = componentBluetooth.Instance.IsConnected;
+        if (state == true)
         {
             StartCoroutine(waitAnimacion(2));
 
-         
-            managet_t.GetComponent<ControllerMenu>().invokeMenuPrincipal();
+        }
+        else
+        {
+            
+            StartCoroutine(waitAnimacion(3));
 
         }
-        else if (info == -1)
-        {
-            StartCoroutine(waitAnimacion(3));
-        }
-        else if (info == -2)
-        {
-            StartCoroutine(waitAnimacion(3));
-        }
-
        
 
     }
@@ -72,10 +60,14 @@ public class MenuConfigurationController : MonoBehaviour
         {
             this.reload.GetComponent<Animator>().Play("Pressed");
             yield return new WaitForSeconds(2);
+            this.stateObject.SetActive(false);
             this.textMesh.text = "Buscando Sincronizacion...";
             this.reload.SetActive(false);
+            this.logo_t.SetActive(true);
             this.animationSearch.SetActive(true);
-            state_bluetooth.reconnect();
+            yield return new WaitForSeconds(3);
+            componentBluetooth.Instance.reconnect();
+            seeConnectionBluetooth();
         }
 
         if (option == 2)
@@ -86,17 +78,11 @@ public class MenuConfigurationController : MonoBehaviour
             this.stateObject.SetActive(true);
             state.sprite = this.check;
             textMesh.text = "Sincronizacion realizada correctamente";
-            yield return new WaitForSeconds(5);
-            managet_t.GetComponent<ControllerMenu>().invokeMenuPrincipal();
-            // this.Canv1_t.SetActive(false);
-            // this.Ar_t.SetActive(true);
-            ///this.Target_t.SetActive(true);
-            // this.Canv_t.SetActive(true);
+            yield return new WaitForSeconds(3);
+            this.play_app.SetActive(true);
+
 
         }
-
-
-
         if (option == 3)
         {
             
@@ -105,34 +91,21 @@ public class MenuConfigurationController : MonoBehaviour
             this.stateObject.SetActive(true);
             this.state.sprite = this.wrong;
             textMesh.text = "No se pudo sincronizar la conexion";
-            //this.animationSearch.SetActive(false);
-            //this.state.SetActive(true);
-            //this.state.GetComponent<Image>().sprite = this.wrong;
-            //this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "No se pudo sincronizar la conexion.";
-            yield return new WaitForSeconds(4);
-            this.logo_t.SetActive(true);
-            this.stateObject.SetActive(false);
+            yield return new WaitForSeconds(3);
             this.reload.SetActive(true);
-         
-
-
-            
-
-            // this.setText.GetComponent<TMPro.TextMeshProUGUI>().text = "Vuelva intentar la sincronizacion";
-            // this.state.SetActive(false);
-            //this.reload.SetActive(true);
-
-
         }
-
-
-        //load the scene we want
+    }
+    public void moveMenuPrincipal()
+    {
+       
+        SceneManager.LoadScene("PrincipalMenu");
     }
 
     [System.Obsolete]
     public void reset()
     {
-       StartCoroutine(waitAnimacion(1));
+        
+        StartCoroutine(waitAnimacion(1));
     }
 }
 

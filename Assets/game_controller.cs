@@ -5,7 +5,8 @@ using System.IO;
 using System;
 using Newtonsoft.Json;
 using TMPro;
-using UnityEngine.UI;
+using UnityEngine.Networking;
+
 
 public class game_controller : MonoBehaviour
 {
@@ -21,6 +22,10 @@ public class game_controller : MonoBehaviour
     public GameObject nota_10;
     public GameObject nota_11;
     public GameObject nota_12;
+    public string url;
+    public int t_select;
+    public int t_right;
+    public int t_left;
     public GameObject cuentaRegresiva;
     private int num_note;
     private bool game_finished;
@@ -44,7 +49,7 @@ public class game_controller : MonoBehaviour
 
        
        
-        string Jsona = File.ReadAllText(Application.dataPath + "/songs/" + song + ".json");
+        string Jsona = File.ReadAllText(Application.streamingAssetsPath + "/songs/" + song + ".json");
         this.num_note = 0;
         Score.SetActive(true);
         dato = JsonConvert.DeserializeObject<songCharacter>(Jsona);
@@ -106,22 +111,40 @@ public class game_controller : MonoBehaviour
     }
 
     [Obsolete]
-    void Start()
+
+
+    IEnumerator DownloadSong()
     {
+        UnityWebRequest www =  UnityWebRequest.Get(this.url);
+        yield return www.Send();
+
+
+    }
+
+
+    void Awake()
+    {
+        
         string tmpString;
         int index;
         this.indexSong = 0;
-        this.canciones = Directory.GetFiles(Application.dataPath + "/songs/", "*.json");
-        for(int i = 0; i<this.canciones.Length; i++)
-        {
-            tmpString = Path.GetFileName(this.canciones[i]);
-            index = tmpString.IndexOf(".json");
-            this.canciones[i] = tmpString.Substring(0, index);
-        }
+        StartCoroutine("DownloadSong");
+        this.canciones = Directory.GetFiles(Application.streamingAssetsPath + "/songs/", "*.json");
+        /* for(int i = 0; i<this.canciones.Length; i++)
+         {
+             tmpString = Path.GetFileName(this.canciones[i]);
+             index = tmpString.IndexOf(".json");
+             this.canciones[i] = tmpString.Substring(0, index);
+         }*/
         this.cancionEscoger = cuentaRegresiva.transform.FindChild("background").FindChild("NombreCancion").GetComponent<TextMeshPro>();
-        this.cancionEscoger.text = this.canciones[this.indexSong];
+        /*this.cancionEscoger.text = this.canciones[this.indexSong];*/
+        this.cancionEscoger.text = this.canciones.Length.ToString();
+    }
+    void Start()
+    {
         
-        this.game_finished = true;
+
+         this.game_finished = true;
     
        
     }
@@ -216,11 +239,11 @@ public class game_controller : MonoBehaviour
     }
 
     [Obsolete]
-    void OnGUI()
+    void Update()
     {
         //Boton Medio
-       
-        if (Event.current.Equals(Event.KeyboardEvent("m")))
+        string command = componentBluetooth.Instance.dataRecived;
+        if (command[t_select] == '1')
         {
 
             if (this.game_finished == true)
@@ -237,7 +260,7 @@ public class game_controller : MonoBehaviour
 
         }
         //Boton izquierdo
-        if (Event.current.Equals(Event.KeyboardEvent("a")))
+        if (command[t_left] == '1')
         {
             if(game_finished == true)
             {
@@ -251,7 +274,7 @@ public class game_controller : MonoBehaviour
 
         //Boton Derecho
 
-        if (Event.current.Equals(Event.KeyboardEvent("s")))
+        if (command[t_right] == '1')
         {
 
             if (game_finished == true )

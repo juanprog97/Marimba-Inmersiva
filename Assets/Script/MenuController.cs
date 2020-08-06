@@ -10,10 +10,7 @@ public class MenuController : MonoBehaviour
     private int index = 0;
     private bool enter;
     public GameObject parent;
-    
-    public GameObject status_T;
-
-
+ 
     void start()
     {
        // UnityEngine.XR.XRSettings.enabled = true;
@@ -24,8 +21,6 @@ public class MenuController : MonoBehaviour
 
     public void moveMenu(string commandt)
     {
-   
-
         if (commandt[1] == '1')
         {
             this.index++;
@@ -44,7 +39,6 @@ public class MenuController : MonoBehaviour
             }
 
         }
-        status_T.GetComponent<UnityEngine.UI.Text>().text = commandt;
     }
 
     public int getIndex()
