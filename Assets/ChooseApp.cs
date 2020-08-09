@@ -16,7 +16,7 @@ public class ChooseApp : MonoBehaviour
     }
     public void loadGame()
     {
-        UnityEngine.XR.XRSettings.enabled = true;
+        UnityEngine.XR.XRSettings.enabled = false;
         SceneManager.LoadScene("Game");
     }
     public void Exit()
