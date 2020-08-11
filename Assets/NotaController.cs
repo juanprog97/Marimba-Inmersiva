@@ -28,12 +28,12 @@ public class NotaController : MonoBehaviour
     }
     IEnumerator animacion()
     {
-        punt.acertado();
-        CodeGame.restarNotas();
+        
         Animator effect = gameObject.GetComponent<Animator>();
         effect.Play("nota"+this.id_Note);
-        yield return new WaitForSeconds(1.5f);
-        
+        yield return new WaitForSeconds(1f);
+        punt.acertado();
+        CodeGame.restarNotas();
         Destroy(gameObject);
       
 
@@ -52,7 +52,7 @@ public class NotaController : MonoBehaviour
 
         if (estadoJuego() == false)
         {
-            if (gameObject.transform.position.y < -0.5f)
+            if (gameObject.transform.position.y < -1f)
             {
                 CodeGame.restarNotas();
                 punt.fallo();

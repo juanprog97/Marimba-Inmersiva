@@ -1,6 +1,7 @@
 ﻿using Firebase;
 using Firebase.Unity.Editor;
 using Newtonsoft.Json;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,15 +10,22 @@ using UnityEngine.UI;
 
 public class JuegoOptionController : MonoBehaviour
 {
-    // Start is called before the first frame update
 
+    private string UrlStorage;
     public GameObject debug;
     public GameObject Menu;
     public GameObject Info;
     public GameObject DataInfoRanking;
     public GameObject NameSong;
+    public string estaSonando = "";
     private DataGame Datos;
     private int indexSong;
+    private string AssetName = "canciones";
+    public GameObject code_control;
+    public GameObject ArCamera;
+    public GameObject ImageTarget;
+    public GameObject Lights;
+    public GameObject Control;
 
 
     private const string projectId = "quickstart-1595792293378";
@@ -43,10 +51,83 @@ public class JuegoOptionController : MonoBehaviour
         public List<Song> Songs { get; set; }
     }
 
+    [System.Obsolete]
+    IEnumerator DescargarCanciones()
+    {
+        Firebase.Storage.FirebaseStorage storage = Firebase.Storage.FirebaseStorage.DefaultInstance;
+        // Create a storage reference from our storage service
+        Firebase.Storage.StorageReference reference = storage.GetReferenceFromUrl("gs://quickstart-1595792293378.appspot.com/AssetsBundles/Musica/canciones");
+        var task = reference.GetDownloadUrlAsync();
+        yield return new WaitUntil(() => task.IsCompleted);
+
+        while (!Caching.ready)
+            yield return null;
+
+        using (WWW www = WWW.LoadFromCacheOrDownload(task.Result.ToString(), 2))
+        {
+            yield return www;
+            if (www.error != null)
+                throw new Exception("WWW download had an error:" + www.error);
+            AssetBundle bundle = www.assetBundle;
+            if (AssetName == "")
+            {
+                Instantiate(bundle.mainAsset);
+                debug.GetComponent<Text>().text = "Primerif";
+            }
+            else
+            {
+                
+                var cancionesDescargadas = Instantiate(bundle.LoadAsset(AssetName),gameObject.transform.GetComponent<Transform>());
+                debug.GetComponent<Text>().text = "Segundoif";
+            }
+               
+            // Unload the AssetBundles compressed contents to conserve memory
+            bundle.Unload(false);
+
+        }
+
+
+        
+    }
+
+    [Obsolete]
+    void reproducir(string nombreCancion)
+    {
+       
+
+        if (this.estaSonando != "")
+        {
+            try
+            {
+                GameObject.Find("Canciones(Clone)").gameObject.transform.FindChild(this.estaSonando).GetComponent<AudioSource>().Stop();
+                this.estaSonando = "";
+            }
+            catch
+            {
+                debug.GetComponent<Text>().text = "No se paro la cancion inicial";
+            }
+        }
+
+        if (this.estaSonando == "")
+        {
+            try
+            {
+                GameObject.Find("Canciones(Clone)").gameObject.transform.FindChild(nombreCancion).GetComponent<AudioSource>().Play();
+                this.estaSonando = nombreCancion;
+            }
+            catch
+            {
+                debug.GetComponent<Text>().text = "No se reproduce la cancion nueva";
+            }
+            
+        }
+    }
+
     void Awake()
     {
         Screen.orientation = ScreenOrientation.Portrait;
-        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+        StartCoroutine("DescargarCanciones"); 
+       /* FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
             var dependencyStatus = task.Result;
             if (dependencyStatus == DependencyStatus.Available)
             {
@@ -59,7 +140,7 @@ public class JuegoOptionController : MonoBehaviour
                     "Could not resolve all Firebase dependencies: {0}", dependencyStatus);
                   // Firebase Unity SDK is not safe to use here.
             }
-        });
+        });*/
     }
 
     [System.Obsolete]
@@ -119,6 +200,8 @@ public class JuegoOptionController : MonoBehaviour
             itemRank.transform.FindChild("nombre").GetComponent<Text>().text =  Datos.Songs[indexSong].ranking[i].nUsuario ;
             itemRank.transform.FindChild("puntaje").GetComponent<Text>().text = Datos.Songs[indexSong].ranking[i].nPuntaje.ToString() ;
         }
+        reproducir(Datos.Songs[indexSong].nombre);
+
     }
 
     [System.Obsolete]
@@ -143,9 +226,12 @@ public class JuegoOptionController : MonoBehaviour
         this.Actualizar();
     }
 
+
+    [Obsolete]
     public void regresar()
     {
         Menu.SetActive(true);
+        
         this.gameObject.SetActive(false);
     }
 
@@ -157,8 +243,16 @@ public class JuegoOptionController : MonoBehaviour
 
     public void Jugar()
     {
-        Debug.Log("Ed");
-    }
+        UnityEngine.XR.XRSettings.enabled = true;
+        Screen.orientation = ScreenOrientation.Landscape;
+        ArCamera.SetActive(true);
+        ImageTarget.SetActive(true);
+        Lights.SetActive(true);
+        Control.SetActive(true);
+        code_control.GetComponent<GameControl>().iniciarJuego(Datos.Songs[indexSong].nombre.Replace(" ",""));
+        gameObject.SetActive(false);
+
+}
 
     
 }

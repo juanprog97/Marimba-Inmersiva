@@ -95,6 +95,8 @@ public class ScoreController : MonoBehaviour
         this.multiplicador.text = "x" + pxt.ToString();
     }
 
+
+
     // Update is called once per frame
  
 }

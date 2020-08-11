@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 1861818380
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: canciones
+      Dependencies: {}

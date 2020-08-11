@@ -21,6 +21,6 @@ public class ChooseApp : MonoBehaviour
     }
     public void Exit()
     {
-        Application.Quit();
+        System.Diagnostics.Process.GetCurrentProcess().Kill();
     }
 }

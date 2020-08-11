@@ -7,6 +7,8 @@ public class componentBluetooth : MonoBehaviour
     public static componentBluetooth Instance { get; private set; }
     public bool IsConnected;
     public string dataRecived = "";
+    public event EventHandler seDesconecto;
+    
     
     void Awake()
     {
@@ -31,7 +33,10 @@ public class componentBluetooth : MonoBehaviour
         }
     }
 
-
+    public bool estaConectado()
+    {
+        return this.IsConnected;
+    }
 
     public bool reconnect()
     {
@@ -63,6 +68,8 @@ public class componentBluetooth : MonoBehaviour
             catch (Exception e)
             {
                 dataRecived = "000000000000";
+                IsConnected = false;
+                seDesconecto?.Invoke(this, EventArgs.Empty);
             }
         }
 
