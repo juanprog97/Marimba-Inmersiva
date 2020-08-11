@@ -9749,7 +9749,7 @@ MonoBehaviour:
   Score: {fileID: 1777464084}
   GameParent: {fileID: 1590595035}
   background: {fileID: 1033545148}
-  cancionSeleccionada: 
+  Controljuego: {fileID: 2043734106}
   ScoreMenu: {fileID: 503794716}
   ArCamera: {fileID: 773775466}
   ImageTarget: {fileID: 979370149}
@@ -13997,6 +13997,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntaje: {fileID: 1169903959}
   nUsuario: {fileID: 1839691326}
+  juegoPuntaje: {fileID: 547366448}
+  nPuntaje: 0
 --- !u!1 &1903088983
 GameObject:
   m_ObjectHideFlags: 0

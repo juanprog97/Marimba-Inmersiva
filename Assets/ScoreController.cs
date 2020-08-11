@@ -11,7 +11,7 @@ public class ScoreController : MonoBehaviour
     private int pxt;
     private TextMeshPro scoreInt;
     private TextMeshPro multiplicador;
-
+    
 
     [System.Obsolete]
     void Start()
@@ -94,6 +94,7 @@ public class ScoreController : MonoBehaviour
         this.scoreInt.text = this.puntaje.ToString();
         this.multiplicador.text = "x" + pxt.ToString();
     }
+
 
 
 

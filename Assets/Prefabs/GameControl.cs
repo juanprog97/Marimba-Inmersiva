@@ -37,12 +37,10 @@ public class GameControl : MonoBehaviour
     public GameObject GameParent;
     private TextMeshPro textoCuenta;
     public GameObject background;
-    private const string projectId = "quickstart-1595792293378";
-    private static readonly string databaseURL = $"https://{projectId}.firebaseio.com/";
     public event EventHandler PUSH;
-    public string cancionSeleccionada;
+    private string cancionSeleccionada;
 
-
+    public GameObject Controljuego; //Mientras Tanto
     public GameObject ScoreMenu;
     public GameObject ArCamera;
     public GameObject ImageTarget;
@@ -165,6 +163,7 @@ public class GameControl : MonoBehaviour
         if(game_finished == true)
         {
             GameParent.SetActive(true);
+            Controljuego.SetActive(false);
             StartCoroutine("CargarCancion", this.cancionSeleccionada);
         }
         else
@@ -200,11 +199,7 @@ public class GameControl : MonoBehaviour
 
             StartCoroutine("mostrarPuntaje");
 
-
-
-
-
-}
+        }
     }
 
       [System.Obsolete]
@@ -225,7 +220,9 @@ public class GameControl : MonoBehaviour
         Light.SetActive(false);
  
         ScoreMenu.SetActive(true);
+
         ScoreMenu.transform.FindChild("Registrar").GetComponent<scoreRegister>().rellenar(Score.GetComponent<ScoreController>().getPuntaje());
+
         Score.SetActive(false);
         Score.GetComponent<ScoreController>().reset();
      }
@@ -247,7 +244,7 @@ public class GameControl : MonoBehaviour
         {
 
 
-
+            Controljuego.SetActive(true);
             background.SetActive(false);
             beatAndPlane.SetActive(true);
             yield return new WaitForSeconds(1.0f);
@@ -258,8 +255,7 @@ public class GameControl : MonoBehaviour
 
     public void iniciarJuego(string nombreCancion) {
         this.cancionSeleccionada = nombreCancion;
-
-        
+       
     }
 
 

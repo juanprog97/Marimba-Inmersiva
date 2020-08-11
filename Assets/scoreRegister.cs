@@ -1,23 +1,33 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 
 public class scoreRegister : MonoBehaviour
 {
+   
     public GameObject puntaje;
     public GameObject nUsuario;
+    public GameObject juegoPuntaje;
+    public int nPuntaje;
+
+
+    
+
+
     public void rellenar(int nPuntaje)
     {
+        this.nPuntaje = nPuntaje;
         puntaje.GetComponent<Text>().text = nPuntaje.ToString();
     }
 
+
+
     public void registrar()
     {
-       
-        Debug.Log(nUsuario.GetComponent<InputField>().text);
+        juegoPuntaje.GetComponent<JuegoOptionController>().subirPuntaje(nUsuario.GetComponent<InputField>().text, nPuntaje);
+        juegoPuntaje.SetActive(true);
         nUsuario.GetComponent<InputField>().text = "";
+        gameObject.SetActive(false);
     }
 
 
