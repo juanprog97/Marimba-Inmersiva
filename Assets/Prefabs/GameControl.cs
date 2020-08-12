@@ -150,7 +150,7 @@ public class GameControl : MonoBehaviour
         de = debug.transform.GetComponent<TextMeshPro>();
         textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
         textoCuenta.fontSize = 50;
-        textoCuenta.text = "Cargando...";
+        textoCuenta.text = "pulse";
 
 
     }

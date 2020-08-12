@@ -30,7 +30,7 @@ public class JuegoOptionController : MonoBehaviour
 
 
     private const string projectId = "quickstart-1595792293378";
-    private static readonly string databaseURL = $"https://{projectId}.firebaseio.com/DataGame";
+    private static readonly string databaseURL = $"https://{projectId}.firebaseio.com";
 
     public class Ranking
     {
@@ -80,7 +80,7 @@ public class JuegoOptionController : MonoBehaviour
             else
             {
                 
-                var cancionesDescargadas = Instantiate(bundle.LoadAsset(AssetName),gameObject.transform.GetComponent<Transform>());
+                Instantiate(bundle.LoadAsset(AssetName),gameObject.transform.GetComponent<Transform>());
                 debug.GetComponent<Text>().text = "Segundoif";
             }
                
@@ -130,14 +130,14 @@ public class JuegoOptionController : MonoBehaviour
     void Awake()
     {
         Screen.orientation = ScreenOrientation.Portrait;
-        StartCoroutine("DescargarCanciones");
-    
-       /* FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl($"{databaseURL}");
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
             var dependencyStatus = task.Result;
             if (dependencyStatus == DependencyStatus.Available)
             {
                 debug.GetComponent<Text>().text = "Funciona";
-                StartCoroutine("Start");
+                StartCoroutine("DescargarCanciones");
+               // Start();
             }
             else
             {
@@ -145,13 +145,13 @@ public class JuegoOptionController : MonoBehaviour
                     "Could not resolve all Firebase dependencies: {0}", dependencyStatus);
                   // Firebase Unity SDK is not safe to use here.
             }
-        });*/
+        });
     }
 
     [Obsolete]
     public IEnumerator consultarDatos(int repo)
     {
-        UnityWebRequest www = UnityWebRequest.Get($"{databaseURL}.json");
+        UnityWebRequest www = UnityWebRequest.Get($"{databaseURL}/DataGame.json");
         yield return www.SendWebRequest();
         if (www.isNetworkError || www.isHttpError)
         {
@@ -193,7 +193,7 @@ public class JuegoOptionController : MonoBehaviour
         StartCoroutine("consultarDatos",1);
        
         
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl($"{databaseURL}");
+       
         FirebaseDatabase.DefaultInstance.GetReference("DataGame/Songs/").ValueChanged += HandleValueChanged; // unsubscribe from ValueChanged.
         
 
@@ -346,10 +346,19 @@ public class JuegoOptionController : MonoBehaviour
          for (int i = 0; i<15; i++)
          {
             usuario_temp = this.Datos.Songs[indexSong].ranking[i].nUsuario;
-            puntaje_temp = this.Datos.Songs[indexSong].ranking[i].nPuntaje; 
-            reference.Child("DataGame").Child("Songs").Child(indexSong.ToString()).Child("ranking").Child(i.ToString()).Child("nPuntaje").SetValueAsync(puntaje_temp.ToString());
-            reference.Child("DataGame").Child("Songs").Child(indexSong.ToString()).Child("ranking").Child(i.ToString()).Child("nUsuario").SetValueAsync(usuario_temp);
-        }
+            puntaje_temp = this.Datos.Songs[indexSong].ranking[i].nPuntaje;
+            try
+            {
+                reference.Child("DataGame").Child("Songs").Child(indexSong.ToString()).Child("ranking").Child(i.ToString()).Child("nPuntaje").SetValueAsync(puntaje_temp.ToString());
+                reference.Child("DataGame").Child("Songs").Child(indexSong.ToString()).Child("ranking").Child(i.ToString()).Child("nUsuario").SetValueAsync(usuario_temp);
+            }
+            catch
+            {
+                debug.GetComponent<Text>().text = "No Se pudo subir";
+            }
+
+          }
+            
 
 
     }
