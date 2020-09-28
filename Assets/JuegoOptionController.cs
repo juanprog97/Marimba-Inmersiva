@@ -318,7 +318,6 @@ public class JuegoOptionController : MonoBehaviour
     public void Jugar()
     {
         UnityEngine.XR.XRSettings.enabled = true;
-        Screen.orientation = ScreenOrientation.Landscape;
         ArCamera.SetActive(true);
         ImageTarget.SetActive(true);
         Lights.SetActive(true);

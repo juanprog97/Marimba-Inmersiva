@@ -144,24 +144,16 @@ public class GameControl : MonoBehaviour
         }
     }
 
-    [Obsolete]
-    void Awake()
-    {
-        de = debug.transform.GetComponent<TextMeshPro>();
-        textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
-        textoCuenta.fontSize = 50;
-        textoCuenta.text = "pulse";
-
-
-    }
 
 
 
     public void enter()
     {
-
-        if(game_finished == true)
+        
+        if (game_finished == true)
         {
+            textoCuenta.text = "";
+            textoCuenta.fontSize = 50;
             GameParent.SetActive(true);
             Controljuego.SetActive(false);
             StartCoroutine("CargarCancion", this.cancionSeleccionada);
@@ -202,18 +194,29 @@ public class GameControl : MonoBehaviour
         }
     }
 
-      [System.Obsolete]
+    [Obsolete]
+    void OnEnable()
+    {
+        Screen.orientation = ScreenOrientation.Landscape;
+        de = debug.transform.GetComponent<TextMeshPro>();
+        textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
+        textoCuenta.fontSize = 20;
+        textoCuenta.text = "pulse una tecla para comenzar ";
+    }
+
+    [System.Obsolete]
     IEnumerator mostrarPuntaje()
      {
         beatAndPlane.SetActive(false);
-        
-        
+
+
         //  background.transform.FindChild("TituloCuadro").GetComponent<TextMeshPro>().text = "Puntaje";
         //  background.transform.FindChild("NombreCancion").GetComponent<TextMeshPro>().text = Score.GetComponent<ScoreController>().getPuntaje().ToString();
+        UnityEngine.XR.XRSettings.enabled = false;
         yield return new WaitForSeconds(3.0f);
         background.SetActive(true);
-        UnityEngine.XR.XRSettings.enabled = false;
-        Screen.orientation = ScreenOrientation.Portrait;
+        
+       
         ArCamera.SetActive(false);
         ImageTarget.SetActive(false);
         NotFound.SetActive(false);
@@ -221,7 +224,7 @@ public class GameControl : MonoBehaviour
  
         ScoreMenu.SetActive(true);
 
-        ScoreMenu.transform.FindChild("Registrar").GetComponent<scoreRegister>().rellenar(Score.GetComponent<ScoreController>().getPuntaje());
+        ScoreMenu.GetComponent<scoreRegister>().rellenar(Score.GetComponent<ScoreController>().getPuntaje());
 
         Score.SetActive(false);
         Score.GetComponent<ScoreController>().reset();

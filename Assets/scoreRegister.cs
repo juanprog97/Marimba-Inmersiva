@@ -11,7 +11,11 @@ public class scoreRegister : MonoBehaviour
     public int nPuntaje;
 
 
-    
+    void OnEnable()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+   
 
 
     public void rellenar(int nPuntaje)
@@ -28,6 +32,7 @@ public class scoreRegister : MonoBehaviour
         juegoPuntaje.SetActive(true);
         nUsuario.GetComponent<InputField>().text = "";
         gameObject.SetActive(false);
+
     }
 
 

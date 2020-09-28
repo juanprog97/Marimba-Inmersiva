@@ -490,7 +490,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1901176074}
+      - m_Target: {fileID: 503794717}
         m_MethodName: registrar
         m_Mode: 1
         m_Arguments:
@@ -2399,7 +2399,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 574.42535, y: -30.672478}
+  m_AnchoredPosition: {x: 574.42535, y: -82.529106}
   m_SizeDelta: {x: 180.6, y: 84.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &338407304
@@ -3098,10 +3098,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 503794716}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 118f9c7c9e545b04c98977c08a6327a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 089728643a8e4ab4ebbe6f3065fc7f01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  JuegoMenu: {fileID: 547366448}
+  puntaje: {fileID: 1169903959}
+  nUsuario: {fileID: 1839691326}
+  juegoPuntaje: {fileID: 547366448}
+  nPuntaje: 0
 --- !u!114 &503794718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4851,34 +4854,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0.001, y: -0.207}
   m_SizeDelta: {x: 20, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!21 &703708412
-Material:
-  serializedVersion: 6
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'screenARMaterial
-
-    15624'
-  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
-  m_LightmapFlags: 5
-  m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  disabledShaderPasses: []
-  m_SavedProperties:
-    serializedVersion: 3
-    m_TexEnvs:
-    - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 78f267817e454af9b95c07e5c1ceddd7, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    m_Floats: []
-    m_Colors:
-    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &732038982
 GameObject:
   m_ObjectHideFlags: 0
@@ -6765,7 +6740,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 191.47513, y: -30.672478}
+  m_AnchoredPosition: {x: 191.47513, y: -82.529106}
   m_SizeDelta: {x: 180.6, y: 84.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &969145487
@@ -6949,7 +6924,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 703708412}
+  - {fileID: 1945927486}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7157,8 +7132,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 518.65, y: -32.305264}
-  m_SizeDelta: {x: 176.1, y: 64.61053}
+  m_AnchoredPosition: {x: 518.65, y: -88.45332}
+  m_SizeDelta: {x: 176.1, y: 176.90665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &999215391
 MonoBehaviour:
@@ -7287,8 +7262,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 663.9881, y: -136.33185}
-  m_SizeDelta: {x: 1327.9762, y: 272.6637}
+  m_AnchoredPosition: {x: 638.0072, y: -151.37503}
+  m_SizeDelta: {x: 1276.0144, y: 302.75006}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1006786659
 MonoBehaviour:
@@ -8224,8 +8199,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1105.911, y: -22.45216}
-  m_SizeDelta: {x: 97.85818, y: 44.90432}
+  m_AnchoredPosition: {x: 1105.911, y: -66.23567}
+  m_SizeDelta: {x: 97.85818, y: 132.47134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1158776114
 MonoBehaviour:
@@ -9131,8 +9106,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 577.42004, y: -22.45216}
-  m_SizeDelta: {x: 62.383724, y: 44.90432}
+  m_AnchoredPosition: {x: 577.42004, y: -66.23567}
+  m_SizeDelta: {x: 62.383724, y: 132.47134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1263174820
 MonoBehaviour:
@@ -9167,7 +9142,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: El song de Cuba
+  m_Text: __________
 --- !u!222 &1263174821
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -11805,8 +11780,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 237.94002, y: -32.305264}
-  m_SizeDelta: {x: 190.9, y: 64.61053}
+  m_AnchoredPosition: {x: 237.94002, y: -88.45332}
+  m_SizeDelta: {x: 190.9, y: 176.90665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1652676436
 MonoBehaviour:
@@ -12094,8 +12069,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 792.21, y: -32.305264}
-  m_SizeDelta: {x: 176.6, y: 64.61053}
+  m_AnchoredPosition: {x: 792.21, y: -88.45332}
+  m_SizeDelta: {x: 176.6, y: 176.90665}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1699539785
 MonoBehaviour:
@@ -13835,7 +13810,6 @@ GameObject:
   - component: {fileID: 1901176071}
   - component: {fileID: 1901176073}
   - component: {fileID: 1901176072}
-  - component: {fileID: 1901176074}
   m_Layer: 5
   m_Name: Registrar
   m_TagString: Untagged
@@ -13902,22 +13876,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1901176070}
   m_CullTransparentMesh: 0
---- !u!114 &1901176074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1901176070}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 089728643a8e4ab4ebbe6f3065fc7f01, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntaje: {fileID: 1169903959}
-  nUsuario: {fileID: 1839691326}
-  juegoPuntaje: {fileID: 547366448}
-  nPuntaje: 0
 --- !u!1 &1903088983
 GameObject:
   m_ObjectHideFlags: 0
@@ -14447,6 +14405,34 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1940740148}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!21 &1945927486
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'screenARMaterial
+
+    53632'
+  m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 78f267817e454af9b95c07e5c1ceddd7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats: []
+    m_Colors:
+    - _Color: {r: 0.82089555, g: 0.82089555, b: 0.82089555, a: 1}
 --- !u!1 &1986394156
 GameObject:
   m_ObjectHideFlags: 0
@@ -15019,8 +15005,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 48.929108, y: -22.45216}
-  m_SizeDelta: {x: 97.85818, y: 44.90432}
+  m_AnchoredPosition: {x: 48.929108, y: -66.23567}
+  m_SizeDelta: {x: 97.85818, y: 132.47134}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2064759329
 MonoBehaviour:
@@ -15213,7 +15199,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 957.3756, y: -30.672478}
+  m_AnchoredPosition: {x: 957.3756, y: -82.529106}
   m_SizeDelta: {x: 180.6, y: 84.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2116679493
