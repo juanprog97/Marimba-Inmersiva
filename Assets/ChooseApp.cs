@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Firebase;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,9 +7,25 @@ using UnityEngine.SceneManagement;
 public class ChooseApp : MonoBehaviour
 {
     // Start is called before the first frame update
+    void Awake()
+    {
+      
+        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
+            var dependencyStatus = task.Result;
+            if (dependencyStatus == DependencyStatus.Available)
+            {
+                UnityEngine.XR.XRSettings.enabled = false;
+            }
+            else
+            {
+                Debug.Log("Error");
+            }
+        });
+
+    }
     void Start()
     {
-        UnityEngine.XR.XRSettings.enabled = false;
+       
     }
     public void loadHistory()
     {
@@ -21,6 +38,6 @@ public class ChooseApp : MonoBehaviour
     }
     public void Exit()
     {
-      //  System.Diagnostics.Process.GetCurrentProcess().Kill();
+        Application.Quit();
     }
 }

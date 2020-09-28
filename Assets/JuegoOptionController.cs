@@ -55,7 +55,7 @@ public class JuegoOptionController : MonoBehaviour
     }
 
     [System.Obsolete]
-    IEnumerator DescargarCanciones()
+    IEnumerator DescargarCanciones(Action action)
     {
         Firebase.Storage.FirebaseStorage storage = Firebase.Storage.FirebaseStorage.DefaultInstance;
         // Create a storage reference from our storage service
@@ -63,32 +63,41 @@ public class JuegoOptionController : MonoBehaviour
         var task = reference.GetDownloadUrlAsync();
         yield return new WaitUntil(() => task.IsCompleted);
 
-        while (!Caching.ready)
+        while (!Caching.ready )
             yield return null;
 
-        using (WWW www = WWW.LoadFromCacheOrDownload(task.Result.ToString(), 2))
+        WWW www = WWW.LoadFromCacheOrDownload(task.Result.ToString(), 3);
+        
+        
+        while (!www.isDone)
         {
-            yield return www;
-            if (www.error != null)
-                throw new Exception("WWW download had an error:" + www.error);
+            //debug.GetComponent<Text>().text = www.progress.ToString();
+            yield return null;
+        }
+        if (www.error == null)
+        {
             AssetBundle bundle = www.assetBundle;
             if (AssetName == "")
             {
                 Instantiate(bundle.mainAsset);
-                debug.GetComponent<Text>().text = "Primerif";
             }
             else
             {
-                
-                Instantiate(bundle.LoadAsset(AssetName),gameObject.transform.GetComponent<Transform>());
-                debug.GetComponent<Text>().text = "Segundoif";
+                Instantiate(bundle.LoadAsset(AssetName), gameObject.transform.GetComponent<Transform>());
             }
-               
+
             // Unload the AssetBundles compressed contents to conserve memory
             bundle.Unload(false);
-
+            action();
         }
+           
+        else
+        {
+            throw new Exception("WWW download had an error:" + www.error);
+        }
+      
 
+ 
 
         
     }
@@ -100,6 +109,7 @@ public class JuegoOptionController : MonoBehaviour
 
         if (this.estaSonando != "")
         {
+           
             try
             {
                 GameObject.Find("Canciones(Clone)").gameObject.transform.FindChild(this.estaSonando).GetComponent<AudioSource>().Stop();
@@ -107,12 +117,13 @@ public class JuegoOptionController : MonoBehaviour
             }
             catch
             {
-                debug.GetComponent<Text>().text = "No se paro la cancion inicial";
+               // debug.GetComponent<Text>().text = "No se paro la cancion inicial";
             }
         }
-
+        
         if (this.estaSonando == "")
         {
+            
             try
             {
                 GameObject.Find("Canciones(Clone)").gameObject.transform.FindChild(nombreCancion).GetComponent<AudioSource>().Play();
@@ -120,33 +131,13 @@ public class JuegoOptionController : MonoBehaviour
             }
             catch
             {
-                debug.GetComponent<Text>().text = "No se reproduce la cancion nueva";
+                
             }
             
         }
     }
 
-    [Obsolete]
-    void Awake()
-    {
-        Screen.orientation = ScreenOrientation.Portrait;
-        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl($"{databaseURL}");
-        FirebaseApp.CheckAndFixDependenciesAsync().ContinueWith(task => {
-            var dependencyStatus = task.Result;
-            if (dependencyStatus == DependencyStatus.Available)
-            {
-                debug.GetComponent<Text>().text = "Funciona";
-                StartCoroutine("DescargarCanciones");
-               // Start();
-            }
-            else
-            {
-                  debug.GetComponent<Text>().text = string.Format(
-                    "Could not resolve all Firebase dependencies: {0}", dependencyStatus);
-                  // Firebase Unity SDK is not safe to use here.
-            }
-        });
-    }
+  
 
     [Obsolete]
     public IEnumerator consultarDatos(int repo)
@@ -156,18 +147,20 @@ public class JuegoOptionController : MonoBehaviour
         if (www.isNetworkError || www.isHttpError)
         {
             // EditorUtility.DisplayDialog("Response", "Error", "Ok");
-            debug.GetComponent<Text>().text = "ERROR";
+           // debug.GetComponent<Text>().text = "ERROR";
         }
         else
         {
 
-            debug.GetComponent<Text>().text = "Ok";
+            //debug.GetComponent<Text>().text = "Ok";
             try
             {
 
                 this.Datos = JsonConvert.DeserializeObject<DataGame>(www.downloadHandler.text);
                 if(repo == 1)
                 {
+                    //Debug.Log("Apasa");
+                    //Debug.Log(Datos.Songs[indexSong].nombre);
                     reproducir(Datos.Songs[indexSong].nombre);
                 }
                 this.Actualizar();
@@ -177,20 +170,37 @@ public class JuegoOptionController : MonoBehaviour
             }
             catch
             {
-                debug.GetComponent<Text>().text = "Error Try";
+              //  debug.GetComponent<Text>().text = "Error Try";
             }
             
 
         }
     }
 
+ 
+
+    [Obsolete]
+    void OnEnable()
+    {
+        if(Datos!= null)
+        {
+            reproducir(Datos.Songs[indexSong].nombre);
+        }
+    }
+
+    void consultarDatos()
+    {
+        StartCoroutine("consultarDatos", 1);
+    }
 
     [System.Obsolete]
     void Start()
     {
-        debug.GetComponent<Text>().text = "Entro";
+        
+       // debug.GetComponent<Text>().text = "Entro";
         indexSong = 0;
-        StartCoroutine("consultarDatos",1);
+        StartCoroutine(DescargarCanciones(consultarDatos));
+        
        
         
        
@@ -229,7 +239,7 @@ public class JuegoOptionController : MonoBehaviour
     {
         if (args.DatabaseError != null)
         {
-            Debug.LogError(args.DatabaseError.Message);
+          //  Debug.LogError(args.DatabaseError.Message);
             return;
         }
         StartCoroutine("consultarDatos",0);
@@ -247,7 +257,7 @@ public class JuegoOptionController : MonoBehaviour
         NameSong.GetComponent<Text>().text = Datos.Songs[indexSong].nombre;
         Info.transform.FindChild("Container").FindChild("Text").GetComponent<Text>().text = Datos.Songs[indexSong].informacion;
         GameObject itemRank;
-        debug.GetComponent<Text>().text = Datos.Songs[indexSong].ranking.Count.ToString();
+      //  debug.GetComponent<Text>().text = Datos.Songs[indexSong].ranking.Count.ToString();
         for (int i=0; i<15; i++)
         {
             itemRank = this.DataInfoRanking.transform.GetChild(i).gameObject;
@@ -354,7 +364,7 @@ public class JuegoOptionController : MonoBehaviour
             }
             catch
             {
-                debug.GetComponent<Text>().text = "No Se pudo subir";
+                //debug.GetComponent<Text>().text = "No Se pudo subir";
             }
 
           }
