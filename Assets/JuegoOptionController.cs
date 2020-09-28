@@ -182,7 +182,8 @@ public class JuegoOptionController : MonoBehaviour
     [Obsolete]
     void OnEnable()
     {
-        if(Datos!= null)
+        Screen.orientation = ScreenOrientation.Portrait;
+        if (Datos!= null)
         {
             reproducir(Datos.Songs[indexSong].nombre);
         }
@@ -317,7 +318,7 @@ public class JuegoOptionController : MonoBehaviour
 
     public void Jugar()
     {
-        UnityEngine.XR.XRSettings.enabled = true;
+     
         ArCamera.SetActive(true);
         ImageTarget.SetActive(true);
         Lights.SetActive(true);

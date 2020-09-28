@@ -10,6 +10,7 @@ public class MenuPrincipalController : MonoBehaviour
     void Awake()
     {
         Screen.orientation = ScreenOrientation.Portrait;
+        UnityEngine.XR.XRSettings.enabled = false;
     }
     void Start()
     {

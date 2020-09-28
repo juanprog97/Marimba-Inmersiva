@@ -195,6 +195,12 @@ public class GameControl : MonoBehaviour
     }
 
     [Obsolete]
+    void Awake()
+    {
+        UnityEngine.XR.XRSettings.enabled = true;
+    }
+
+    [Obsolete]
     void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Landscape;
@@ -212,7 +218,7 @@ public class GameControl : MonoBehaviour
 
         //  background.transform.FindChild("TituloCuadro").GetComponent<TextMeshPro>().text = "Puntaje";
         //  background.transform.FindChild("NombreCancion").GetComponent<TextMeshPro>().text = Score.GetComponent<ScoreController>().getPuntaje().ToString();
-        UnityEngine.XR.XRSettings.enabled = false;
+       // 
         yield return new WaitForSeconds(3.0f);
         background.SetActive(true);
         
