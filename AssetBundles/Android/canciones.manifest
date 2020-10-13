@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 3230772248
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: dbe278864ac35b6a95d7a122be65a969
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cc9e475d6a062d35e63eebc9fe8fe792
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 81
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+Assets:
+- Assets/Prefabs/Canciones.prefab
+Dependencies: []

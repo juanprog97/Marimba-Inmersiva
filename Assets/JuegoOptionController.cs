@@ -26,7 +26,6 @@ public class JuegoOptionController : MonoBehaviour
     public GameObject ArCamera;
     public GameObject ImageTarget;
     public GameObject Lights;
-    public GameObject Control;
 
 
     private const string projectId = "quickstart-1595792293378";
@@ -322,7 +321,6 @@ public class JuegoOptionController : MonoBehaviour
         ArCamera.SetActive(true);
         ImageTarget.SetActive(true);
         Lights.SetActive(true);
-        Control.SetActive(true);
         code_control.GetComponent<GameControl>().iniciarJuego(Datos.Songs[indexSong].nombre.Replace(" ",""));
         gameObject.SetActive(false);
 

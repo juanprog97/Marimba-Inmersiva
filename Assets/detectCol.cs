@@ -18,7 +18,11 @@ public class detectCol : MonoBehaviour
 
     private void Detect_PUSH(object sender, System.EventArgs e)
     {
-        a_pulse.Play("shootPusle");
+        if(componentBluetooth.Instance.dataRecived[key] == '1')
+        {
+            a_pulse.Play("shootPusle");
+        }
+        
     }
 
 

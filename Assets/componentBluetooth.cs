@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections;
 
 public class componentBluetooth : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class componentBluetooth : MonoBehaviour
     public bool IsConnected;
     public string dataRecived = "";
     public event EventHandler seDesconecto;
+    public event EventHandler seTocoBoton;
     
     
     void Awake()
@@ -51,6 +53,12 @@ public class componentBluetooth : MonoBehaviour
 
 
     }
+    IEnumerator Delay()
+    {
+
+        yield return new WaitForSeconds(0.05f);
+
+    }
 
     void Update()
     {
@@ -62,8 +70,26 @@ public class componentBluetooth : MonoBehaviour
                 if (datain.Length > 1)
                 {
                     dataRecived = datain;
+                    if(dataRecived.Length == 12)
+                    {
+                        int cont = 0;
+                        int bandera = 0;
+                        while(bandera ==0)
+                        {
+                            if(dataRecived[cont] == '1')
+                            {
+                                seTocoBoton?.Invoke(this, EventArgs.Empty);
+                                bandera = 1;
+                            }
+                            cont += 1;
+                            if (cont == 12)
+                            {
+                                bandera = 1;
+                            }
+                        }
+                    }
+                   
                 }
-
             }
             catch (Exception e)
             {
@@ -72,6 +98,8 @@ public class componentBluetooth : MonoBehaviour
                 seDesconecto?.Invoke(this, EventArgs.Empty);
             }
         }
+        //StartCoroutine("Delay");
+
 
     }
     public void disconnect()

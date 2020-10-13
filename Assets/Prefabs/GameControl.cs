@@ -10,6 +10,7 @@ using Firebase;
 using Firebase.Unity.Editor;
 using Firebase.Database;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameControl : MonoBehaviour
 {
@@ -26,7 +27,6 @@ public class GameControl : MonoBehaviour
     public GameObject nota_11;
     public GameObject nota_12;
     public GameObject debug;
-    public int t_select;
     public GameObject cuentaRegresiva;
     private int num_note;
     private bool game_finished = true;
@@ -40,12 +40,17 @@ public class GameControl : MonoBehaviour
     public event EventHandler PUSH;
     private string cancionSeleccionada;
 
-    public GameObject Controljuego; //Mientras Tanto
+  
+    private componentBluetooth escuchaComando;
+
+
     public GameObject ScoreMenu;
     public GameObject ArCamera;
     public GameObject ImageTarget;
     public GameObject NotFound;
     public GameObject Light;
+
+    public int prueba = 0;
 
     [Serializable]
     public class songCharacter
@@ -147,7 +152,7 @@ public class GameControl : MonoBehaviour
 
 
 
-    public void enter()
+    /*public void enter()
     {
         
         if (game_finished == true)
@@ -155,7 +160,7 @@ public class GameControl : MonoBehaviour
             textoCuenta.text = "";
             textoCuenta.fontSize = 50;
             GameParent.SetActive(true);
-            Controljuego.SetActive(false);
+            
             StartCoroutine("CargarCancion", this.cancionSeleccionada);
         }
         else
@@ -164,7 +169,7 @@ public class GameControl : MonoBehaviour
         }
        
         
-    }
+    }*/
 
 
     public bool estadoJuego()
@@ -198,19 +203,64 @@ public class GameControl : MonoBehaviour
     void Awake()
     {
         UnityEngine.XR.XRSettings.enabled = true;
+        componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
     }
-
-    [Obsolete]
+    [System.Obsolete]
+   
+ 
     void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Landscape;
-        de = debug.transform.GetComponent<TextMeshPro>();
         textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
         textoCuenta.fontSize = 20;
         textoCuenta.text = "pulse una tecla para comenzar ";
+
+        
+
+    }
+    void OnDisable()
+    {
+     
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
+       
     }
 
-    [System.Obsolete]
+    private void Instance_seTocoBoton(object sender, EventArgs e)
+    {
+        if (game_finished == true)
+        {
+            textoCuenta.text = "";
+            textoCuenta.fontSize = 50;
+            GameParent.SetActive(true);
+            game_finished = false;
+            StartCoroutine("CargarCancion", this.cancionSeleccionada);
+        }
+        else
+        {
+            PUSH?.Invoke(this, EventArgs.Empty);
+        }
+    }
+
+   
+   /* public void EsperandoComando(object sender, EventArgs e)
+    {
+        
+         if (game_finished == true)
+         {
+             textoCuenta.text = "";
+             textoCuenta.fontSize = 50;
+             GameParent.SetActive(true);
+             game_finished = false;
+             StartCoroutine("CargarCancion", this.cancionSeleccionada);
+         }
+         else
+         {
+             PUSH?.Invoke(this, EventArgs.Empty);
+         }
+    }*/
+
+
+    [Obsolete]
     IEnumerator mostrarPuntaje()
      {
         beatAndPlane.SetActive(false);
@@ -252,12 +302,10 @@ public class GameControl : MonoBehaviour
         else
         {
 
-
-            Controljuego.SetActive(true);
             background.SetActive(false);
             beatAndPlane.SetActive(true);
             yield return new WaitForSeconds(1.0f);
-            this.game_finished = false;
+            
         }
 
     }
