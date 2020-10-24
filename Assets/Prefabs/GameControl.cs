@@ -40,6 +40,9 @@ public class GameControl : MonoBehaviour
     public event EventHandler PUSH;
     private string cancionSeleccionada;
 
+    public GameObject controlVuforia;
+    private ScriptTracking estadoTracking;
+
   
     private componentBluetooth escuchaComando;
 
@@ -203,17 +206,20 @@ public class GameControl : MonoBehaviour
     void Awake()
     {
         UnityEngine.XR.XRSettings.enabled = true;
-        componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
+        
     }
     [System.Obsolete]
    
  
     void OnEnable()
     {
+        estadoTracking = controlVuforia.GetComponent<ScriptTracking>();
+        componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
         Screen.orientation = ScreenOrientation.Landscape;
         textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
         textoCuenta.fontSize = 20;
         textoCuenta.text = "pulse una tecla para comenzar ";
+        textoCuenta.text = estadoTracking.getEstado().ToString();
 
         
 
@@ -227,18 +233,21 @@ public class GameControl : MonoBehaviour
 
     private void Instance_seTocoBoton(object sender, EventArgs e)
     {
-        if (game_finished == true)
+        if(estadoTracking.getEstado())
         {
-            textoCuenta.text = "";
-            textoCuenta.fontSize = 50;
-            GameParent.SetActive(true);
-            game_finished = false;
-            StartCoroutine("CargarCancion", this.cancionSeleccionada);
+            if (game_finished == true)
+            {
+                textoCuenta.text = "";
+                textoCuenta.fontSize = 50;
+                GameParent.SetActive(true);
+                StartCoroutine("CargarCancion", this.cancionSeleccionada);
+            }
+            else
+            {
+                PUSH?.Invoke(this, EventArgs.Empty);
+            }
         }
-        else
-        {
-            PUSH?.Invoke(this, EventArgs.Empty);
-        }
+       
     }
 
    
@@ -301,11 +310,12 @@ public class GameControl : MonoBehaviour
         }
         else
         {
-
             background.SetActive(false);
             beatAndPlane.SetActive(true);
             yield return new WaitForSeconds(1.0f);
+            game_finished = false;
             
+
         }
 
     }

@@ -53,12 +53,6 @@ public class componentBluetooth : MonoBehaviour
 
 
     }
-    IEnumerator Delay()
-    {
-
-        yield return new WaitForSeconds(0.05f);
-
-    }
 
     void Update()
     {
@@ -74,7 +68,7 @@ public class componentBluetooth : MonoBehaviour
                     {
                         int cont = 0;
                         int bandera = 0;
-                        while(bandera ==0)
+                        while(bandera == 0)
                         {
                             if(dataRecived[cont] == '1')
                             {
@@ -98,8 +92,6 @@ public class componentBluetooth : MonoBehaviour
                 seDesconecto?.Invoke(this, EventArgs.Empty);
             }
         }
-        //StartCoroutine("Delay");
-
 
     }
     public void disconnect()

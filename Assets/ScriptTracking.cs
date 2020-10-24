@@ -8,9 +8,24 @@ public class ScriptTracking : MonoBehaviour, ITrackableEventHandler
     private TrackableBehaviour mTrackableBehaviour;
     public GameObject GameApp;
     public GameObject NotFound;
+    public bool estado;
+
 
     void Start()
     {
+        // Query Vuforia for recommended frame rate and set it in Unity
+        int targetFps = VuforiaRenderer.Instance.GetRecommendedFps(VuforiaRenderer.FpsHint.NONE);
+
+        // By default, we use Application.targetFrameRate to set the recommended frame rate.
+        // If developers use vsync in their quality settings, they should also set their
+        // QualitySettings.vSyncCount according to the value returned above.
+        // e.g: If targetFPS > 50 --> vSyncCount = 1; else vSyncCount = 2;
+        if (Application.targetFrameRate != targetFps)
+        {
+
+            Application.targetFrameRate = targetFps;
+        }
+        estado = false;
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
@@ -41,20 +56,30 @@ public class ScriptTracking : MonoBehaviour, ITrackableEventHandler
             // For combo of previousStatus=UNKNOWN + newStatus=UNKNOWN|NOT_FOUND
             // Vuforia is starting, but tracking has not been lost or found yet
             // Call OnTrackingLost() to hide the augmentations
+            
             OnTrackingLost();
         }
+    }
+
+    public bool getEstado()
+    {
+        return this.estado;
     }
 
     protected virtual void OnTrackingFound()
     {
         NotFound.SetActive(false);
         GameApp.SetActive(true);
+        this.estado = true;
+
     }
 
 
     protected virtual void OnTrackingLost()
     {
         GameApp.SetActive(false);
+        this.estado = false;
         NotFound.SetActive(true);
+
     }
 }

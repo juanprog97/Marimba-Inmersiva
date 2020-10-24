@@ -8,7 +8,7 @@ using UnityEngine.UI;
 
 public class ChooseApp : MonoBehaviour
 {
-    public GameObject textoComando;
+ 
 
     [Obsolete]
     void Awake()
@@ -29,29 +29,13 @@ public class ChooseApp : MonoBehaviour
 
     }
 
-    [Obsolete]
-    void OnEnable()
-    {
-        componentBluetooth.Instance.seTocoBoton += esperandoComando;
-    }
-    [Obsolete]
-    void OnDisable()
-    {
-        componentBluetooth.Instance.seTocoBoton -= esperandoComando;
-    }
-
-
-[System.Obsolete]
-
  
-    private void esperandoComando(object sender, EventArgs e)
-    {
-        textoComando.GetComponent<Text>().text = componentBluetooth.Instance.dataRecived;
-    }
+
 
     public void loadHistory()
     {
         UnityEngine.XR.XRSettings.enabled = true;
+        SceneManager.LoadScene("History");
     }
     public void loadGame()
     {
