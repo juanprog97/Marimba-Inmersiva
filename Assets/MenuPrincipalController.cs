@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuPrincipalController : MonoBehaviour
 {
-    public GameObject JuegoMenu;
+    public GameObject tutorial;
 
     void Awake()
     {
@@ -15,11 +15,12 @@ public class MenuPrincipalController : MonoBehaviour
     void Start()
     {
         
+
     }
 
     public void entrarJuegoMenu()
     {
-        this.JuegoMenu.SetActive(true);
+        this.tutorial.SetActive(true);
         this.gameObject.SetActive(false);
     }
 
