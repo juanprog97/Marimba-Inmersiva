@@ -34,8 +34,7 @@ public class ChooseApp : MonoBehaviour
 
     public void loadHistory()
     {
-        UnityEngine.XR.XRSettings.enabled = true;
-        SceneManager.LoadScene("History");
+        SceneManager.LoadScene("MenuMultimediaInteractivo");
     }
     public void loadGame()
     {

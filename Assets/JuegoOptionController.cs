@@ -18,16 +18,11 @@ public class JuegoOptionController : MonoBehaviour
     public GameObject Info;
     public GameObject DataInfoRanking;
     public GameObject NameSong;
+    public GameObject videoTutorialGafas;
     public string estaSonando = "";
     private DataGame Datos;
     private int indexSong;
     private string AssetName = "canciones";
-    public GameObject code_control;
-    public GameObject ArCamera;
-    public GameObject ImageTarget;
-    public GameObject Lights;
-
-
     private const string projectId = "quickstart-1595792293378";
     private static readonly string databaseURL = $"https://{projectId}.firebaseio.com";
 
@@ -317,11 +312,9 @@ public class JuegoOptionController : MonoBehaviour
 
     public void Jugar()
     {
-     
-        ArCamera.SetActive(true);
-        ImageTarget.SetActive(true);
-        Lights.SetActive(true);
-        code_control.GetComponent<GameControl>().iniciarJuego(Datos.Songs[indexSong].nombre.Replace(" ",""));
+
+        videoTutorialGafas.SetActive(true);
+        videoTutorialGafas.GetComponent<videoTutorialGafaVideoJuego>().setCancion(Datos.Songs[indexSong].nombre.Replace(" ", ""));
         gameObject.SetActive(false);
 
     }
