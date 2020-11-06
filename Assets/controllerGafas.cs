@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class controllerGafas : MonoBehaviour
 {
@@ -16,11 +17,12 @@ public class controllerGafas : MonoBehaviour
     {
         if (this.opcion == 1)
         {
-            Debug.Log("Historia");
+            SceneManager.LoadScene("History");
+          
         }
         else
         {
-            Debug.Log("Cultura");
+            SceneManager.LoadScene("Cultura");
         }
     }
     public void setOpcionModulo(int opcion)

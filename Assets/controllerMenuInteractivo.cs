@@ -22,6 +22,11 @@ public class controllerMenuInteractivo : MonoBehaviour
         gameObject.SetActive(false);
     }
 
+    void OnEnable()
+    {
+        Screen.orientation = ScreenOrientation.Portrait;
+    }
+
     public void devolver()
     {
         SceneManager.LoadScene("PrincipalMenu");
