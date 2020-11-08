@@ -1,0 +1,40 @@
+ManifestFileVersion: 0
+CRC: 3687571507
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e7af80bea6c90f79d5cfca0d9a5d8b7a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 232a37e9ef94748f916a6ad2459e7209
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+Assets:
+- Assets/ModelExampleMultimedia/Model3/Mg3D_Food/Cheese.fbx
+- Assets/ModelExampleMultimedia/Video/videoExample.mp4
+- Assets/ModelExampleMultimedia/Imagenes/fotoGaitan.jpeg
+- Assets/ModelExampleMultimedia/Imagenes/Gaitan.jpeg
+- Assets/ModelExampleMultimedia/Sonido/discursoGaitan.mp3
+Dependencies: []

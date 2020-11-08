@@ -12,7 +12,6 @@ using UnityEngine.UI;
 public class JuegoOptionController : MonoBehaviour
 {
 
-    private string UrlStorage;
     public GameObject debug;
     public GameObject Menu;
     public GameObject Info;

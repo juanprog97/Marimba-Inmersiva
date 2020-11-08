@@ -5,19 +5,19 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ConfigurationBluetooth.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/PrincipalMenu.unity
     guid: f44607cdc7b2e5c4c8afe60fd8f6ce93
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game.unity
     guid: e8cf899e88769254e911a8b2f95133ff
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MenuMultimediaInteractivo.unity
     guid: 05d8b78d759f6d04489ab246aaac8be4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/History.unity
     guid: 91f45431fab0e11439565c197a42910f
   m_configObjects: {}
