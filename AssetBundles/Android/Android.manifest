@@ -1,7 +1,7 @@
 ManifestFileVersion: 0
-CRC: 3622207826
+CRC: 4142387620
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: prueba1
+      Name: scene04_cult
       Dependencies: {}
