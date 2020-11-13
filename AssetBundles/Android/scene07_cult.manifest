@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+CRC: 3489650136
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fb4bd05895b62570e9d51e620954c65e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: cb3f6df5cbc4a2990c44c2787bc9553a
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/MaterialHistoriaCultura/Cultura/cultura_sce7/image1_esc7.jpg
+- Assets/MaterialHistoriaCultura/Cultura/cultura_sce7/image3_esc7.jpg
+- Assets/MaterialHistoriaCultura/Cultura/cultura_sce7/image4_esc7.png
+- Assets/MaterialHistoriaCultura/Cultura/cultura_sce7/image2_esc7.jpg
+Dependencies: []

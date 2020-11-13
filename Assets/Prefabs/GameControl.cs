@@ -50,7 +50,6 @@ public class GameControl : MonoBehaviour
     public GameObject ScoreMenu;
     public GameObject ArCamera;
     public GameObject ImageTarget;
-    public GameObject NotFound;
     public GameObject Light;
 
     public int prueba = 0;
@@ -219,9 +218,7 @@ public class GameControl : MonoBehaviour
         textoCuenta = background.transform.FindChild("TextoCuenta").GetComponent<TextMeshPro>();
         textoCuenta.fontSize = 20;
         textoCuenta.text = "pulse una tecla para comenzar ";
-        textoCuenta.text = estadoTracking.getEstado().ToString();
-
-        
+       
 
     }
     void OnDisable()
@@ -284,7 +281,6 @@ public class GameControl : MonoBehaviour
        
         ArCamera.SetActive(false);
         ImageTarget.SetActive(false);
-        NotFound.SetActive(false);
         Light.SetActive(false);
  
         ScoreMenu.SetActive(true);

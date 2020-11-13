@@ -1,0 +1,5 @@
+Titulo: "Partería del pacífico"
+
+Texto: "La pañoleta blanca, el hilo y el polvo de hormiga arriera son algunos de los objetos exhibidos. Estos son usados para hacer la ‘ombligada’, proceso que se efectúa después de cortar el cordón umbilical y ayuda a la cicatrización y a que el niño adquiera los poderes, vitaminas y propiedades del mineral vegetal o animal."
+
+soundtrack: "Estas escuchando una composición del Grupo Gualajo - Mamita Oh"

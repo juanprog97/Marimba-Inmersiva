@@ -5,7 +5,8 @@ using UnityEngine;
 public class controllerTutorial : MonoBehaviour
 {
     public GameObject gafasTutorial;
-    void Start()
+    public GameObject MenuPrincipal;
+    void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Landscape;
     }
@@ -14,6 +15,12 @@ public class controllerTutorial : MonoBehaviour
     public void saltaTutorial()
     {
         gafasTutorial.SetActive(true);
+        gameObject.SetActive(false);
+    }
+
+    public void regresar()
+    {
+        MenuPrincipal.SetActive(true);
         gameObject.SetActive(false);
     }
 

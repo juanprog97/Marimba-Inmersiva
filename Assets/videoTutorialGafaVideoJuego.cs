@@ -10,8 +10,9 @@ public class videoTutorialGafaVideoJuego : MonoBehaviour
     public GameObject Lights;
     public GameObject code_control;
     private string cancionElegida;
+    public GameObject MenuJuego;
 
-    void Start()
+    void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Landscape;
     }
@@ -28,6 +29,12 @@ public class videoTutorialGafaVideoJuego : MonoBehaviour
     public void setCancion(string cancion)
     {
         this.cancionElegida = cancion;
+    }
+
+    public void regresar()
+    {
+        MenuJuego.SetActive(true);
+        gameObject.SetActive(false);
     }
 
 }

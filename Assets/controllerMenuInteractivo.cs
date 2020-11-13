@@ -25,6 +25,7 @@ public class controllerMenuInteractivo : MonoBehaviour
     void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Portrait;
+       
     }
 
     public void devolver()

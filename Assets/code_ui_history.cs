@@ -110,7 +110,6 @@ public class code_ui_history : MonoBehaviour
     private const string projectId = "quickstart-1595792293378";
     private static readonly string databaseURL = $"https://{projectId}.firebaseio.com";
     public GameObject menuCatalogo;
-   // private componentBluetooth escuchaComando;
     public GameObject ContentTitulos;
     public GameObject itemTitulos;
     public Text TextoTiempo;
@@ -119,7 +118,7 @@ public class code_ui_history : MonoBehaviour
     private Historia DatosEscenas;
     public GameObject cargarScene;
     public List<Tuple<long,int>> ordenPeriodo ;
-
+    public GameObject audioFondo;
 
 
     public void ordenarPeriodos()
@@ -167,8 +166,8 @@ public class code_ui_history : MonoBehaviour
     void desplegarPeriodos()
     {
 
-       // UnityEngine.XR.XRSettings.enabled = true;
-       // componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
+        UnityEngine.XR.XRSettings.enabled = true;
+        componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
         GameObject item = null ;
         this.slideTiempo.minValue = 0;
         this.slideTiempo.maxValue = this.DatosEscenas.Escenas.Count-1 ;
@@ -212,12 +211,18 @@ public class code_ui_history : MonoBehaviour
             if (this.estadoPeriodo != 0)
             {
                 this.estadoPeriodo--;
-                LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic(); ;
-                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                    Time.ToString();
-                this.slideTiempo.value = this.estadoPeriodo;
+                LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic();
+                
 
             }
+            else
+            {
+                this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
+                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+            }
+            TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                    Time.ToString();
+            this.slideTiempo.value = this.estadoPeriodo;
         }
 
     }
@@ -230,15 +235,22 @@ public class code_ui_history : MonoBehaviour
             {
                 this.estadoPeriodo++;
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
-                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                    Time.ToString();
-                this.slideTiempo.value = this.estadoPeriodo;
+                
             }
+            else
+            {
+                this.estadoPeriodo = 0;
+                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+
+            }
+            TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                    Time.ToString();
+            this.slideTiempo.value = this.estadoPeriodo;
         }
   
     }
 
-    void OnGUI()
+   /* void OnGUI()
     {
         Event e = Event.current;
         if (e.isKey)
@@ -252,54 +264,61 @@ public class code_ui_history : MonoBehaviour
             }
             if (e.keyCode == KeyCode.RightArrow)
             {
-                if (LeanTween.tweensRunning == 0)
+                if (this.estadoPeriodo < this.DatosEscenas.Escenas.Count - 1)
                 {
-                    if (this.estadoPeriodo < this.DatosEscenas.Escenas.Count - 1)
-                    {
-                        this.estadoPeriodo++;
-                        LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
-                        TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                            Time.ToString();
-                        this.slideTiempo.value = this.estadoPeriodo;
-                    }
+                    this.estadoPeriodo++;
+                    LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
+
                 }
+                else
+                {
+                    this.estadoPeriodo = 0;
+                    LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+
+                }
+                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                        Time.ToString();
+                this.slideTiempo.value = this.estadoPeriodo;
 
             }
             if (e.keyCode == KeyCode.LeftArrow)
             {
-                if (LeanTween.tweensRunning == 0)
+                if (this.estadoPeriodo != 0)
                 {
-                    if (this.estadoPeriodo != 0)
-                    {
-                        this.estadoPeriodo--;
-                        LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic(); ;
-                        TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                            Time.ToString();
-                        this.slideTiempo.value = this.estadoPeriodo;
+                    this.estadoPeriodo--;
+                    LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic();
 
-                    }
+
                 }
+                else
+                {
+                    this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
+                    LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+                }
+                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                        Time.ToString();
+                this.slideTiempo.value = this.estadoPeriodo;
 
             }
 
         }
-    }
+    }*/
 
 
 
     private void okBoton()
     {
-        
+        cargarScene.GetComponent<cargarScene>().setEscenaSeleccionada(this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2]);
+        cargarScene.SetActive(true);
+        menuCatalogo.SetActive(false);
+        gameObject.SetActive(false);
     }
 
-    private void regresarBoton()
-    {
-        Debug.Log("jej");
-    }
+ 
 
     private void salir()
     {
-     //   UnityEngine.XR.XRSettings.enabled = false;
+        UnityEngine.XR.XRSettings.enabled = false;
         SceneManager.LoadScene("MenuMultimediaInteractivo");
     }
 
@@ -323,10 +342,6 @@ public class code_ui_history : MonoBehaviour
             {
                 okBoton();
             }
-            else if (componentBluetooth.Instance.dataRecived[5] == '1')
-            {
-                regresarBoton();
-            }
             else if (componentBluetooth.Instance.dataRecived[6] == '1')
             {
                 salir();
@@ -334,11 +349,20 @@ public class code_ui_history : MonoBehaviour
 
         }
     }
-
-   /* void OnDisable()
+    void OnEnable()
     {
+
         componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
-    }*/
+         this.enabled = true;
+        audioFondo.GetComponent<AudioSource>().Play();
+    }
+
+    void OnDisable()
+    {
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
+        this.enabled = false;
+        audioFondo.GetComponent<AudioSource>().Stop();
+    }
 
     // Update is called once per frame
 

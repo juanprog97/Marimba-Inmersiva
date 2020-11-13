@@ -23,15 +23,18 @@ public class cargarScene : MonoBehaviour
     public GameObject videoElement;
     private code_ui_history.Escena EscenaSeleccionada;
     private string AssetName;
+    List<RenderTexture> renders;
 
-   
+    public GameObject PantallaMenu;
+    public GameObject CodeUI;
+    private List<GameObject> ObjetosEscenas;
+
 
 
     public void setEscenaSeleccionada(code_ui_history.Escena escena)
     {
         this.EscenaSeleccionada = escena;
         this.AssetName = escena.AssetName;
-
     }
 
 
@@ -42,6 +45,7 @@ public class cargarScene : MonoBehaviour
         GameObject elemTmp;
         first.Stop();
         second.Stop();
+        renders = new List<RenderTexture>();
         pantallaDescarga.SetActive(false);
         pantallaElementos.SetActive(true);
         titleScene.GetComponent<Text>().text = EscenaSeleccionada.Title;
@@ -49,7 +53,6 @@ public class cargarScene : MonoBehaviour
         {
             string elem = EscenaSeleccionada.Materials[i].Type;
             code_ui_history.Material material = EscenaSeleccionada.Materials[i];
-            Debug.Log(elem);
             if (elem == "image")
             {
                 elemTmp = new GameObject(material.Name);
@@ -63,13 +66,18 @@ public class cargarScene : MonoBehaviour
                     material.Propierty.Dimension.Height);
                 elemTmp.GetComponent<RectTransform>().localPosition = new Vector3(material.Propierty.Position.PosX,
                     material.Propierty.Position.PosY, material.Propierty.Position.PosZ);
-               
+
+
+                ObjetosEscenas.Add(elemTmp);
+
             }
             else if (elem == "3d")
             {
 
                 elemTmp = Instantiate(asset.LoadAsset<GameObject>(material.Name),
                     pantallaElementos.transform.GetComponent<Transform>());
+
+                ObjetosEscenas.Add(elemTmp);
                 //Posicion y Escala
             }
             else if (elem == "audio")
@@ -100,23 +108,29 @@ public class cargarScene : MonoBehaviour
                 elemTmp.transform.name = "texto" + i.ToString();
                 elemTmp.GetComponent<Text>().fontSize = Convert.ToInt32(material.Propierty.FontSize);
 
-
+                ObjetosEscenas.Add(elemTmp);
 
             }
             else if (elem == "video")
             {
+
+                RenderTexture texture = new RenderTexture(1280,720,1);
                 elemTmp = Instantiate(videoElement, pantallaElementos.transform.GetComponent<Transform>());
-                elemTmp.transform.FindChild("videoSample").GetComponent<VideoPlayer>().clip  = 
-                    asset.LoadAsset<VideoClip>(material.Name);
+                VideoClip video  = asset.LoadAsset<VideoClip>(material.Name);
+                elemTmp.transform.FindChild("videoSample").GetComponent<VideoPlayer>().clip = video;
+                elemTmp.transform.FindChild("videoSample").GetComponent<VideoPlayer>().targetTexture = texture;
                 elemTmp.name = "video" + i.ToString();
                 elemTmp.transform.FindChild("sample").GetComponent<RectTransform>().sizeDelta = new Vector2(material.Propierty.Dimension.Width,
                    material.Propierty.Dimension.Height);
                 elemTmp.transform.FindChild("sample").GetComponent<RectTransform>().localPosition = new Vector3(material.Propierty.Position.PosX,
                     material.Propierty.Position.PosY, material.Propierty.Position.PosZ);
+                elemTmp.transform.FindChild("sample").GetComponent<RawImage>().texture = texture;
                 elemTmp.transform.FindChild("sample").transform.localScale = new Vector3(1, 1, 1);
                 elemTmp.transform.FindChild("videoSample").GetComponent<VideoPlayer>().Play();
+                renders.Add(texture);
+                ObjetosEscenas.Add(elemTmp);
             }
-
+            
             //Desplegar Texto y titulo
         }
 
@@ -140,11 +154,14 @@ public class cargarScene : MonoBehaviour
 
         while (!www.isDone)
         {
+            pantallaDescarga.transform.FindChild("porce").GetComponent<Text>().text = Convert.ToInt32(www.progress * 100).ToString() + " %";
             yield return null;
         }
-        
+        pantallaDescarga.transform.FindChild("porce").GetComponent<Text>().text = 0.ToString()+ " %";
+
         if (www.error == null)
         {
+            Debug.Log(AssetName);
             AssetBundle bundle = www.assetBundle;
             if (AssetName == "")
             {
@@ -165,13 +182,62 @@ public class cargarScene : MonoBehaviour
         }
     }
 
+    [Obsolete]
     void OnDisable()
     {
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
+        foreach (GameObject obj in ObjetosEscenas)
+        {
+            DestroyObject(obj);
+        }
+        foreach(RenderTexture ren in renders)
+        {
+            Destroy(ren);
+        }
+        audioElement.SetActive(false);
+        renders.Clear();
+        ObjetosEscenas.Clear();
+        renders = null;
+        ObjetosEscenas = null;
         Debug.Log("borrarElementos");
     }
     void OnEnable()
     {
+        componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
+        ObjetosEscenas = new List<GameObject>();
+        Caching.compressionEnabled = false;
         iniciarDescargar();
+       
+    }
+
+
+    private void salir()
+    {
+        pantallaElementos.SetActive(false);
+        PantallaMenu.SetActive(true);
+        CodeUI.SetActive(true) ;
+        gameObject.SetActive(false);
+    }
+
+  /*  void OnGUI()
+     {
+         Event e = Event.current;
+         if (e.isKey)
+         {
+             if (e.keyCode == KeyCode.KeypadEnter)
+             {
+                 salir();
+             }
+
+         }
+     }*/
+
+    private void Instance_seTocoBoton(object sender, EventArgs e)
+    {
+        if (componentBluetooth.Instance.dataRecived[5] == '1')
+        {
+            salir();
+        }
     }
 
     void iniciarDescargar()

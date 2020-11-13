@@ -7,8 +7,9 @@ public class controllerGafas : MonoBehaviour
 {
 
     private int opcion;
+    public GameObject tutorialJuego;
 
-    void Start()
+    void OnEnable()
     {
         Screen.orientation = ScreenOrientation.Landscape;
     }
@@ -28,5 +29,10 @@ public class controllerGafas : MonoBehaviour
     public void setOpcionModulo(int opcion)
     {
         this.opcion = opcion;
+    }
+    public void regresar()
+    {
+        tutorialJuego.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

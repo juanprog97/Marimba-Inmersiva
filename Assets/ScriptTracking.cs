@@ -7,7 +7,6 @@ public class ScriptTracking : MonoBehaviour, ITrackableEventHandler
 {
     private TrackableBehaviour mTrackableBehaviour;
     public GameObject GameApp;
-    public GameObject NotFound;
     public bool estado;
 
 
@@ -68,7 +67,6 @@ public class ScriptTracking : MonoBehaviour, ITrackableEventHandler
 
     protected virtual void OnTrackingFound()
     {
-        NotFound.SetActive(false);
         GameApp.SetActive(true);
         this.estado = true;
 
@@ -79,7 +77,7 @@ public class ScriptTracking : MonoBehaviour, ITrackableEventHandler
     {
         GameApp.SetActive(false);
         this.estado = false;
-        NotFound.SetActive(true);
+     
 
     }
 }
