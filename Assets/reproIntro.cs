@@ -1,20 +1,22 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Video;
 
 public class reproIntro : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public GameObject videoP;
+    void Awake()
     {
-        StartCoroutine("wait");
+        videoP.GetComponent<VideoPlayer>().loopPointReached += finalizoVideo;
     }
 
-    // Update is called once per frame
-    private IEnumerator wait()
+    private void finalizoVideo(VideoPlayer source)
     {
-        yield return new WaitForSeconds(4.5f);
+        videoP.GetComponent<VideoPlayer>().Stop();
         SceneManager.LoadScene("ConfigurationBluetooth");
     }
+
 }
