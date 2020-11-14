@@ -1,14 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using System.Globalization;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
-using UnityEngine.Networking;
-using UnityEditor;
 
 public class code_ui_history : MonoBehaviour
 {
@@ -117,8 +114,11 @@ public class code_ui_history : MonoBehaviour
     int estadoPeriodo = 0;
     private Historia DatosEscenas;
     public GameObject cargarScene;
-    public List<Tuple<long,int>> ordenPeriodo ;
+    public List<Tuple<long, int>> ordenPeriodo;
     public GameObject audioFondo;
+
+    public GameObject instruccionesMenu;
+
 
 
     public void ordenarPeriodos()
@@ -126,28 +126,29 @@ public class code_ui_history : MonoBehaviour
         ordenPeriodo = new List<Tuple<long, int>>();
         for (int i = 0; i < this.DatosEscenas.Escenas.Count; i++)
         {
-            Tuple<long, int> data = new Tuple<long, int>(this.DatosEscenas.Escenas[i].Order,i);
+            Tuple<long, int> data = new Tuple<long, int>(this.DatosEscenas.Escenas[i].Order, i);
             this.ordenPeriodo.Add(data);
         }
         this.ordenPeriodo.Sort();
         Debug.Log(ordenPeriodo[0].Item1);
     }
 
+    [Obsolete]
     public IEnumerator consultarDatos()
     {
         UnityWebRequest www = UnityWebRequest.Get($"{databaseURL}/DataGame/Multimedia/Historia.json");
         yield return www.SendWebRequest();
         if (www.isNetworkError || www.isHttpError)
         {
-      
+
             Debug.Log("error");
-        
+
         }
         else
         {
             try
             {
-                Debug.Log(www.downloadHandler.text);
+              
                 this.DatosEscenas = JsonConvert.DeserializeObject<Historia>(www.downloadHandler.text);
                 ordenarPeriodos();
                 desplegarPeriodos();
@@ -163,16 +164,18 @@ public class code_ui_history : MonoBehaviour
     {
         StartCoroutine("consultarDatos");
     }
+
+    [Obsolete]
     void desplegarPeriodos()
     {
 
         UnityEngine.XR.XRSettings.enabled = true;
         componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
-        GameObject item = null ;
+        GameObject item = null;
         this.slideTiempo.minValue = 0;
-        this.slideTiempo.maxValue = this.DatosEscenas.Escenas.Count-1 ;
+        this.slideTiempo.maxValue = this.DatosEscenas.Escenas.Count - 1;
         this.slideTiempo.value = 0;
-        for (int i = 0; i< ordenPeriodo.Count ; i++)
+        for (int i = 0; i < ordenPeriodo.Count; i++)
         {
             item = Instantiate(itemTitulos);
             item.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[i].Item2].Title;
@@ -189,16 +192,16 @@ public class code_ui_history : MonoBehaviour
     {
         int NumNotasExactas = 0;
         int notaExactaTocada = -1;
-        for(int i = 0; i<12; i++)
+        for (int i = 0; i < 12; i++)
         {
-            if(componentBluetooth.Instance.dataRecived[i] == '1')
+            if (componentBluetooth.Instance.dataRecived[i] == '1')
             {
                 NumNotasExactas++;
                 notaExactaTocada = i;
-            } 
+            }
         }
-        return NumNotasExactas == 1 && notaExactaTocada!= -1;
-        
+        return NumNotasExactas == 1 && notaExactaTocada != -1;
+
     }
 
 
@@ -212,7 +215,7 @@ public class code_ui_history : MonoBehaviour
             {
                 this.estadoPeriodo--;
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic();
-                
+
 
             }
             else
@@ -235,7 +238,7 @@ public class code_ui_history : MonoBehaviour
             {
                 this.estadoPeriodo++;
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
-                
+
             }
             else
             {
@@ -247,10 +250,10 @@ public class code_ui_history : MonoBehaviour
                     Time.ToString();
             this.slideTiempo.value = this.estadoPeriodo;
         }
-  
+
     }
 
-   /* void OnGUI()
+  /*  void OnGUI()
     {
         Event e = Event.current;
         if (e.isKey)
@@ -264,43 +267,52 @@ public class code_ui_history : MonoBehaviour
             }
             if (e.keyCode == KeyCode.RightArrow)
             {
-                if (this.estadoPeriodo < this.DatosEscenas.Escenas.Count - 1)
+                if (LeanTween.tweensRunning == 0)
                 {
-                    this.estadoPeriodo++;
-                    LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
+                    if (this.estadoPeriodo < this.DatosEscenas.Escenas.Count - 1)
+                    {
+                        this.estadoPeriodo++;
+                        LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x
+                            - 847.5f, 0.25f).setEaseOutCubic();
 
-                }
-                else
-                {
-                    this.estadoPeriodo = 0;
-                    LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+                    }
+                    else
+                    {
+                        this.estadoPeriodo = 0;
+                        LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + 
+                            Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
 
+                    }
+                    TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                            Time.ToString();
+                    this.slideTiempo.value = this.estadoPeriodo;
                 }
-                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                        Time.ToString();
-                this.slideTiempo.value = this.estadoPeriodo;
+                   
 
             }
             if (e.keyCode == KeyCode.LeftArrow)
             {
-                if (this.estadoPeriodo != 0)
+                if (LeanTween.tweensRunning == 0)
                 {
-                    this.estadoPeriodo--;
-                    LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic();
+                    if (this.estadoPeriodo != 0)
+                    {
+                        this.estadoPeriodo--;
+                        LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x +
+                            847.5f, 0.25f).setEaseOutCubic();
 
 
+                    }
+                    else
+                    {
+                        this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
+                        LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - 
+                            Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
+                    }
+                    TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
+                            Time.ToString();
+                    this.slideTiempo.value = this.estadoPeriodo;
                 }
-                else
-                {
-                    this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
-                    LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
-                }
-                TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
-                        Time.ToString();
-                this.slideTiempo.value = this.estadoPeriodo;
-
             }
-
         }
     }*/
 
@@ -308,33 +320,35 @@ public class code_ui_history : MonoBehaviour
 
     private void okBoton()
     {
-        cargarScene.GetComponent<cargarScene>().setEscenaSeleccionada(this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2]);
+        cargarScene.GetComponent<cargarScene>().setEscenaSeleccionada(this.DatosEscenas.Escenas[ordenPeriodo
+            [this.estadoPeriodo].Item2]);
         cargarScene.SetActive(true);
         menuCatalogo.SetActive(false);
         gameObject.SetActive(false);
+
+
+
     }
 
- 
-
+    [Obsolete]
     private void salir()
     {
         UnityEngine.XR.XRSettings.enabled = false;
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
         SceneManager.LoadScene("MenuMultimediaInteractivo");
     }
 
-
-
-
+    [Obsolete]
     private void Instance_seTocoBoton(object sender, EventArgs e)
     {
 
-        if(soloUnComando())
+        if (soloUnComando() && gameObject.active)
         {
-            if(componentBluetooth.Instance.dataRecived[2] == '1' )
+            if (componentBluetooth.Instance.dataRecived[2] == '1')
             {
                 botonIzquierdo();
             }
-            else if(componentBluetooth.Instance.dataRecived[3] == '1')
+            else if (componentBluetooth.Instance.dataRecived[3] == '1')
             {
                 botonDerecho();
             }
@@ -349,19 +363,29 @@ public class code_ui_history : MonoBehaviour
 
         }
     }
+
+    [Obsolete]
     void OnEnable()
     {
 
+
         componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
-         this.enabled = true;
         audioFondo.GetComponent<AudioSource>().Play();
+        instruccionesMenu.SetActive(true);
+       
+
     }
 
+    [Obsolete]
     void OnDisable()
     {
         componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
-        this.enabled = false;
         audioFondo.GetComponent<AudioSource>().Stop();
+        instruccionesMenu.SetActive(false);
+       
+
+
+
     }
 
     // Update is called once per frame

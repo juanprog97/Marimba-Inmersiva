@@ -12,11 +12,7 @@ public class MenuPrincipalController : MonoBehaviour
         Screen.orientation = ScreenOrientation.Portrait;
         UnityEngine.XR.XRSettings.enabled = false;
     }
-    void Start()
-    {
-        
 
-    }
 
     public void entrarJuegoMenu()
     {

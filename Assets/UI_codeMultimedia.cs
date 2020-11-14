@@ -106,10 +106,9 @@ public class UI_codeMultimedia : MonoBehaviour
     public GameObject cargarScene;
     public GameObject audioFondo;
 
+    public GameObject instruccionMenu;
 
-
-  
-
+    [Obsolete]
     public IEnumerator consultarDatos()
     {
         UnityWebRequest www = UnityWebRequest.Get($"{databaseURL}/DataGame/Multimedia/Cultura.json");
@@ -139,6 +138,8 @@ public class UI_codeMultimedia : MonoBehaviour
     {
         StartCoroutine("consultarDatos");
     }
+
+    [Obsolete]
     void desplegarEscenas()
     {
 
@@ -278,24 +279,23 @@ public class UI_codeMultimedia : MonoBehaviour
         cargarScene.SetActive(true);
         menuCatalogo.SetActive(false);
         gameObject.SetActive(false);
-        gameObject.GetComponent<UI_codeMultimedia>().enabled = false;
+
+    
     }
 
-
-
+    [Obsolete]
     private void salir()
     {
         UnityEngine.XR.XRSettings.enabled = false;
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
         SceneManager.LoadScene("MenuMultimediaInteractivo");
     }
 
-
-
-
+    [Obsolete]
     private void Instance_seTocoBoton(object sender, EventArgs e)
     {
 
-        if (soloUnComando())
+        if (soloUnComando() && gameObject.active)
         {
             if (componentBluetooth.Instance.dataRecived[2] == '1')
             {
@@ -316,18 +316,24 @@ public class UI_codeMultimedia : MonoBehaviour
 
         }
     }
+
+    [Obsolete]
     void OnEnable()
     {
         componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
-        this.enabled = true;
         audioFondo.GetComponent<AudioSource>().Play();
-    }
+        instruccionMenu.SetActive(true);
+ 
+}
 
+    [Obsolete]
     void OnDisable()
     {
         componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
-        this.enabled = false;
         audioFondo.GetComponent<AudioSource>().Stop();
+        instruccionMenu.SetActive(false);
+
+
     }
 
     // Update is called once per frame

@@ -195,7 +195,6 @@ public class GameControl : MonoBehaviour
         if (num_note == 0)
         {
             game_finished = true;
-
             StartCoroutine("mostrarPuntaje");
 
         }
@@ -277,8 +276,8 @@ public class GameControl : MonoBehaviour
        // 
         yield return new WaitForSeconds(3.0f);
         background.SetActive(true);
-        
-       
+
+        UnityEngine.XR.XRSettings.enabled = false;
         ArCamera.SetActive(false);
         ImageTarget.SetActive(false);
         Light.SetActive(false);
@@ -289,7 +288,9 @@ public class GameControl : MonoBehaviour
 
         Score.SetActive(false);
         Score.GetComponent<ScoreController>().reset();
-     }
+        
+        componentBluetooth.Instance.seTocoBoton -= Instance_seTocoBoton;
+    }
 
 
     [Obsolete]

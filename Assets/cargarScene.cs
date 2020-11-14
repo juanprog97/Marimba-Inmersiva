@@ -28,7 +28,7 @@ public class cargarScene : MonoBehaviour
     public GameObject PantallaMenu;
     public GameObject CodeUI;
     private List<GameObject> ObjetosEscenas;
-
+    public GameObject instruccionesEscena;
 
 
     public void setEscenaSeleccionada(code_ui_history.Escena escena)
@@ -125,7 +125,9 @@ public class cargarScene : MonoBehaviour
                 elemTmp.transform.FindChild("sample").GetComponent<RectTransform>().localPosition = new Vector3(material.Propierty.Position.PosX,
                     material.Propierty.Position.PosY, material.Propierty.Position.PosZ);
                 elemTmp.transform.FindChild("sample").GetComponent<RawImage>().texture = texture;
-                elemTmp.transform.FindChild("sample").transform.localScale = new Vector3(1, 1, 1);
+                elemTmp.transform.FindChild("sample").transform.localScale = new Vector3(
+                    Convert.ToSingle(material.Propierty.Scale.ScaleX), Convert.ToSingle(material.Propierty.Scale.ScaleY),
+                     Convert.ToSingle(material.Propierty.Scale.ScaleZ));
                 elemTmp.transform.FindChild("videoSample").GetComponent<VideoPlayer>().Play();
                 renders.Add(texture);
                 ObjetosEscenas.Add(elemTmp);
@@ -158,10 +160,11 @@ public class cargarScene : MonoBehaviour
             yield return null;
         }
         pantallaDescarga.transform.FindChild("porce").GetComponent<Text>().text = 0.ToString()+ " %";
+        instruccionesEscena.SetActive(true);
 
         if (www.error == null)
         {
-            Debug.Log(AssetName);
+       
             AssetBundle bundle = www.assetBundle;
             if (AssetName == "")
             {
@@ -199,15 +202,18 @@ public class cargarScene : MonoBehaviour
         ObjetosEscenas.Clear();
         renders = null;
         ObjetosEscenas = null;
-        Debug.Log("borrarElementos");
+        instruccionesEscena.SetActive(false);
+  
     }
     void OnEnable()
     {
         componentBluetooth.Instance.seTocoBoton += Instance_seTocoBoton;
         ObjetosEscenas = new List<GameObject>();
         Caching.compressionEnabled = false;
+ 
         iniciarDescargar();
-       
+     
+
     }
 
 
@@ -219,7 +225,7 @@ public class cargarScene : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-  /*  void OnGUI()
+   /* void OnGUI()
      {
          Event e = Event.current;
          if (e.isKey)

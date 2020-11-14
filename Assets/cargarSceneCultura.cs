@@ -26,6 +26,7 @@ public class cargarSceneCultura : MonoBehaviour
     public GameObject CodeUI;
     private List<GameObject> ObjetosEscenas;
 
+    public GameObject instruccionesEscena;
 
 
     public void setEscenaSeleccionada(UI_codeMultimedia.Escena escena)
@@ -155,6 +156,7 @@ public class cargarSceneCultura : MonoBehaviour
             yield return null;
         }
         pantallaDescarga.transform.FindChild("porce").GetComponent<Text>().text = 0.ToString() + " %";
+        instruccionesEscena.SetActive(true);
 
         if (www.error == null)
         {
@@ -196,6 +198,7 @@ public class cargarSceneCultura : MonoBehaviour
         ObjetosEscenas.Clear();
         renders = null;
         ObjetosEscenas = null;
+        instruccionesEscena.SetActive(false);
     }
     void OnEnable()
     {
@@ -232,6 +235,7 @@ public class cargarSceneCultura : MonoBehaviour
     {
         if (componentBluetooth.Instance.dataRecived[5] == '1')
         {
+    
             salir();
         }
     }
