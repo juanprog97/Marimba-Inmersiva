@@ -23,25 +23,25 @@ MonoBehaviour:
     version: 8.1.7
     eulaAcceptedVersions: '{"Values":["8.1","8.3","0.0","8.0","8.5","8.6"]}'
   digitalEyewear:
-    cameraOffset: 0.06
+    cameraOffset: 0.05
     distortionRenderingLayer: 31
     eyewearType: 2
     stereoFramework: 0
     seeThroughConfiguration: 0
     viewerName: Generic Cardboard
     viewerManufacturer: Vuforia
-    useCustomViewer: 0
+    useCustomViewer: 1
     customViewer:
       Version: 0
-      Name: 
+      Name: Test1
       Manufacturer: 
       ButtonType: 0
-      ScreenToLensDistance: 0
-      InterLensDistance: 0
+      ScreenToLensDistance: 0.055
+      InterLensDistance: 0.065
       TrayAlignment: 0
-      LensCenterToTrayDistance: 0
-      DistortionCoefficients: {x: 0, y: 0}
-      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
+      LensCenterToTrayDistance: 0.04
+      DistortionCoefficients: {x: 0.4, y: 0.4}
+      FieldOfView: {x: 65, y: 65, z: 65, w: 65}
       ContainsMagnet: 0
   database:
     disableModelExtraction: 0

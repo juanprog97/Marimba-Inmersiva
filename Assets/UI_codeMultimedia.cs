@@ -189,12 +189,7 @@ public class UI_codeMultimedia : MonoBehaviour
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x + 847.5f, 0.25f).setEaseOutCubic();
 
             }
-            else
-            {
-
-                this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
-                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
-            }
+          
         }
 
     }
@@ -209,12 +204,7 @@ public class UI_codeMultimedia : MonoBehaviour
                 Debug.Log(ContentTitulos.transform.localPosition.x - 847.5f);
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
             }
-            else
-            {
-                this.estadoPeriodo = 0;
-                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
-
-            }
+           
         }
 
     }

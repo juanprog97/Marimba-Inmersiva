@@ -259,6 +259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   IsConnected: 0
   dataRecived: 
+  interpolationPeriod: 0.004
 --- !u!4 &65172903
 Transform:
   m_ObjectHideFlags: 0

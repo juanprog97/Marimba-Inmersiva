@@ -18,6 +18,7 @@ public class cargarSceneCultura : MonoBehaviour
     public GameObject audioElement;
     public GameObject titleScene;
     public GameObject videoElement;
+    public GameObject imageElement;
     private UI_codeMultimedia.Escena EscenaSeleccionada;
     private string AssetName;
     List<RenderTexture> renders;
@@ -53,19 +54,16 @@ public class cargarSceneCultura : MonoBehaviour
             UI_codeMultimedia.Material material = EscenaSeleccionada.Materials[i];
             if (elem == "image")
             {
-                elemTmp = new GameObject(material.Name);
-                elemTmp.AddComponent<Image>();
+                elemTmp = Instantiate(imageElement, pantallaElementos.transform.GetComponent<Transform>());
                 elemTmp.GetComponent<Image>().sprite = asset.LoadAsset<Sprite>(material.Name);
                 //Posicion y Escala
-                elemTmp.transform.parent = pantallaElementos.transform.GetComponent<Transform>();
                 elemTmp.transform.localScale = new Vector3(1, 1, 1);
-                elemTmp.transform.rotation.Set(0, 0, -90, 0);
                 elemTmp.GetComponent<RectTransform>().sizeDelta = new Vector2(material.Propierty.Dimension.Width,
                     material.Propierty.Dimension.Height);
                 elemTmp.GetComponent<RectTransform>().localPosition = new Vector3(material.Propierty.Position.PosX,
                     material.Propierty.Position.PosY, material.Propierty.Position.PosZ);
 
-
+                
                 ObjetosEscenas.Add(elemTmp);
 
             }

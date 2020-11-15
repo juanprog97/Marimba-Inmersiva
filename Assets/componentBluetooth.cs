@@ -10,8 +10,11 @@ public class componentBluetooth : MonoBehaviour
     public string dataRecived = "";
     public event EventHandler seDesconecto;
     public event EventHandler seTocoBoton;
-    
-    
+
+    private float time = 0.0f;
+    public float interpolationPeriod = 0.025f;
+
+
     void Awake()
     {
         if (Instance == null)
@@ -56,42 +59,50 @@ public class componentBluetooth : MonoBehaviour
 
     void Update()
     {
-        if (IsConnected)
+        time += Time.deltaTime;
+
+        if (time >= interpolationPeriod)
         {
-            try
+            time = 0.0f;
+
+            if (IsConnected)
             {
-                string datain = BluetoothService.ReadFromBluetooth();
-                if (datain.Length > 1)
+                try
                 {
-                    dataRecived = datain;
-                    if(dataRecived.Length == 12)
+                    string datain = BluetoothService.ReadFromBluetooth();
+                    if (datain.Length > 1)
                     {
-                        int cont = 0;
-                        int bandera = 0;
-                        while(bandera == 0)
+                        dataRecived = datain;
+                        if (dataRecived.Length == 12)
                         {
-                            if(dataRecived[cont] == '1')
+                            int cont = 0;
+                            int bandera = 0;
+                            while (bandera == 0)
                             {
-                                seTocoBoton?.Invoke(this, EventArgs.Empty);
-                                bandera = 1;
-                            }
-                            cont += 1;
-                            if (cont == 12)
-                            {
-                                bandera = 1;
+                                if (dataRecived[cont] == '1')
+                                {
+                                    seTocoBoton?.Invoke(this, EventArgs.Empty);
+                                    bandera = 1;
+                                }
+                                cont += 1;
+                                if (cont == 12)
+                                {
+                                    bandera = 1;
+                                }
                             }
                         }
+
                     }
-                   
+                }
+                catch (Exception e)
+                {
+                    dataRecived = "000000000000";
+                    IsConnected = false;
+                    seDesconecto?.Invoke(this, EventArgs.Empty);
                 }
             }
-            catch (Exception e)
-            {
-                dataRecived = "000000000000";
-                IsConnected = false;
-                seDesconecto?.Invoke(this, EventArgs.Empty);
-            }
         }
+       
 
     }
     public void disconnect()

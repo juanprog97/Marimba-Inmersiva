@@ -21,6 +21,7 @@ public class cargarScene : MonoBehaviour
     public GameObject audioElement;
     public GameObject titleScene;
     public GameObject videoElement;
+    public GameObject imageElement;
     private code_ui_history.Escena EscenaSeleccionada;
     private string AssetName;
     List<RenderTexture> renders;
@@ -55,11 +56,9 @@ public class cargarScene : MonoBehaviour
             code_ui_history.Material material = EscenaSeleccionada.Materials[i];
             if (elem == "image")
             {
-                elemTmp = new GameObject(material.Name);
-                elemTmp.AddComponent<Image>();
+                elemTmp = Instantiate(imageElement, pantallaElementos.transform.GetComponent<Transform>());
                 elemTmp.GetComponent<Image>().sprite = asset.LoadAsset<Sprite>(material.Name);
                 //Posicion y Escala
-                elemTmp.transform.parent = pantallaElementos.transform.GetComponent<Transform>();
                 elemTmp.transform.localScale = new Vector3(1, 1, 1);
                 elemTmp.transform.rotation.Set(0, 0, -90, 0);
                 elemTmp.GetComponent<RectTransform>().sizeDelta = new Vector2(material.Propierty.Dimension.Width,

@@ -218,11 +218,6 @@ public class code_ui_history : MonoBehaviour
 
 
             }
-            else
-            {
-                this.estadoPeriodo = this.DatosEscenas.Escenas.Count - 1;
-                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-6340.644) - Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
-            }
             TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].
                     Time.ToString();
             this.slideTiempo.value = this.estadoPeriodo;
@@ -238,12 +233,6 @@ public class code_ui_history : MonoBehaviour
             {
                 this.estadoPeriodo++;
                 LeanTween.moveLocalX(ContentTitulos, ContentTitulos.transform.localPosition.x - 847.5f, 0.25f).setEaseOutCubic();
-
-            }
-            else
-            {
-                this.estadoPeriodo = 0;
-                LeanTween.moveLocalX(ContentTitulos, Convert.ToSingle(-1255.644) + Convert.ToSingle(847.5f), 0.25f).setEaseOutCubic();
 
             }
             TextoTiempo.GetComponent<Text>().text = this.DatosEscenas.Escenas[ordenPeriodo[this.estadoPeriodo].Item2].

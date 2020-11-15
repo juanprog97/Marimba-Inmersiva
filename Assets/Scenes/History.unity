@@ -2467,6 +2467,8 @@ MonoBehaviour:
   titleScene: {fileID: 505603151}
   videoElement: {fileID: 7292362679464176049, guid: a50e816f2695d084299152e1983fb6ad,
     type: 3}
+  imageElement: {fileID: 1748500224996879077, guid: 6bcc39ee86cca6c4a88deb660e6c4141,
+    type: 3}
   PantallaMenu: {fileID: 261947759}
   CodeUI: {fileID: 1743738968}
   instruccionesEscena: {fileID: 1447295138}
