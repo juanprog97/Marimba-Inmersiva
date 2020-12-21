@@ -70,11 +70,16 @@ public class cargarSceneCultura : MonoBehaviour
             else if (elem == "3d")
             {
 
+               
                 elemTmp = Instantiate(asset.LoadAsset<GameObject>(material.Name),
-                    pantallaElementos.transform.GetComponent<Transform>());
-
-                ObjetosEscenas.Add(elemTmp);
+                   pantallaElementos.transform.GetComponent<Transform>());
                 //Posicion y Escala
+                 elemTmp.transform.localScale = new Vector3(material.Propierty.Scale.ScaleX, material.Propierty.Scale.ScaleY,
+                     material.Propierty.Scale.ScaleZ);
+                elemTmp.transform.localPosition = new Vector3(material.Propierty.Position.PosX,
+                    material.Propierty.Position.PosY, material.Propierty.Position.PosZ);
+                LeanTween.rotateAroundLocal(elemTmp, Vector3.forward, 360f, 6f).setRepeat(-1);
+                ObjetosEscenas.Add(elemTmp);
             }
             else if (elem == "audio")
             {
@@ -229,7 +234,7 @@ public class cargarSceneCultura : MonoBehaviour
            }
        }*/
 
-    private void Instance_seTocoBoton(object sender, EventArgs e)
+                private void Instance_seTocoBoton(object sender, EventArgs e)
     {
         if (componentBluetooth.Instance.dataRecived[5] == '1')
         {

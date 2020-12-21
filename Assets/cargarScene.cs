@@ -74,10 +74,9 @@ public class cargarScene : MonoBehaviour
             {
 
                 elemTmp = Instantiate(asset.LoadAsset<GameObject>(material.Name),
-                    pantallaElementos.transform.GetComponent<Transform>());
+                     pantallaElementos.transform.GetComponent<Transform>());
 
                 ObjetosEscenas.Add(elemTmp);
-                //Posicion y Escala
             }
             else if (elem == "audio")
             {
